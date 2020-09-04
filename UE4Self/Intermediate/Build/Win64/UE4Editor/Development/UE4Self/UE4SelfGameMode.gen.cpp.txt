@@ -1,0 +1,9 @@
+C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\Definitions.UE4Self.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Source\UE4Self/UE4SelfGameMode.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Inc\UE4Self\UE4SelfGameMode.generated.h

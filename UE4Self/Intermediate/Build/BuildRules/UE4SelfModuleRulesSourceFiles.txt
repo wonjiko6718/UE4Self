@@ -1,0 +1,3 @@
+C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Source\UE4Self\UE4Self.Build.cs
+C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Source\UE4Self.Target.cs
+C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Source\UE4SelfEditor.Target.cs

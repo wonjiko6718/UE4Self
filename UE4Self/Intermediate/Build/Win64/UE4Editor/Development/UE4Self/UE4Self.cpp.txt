@@ -1,0 +1,2 @@
+C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\Definitions.UE4Self.h
+C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Source\UE4Self\UE4Self.h
