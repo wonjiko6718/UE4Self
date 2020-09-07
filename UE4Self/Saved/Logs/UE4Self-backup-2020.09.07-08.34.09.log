@@ -1,0 +1,1677 @@
+﻿Log file open, 09/07/20 15:18:22
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: UE4Self
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.911051
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.07-06.18.23:272][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Engine.ini]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Engine.ini]
+[2020.09.07-06.18.23:273][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Engine.ini]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Engine.ini]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.07-06.18.23:273][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.07-06.18.23:274][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.07-06.18.23:274][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.07-06.18.23:274][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.07-06.18.23:274][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.07-06.18.23:274][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Engine.ini]
+[2020.09.07-06.18.23:274][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Engine.ini]
+[2020.09.07-06.18.23:285][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.09.07-06.18.23:285][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.07-06.18.23:285][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.07-06.18.23:285][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.09.07-06.18.23:285][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.07-06.18.23:286][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.07-06.18.23:287][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.07-06.18.23:288][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.07-06.18.23:289][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.07-06.18.23:289][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.07-06.18.23:323][  0]LogHAL: Display: Platform has ~ 16 GB [17073135616 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.07-06.18.23:323][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.09.07-06.18.23:323][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.07-06.18.23:324][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.07-06.18.23:324][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.07-06.18.23:325][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.07-06.18.23:331][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.07-06.18.23:331][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.07-06.18.23:331][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Engine.ini]
+[2020.09.07-06.18.23:332][  0]LogInit: Computer: LAPTOP-1UG54T2R
+[2020.09.07-06.18.23:332][  0]LogInit: User: wonji
+[2020.09.07-06.18.23:332][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.09.07-06.18.23:332][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.07-06.18.23:332][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.09.07-06.18.23:332][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.07-06.18.23:332][  0]LogMemory: Process Physical Memory: 97.35 MB used, 97.35 MB peak
+[2020.09.07-06.18.23:332][  0]LogMemory: Process Virtual Memory: 89.70 MB used, 89.70 MB peak
+[2020.09.07-06.18.23:332][  0]LogMemory: Physical Memory: 5592.45 MB used,  10689.76 MB free, 16282.21 MB total
+[2020.09.07-06.18.23:332][  0]LogMemory: Virtual Memory: 4660.64 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2020.09.07-06.18.23:565][  0]LogInit: Using OS detected language (ko-KR).
+[2020.09.07-06.18.23:565][  0]LogInit: Using OS detected locale (ko-KR).
+[2020.09.07-06.18.23:566][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2020.09.07-06.18.23:772][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.07-06.18.23:864][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.07-06.18.23:864][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.07-06.18.25:780][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.07-06.18.25:780][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.07-06.18.25:853][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (Feature Level 11_0)
+[2020.09.07-06.18.25:853][  0]LogD3D11RHI:       8010/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.09.07-06.18.25:881][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.09.07-06.18.25:881][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.09.07-06.18.25:883][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.07-06.18.25:883][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.07-06.18.25:883][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.07-06.18.25:916][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.07-06.18.25:916][  0]LogD3D11RHI:     GPU DeviceId: 0x1e90 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.07-06.18.25:916][  0]LogWindows: EnumDisplayDevices:
+[2020.09.07-06.18.25:916][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.09.07-06.18.25:917][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.09.07-06.18.25:917][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.09.07-06.18.25:917][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:1)
+[2020.09.07-06.18.25:917][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2020.09.07-06.18.25:917][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2020.09.07-06.18.25:918][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2020.09.07-06.18.25:918][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.09.07-06.18.25:918][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 with Max-Q Design
+[2020.09.07-06.18.25:918][  0]LogD3D11RHI:   Driver Version: 425.45 (internal:25.21.14.2545, unified:425.45)
+[2020.09.07-06.18.25:918][  0]LogD3D11RHI:      Driver Date: 4-23-2019
+[2020.09.07-06.18.25:918][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.09.07-06.18.25:961][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.07-06.18.25:974][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.09.07-06.18.25:975][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.09.07-06.18.25:975][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.09.07-06.18.25:983][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.07-06.18.26:397][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.09.07-06.18.26:410][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.09.07-06.18.26:423][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.09.07-06.18.26:437][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.09.07-06.18.26:454][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.09.07-06.18.26:470][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.09.07-06.18.26:484][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.07-06.18.26:497][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.09.07-06.18.26:505][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.09.07-06.18.26:583][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.09.07-06.18.26:586][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.09.07-06.18.26:665][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.09.07-06.18.26:665][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.09.07-06.18.26:701][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.09.07-06.18.26:701][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.09.07-06.18.26:713][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.09.07-06.18.26:724][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.07-06.18.26:736][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.09.07-06.18.26:755][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.09.07-06.18.26:798][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.09.07-06.18.26:798][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.09.07-06.18.26:798][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.07-06.18.26:811][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.07-06.18.26:940][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Intermediate/Shaders/WorkingDirectory/7020/).
+[2020.09.07-06.18.26:940][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/wonji/AppData/Local/Temp/UnrealShaderWorkingDir/510C406C4B02C59C0E2EC1B28292E4EE/'.
+[2020.09.07-06.18.26:943][  0]LogXGEController: Cleaning working directory: C:/Users/wonji/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.07-06.18.26:943][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.07-06.18.26:944][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.07-06.18.26:944][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.07-06.18.28:972][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.07-06.18.29:085][  0]LogDerivedDataCache: Loaded boot cache 0.11s 75MB C:/Users/wonji/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.09.07-06.18.29:086][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/wonji/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.09.07-06.18.29:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.07-06.18.29:086][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.07-06.18.29:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.07-06.18.29:086][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.07-06.18.29:111][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.07-06.18.29:111][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.07-06.18.29:111][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.07-06.18.29:124][  0]LogDerivedDataCache: Using Local data cache path C:/Users/wonji/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.07-06.18.29:124][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.07-06.18.29:124][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.07-06.18.29:175][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.09.07-06.18.29:185][  0]LogSlate: Using FreeType 2.6.0
+[2020.09.07-06.18.29:202][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.07-06.18.29:593][  0]LogAssetRegistry: FAssetRegistry took 0.0330 seconds to start up
+[2020.09.07-06.18.29:957][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.07-06.18.30:300][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.07-06.18.30:300][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.07-06.18.30:300][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.07-06.18.30:300][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.07-06.18.30:301][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.07-06.18.30:414][  0]LogNetVersion: UE4Self 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3979475100)
+[2020.09.07-06.18.31:747][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.064266 seconds
+[2020.09.07-06.18.31:752][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.09.07-06.18.31:752][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.09.07-06.18.31:752][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.07-06.18.34:946][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.07-06.18.34:963][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.07-06.18.35:590][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.09.07-06.18.35:591][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.09.07-06.18.35:605][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.09.07-06.18.35:613][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.09.07-06.18.35:891][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.07-06.18.36:021][  0]LogOcInput: OculusInput pre-init called
+[2020.09.07-06.18.36:846][  0]LogEngine: Initializing Engine...
+[2020.09.07-06.18.36:848][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.07-06.18.36:850][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2020.09.07-06.18.37:222][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.07-06.18.37:290][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.07-06.18.37:320][  0]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.07-06.18.37:467][  0]LogInit: FAudioDevice initialized.
+[2020.09.07-06.18.37:467][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.07-06.18.37:508][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/wonji/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.09.07-06.18.37:515][  0]LogInit: Texture streaming: Enabled
+[2020.09.07-06.18.37:539][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.07-06.18.37:566][  0]LogInit: Transaction tracking system initialized
+[2020.09.07-06.18.37:614][  0]BlueprintLog: New page: 에디터 로드
+[2020.09.07-06.18.37:802][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2020.09.07-06.18.38:374][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/' took 0.02s
+[2020.09.07-06.18.38:374][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.07-06.18.38:374][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.07-06.18.38:884][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.09.07-06.18.38:885][  0]Cmd: MAP LOAD FILE="../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.07-06.18.38:886][  0]LightingResults: New page: 라이팅 빌드
+[2020.09.07-06.18.38:898][  0]MapCheck: New page: 맵 체크
+[2020.09.07-06.18.38:898][  0]LightingResults: New page: 라이팅 빌드
+[2020.09.07-06.18.38:930][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.09.07-06.18.39:128][  0]LogAIModule: Creating AISystem for world Sample
+[2020.09.07-06.18.39:165][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.07-06.18.39:218][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.09.07-06.18.39:218][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.07-06.18.39:219][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.136ms.
+[2020.09.07-06.18.39:219][  0]LogFileHelpers: Loading map 'Sample' took 0.334
+[2020.09.07-06.18.39:549][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.07-06.18.39:563][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.07-06.18.39:571][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.07-06.18.39:578][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.07-06.18.39:598][  0]LogCollectionManager: Loaded 0 collections in 0.002224 seconds
+[2020.09.07-06.18.39:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Collections/' took 0.01s
+[2020.09.07-06.18.39:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/Developers/wonji/Collections/' took 0.01s
+[2020.09.07-06.18.39:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/Collections/' took 0.00s
+[2020.09.07-06.18.39:641][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.09.07-06.18.39:651][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2734 classes and 661 folders.
+[2020.09.07-06.18.39:668][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.07-06.18.39:676][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:684][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:703][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:709][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:715][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:721][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:727][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:734][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:743][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:749][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:755][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:760][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:766][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:772][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:778][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:784][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:811][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:819][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:823][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:828][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:840][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:847][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:855][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:860][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.39:867][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.09.07-06.18.40:016][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.07-06.18.40:039][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.09.07-06.18.40:190][  0]LogSlate: Took 0.006980 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.07-06.18.40:200][  0]LogSlate: Took 0.009062 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2020.09.07-06.18.40:209][  0]LogSlate: Took 0.008059 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2020.09.07-06.18.40:216][  0]LogSlate: Took 0.006722 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.07-06.18.40:226][  0]LogSlate: Took 0.006435 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.07-06.18.40:400][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.09.07-06.18.40:444][  0]LogSlate: Warning: Legacy localized fallback font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' was requested. Font: '/Engine/EngineFonts/Faces/RobotoRegular.RobotoRegular', Character: '라 (U+b77c)'
+Legacy localized fallback fonts were deprecated in 4.22 and will be removed in a future version!
+Please update your composite fonts to use localized sub-font families: https://docs.unrealengine.com/en-US/Engine/UMG/UserGuide/Fonts/Overview
+[2020.09.07-06.18.40:446][  0]LogSlate: Took 0.001342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2020.09.07-06.18.40:550][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.07-06.18.40:550][  0]LogLoad: (Engine Initialization) Total time: 21.33 seconds
+[2020.09.07-06.18.40:550][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.07-06.18.40:608][  0]LogAssetRegistry: Asset discovery search completed in 11.0386 seconds
+[2020.09.07-06.18.40:610][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.09.07-06.18.40:610][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
+[2020.09.07-06.18.40:612][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.07-06.18.40:651][  0]LogSlate: Took 0.004864 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.07-06.18.47:418][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Concrete_Base_01)
+[2020.09.07-06.18.54:429][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-06.18.54:511][822]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.09.07-06.18.54:521][822]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.09.07-06.18.54:522][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.07-06.18.54:523][822]PIE: New page: PIE 세션: Sample (2020. 9. 8. 오전 12:18:54)
+[2020.09.07-06.18.54:536][822]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.09.07-06.18.54:538][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001990s)
+[2020.09.07-06.18.54:539][822]LogAIModule: Creating AISystem for world Sample
+[2020.09.07-06.18.54:539][822]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2020.09.07-06.18.54:539][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.003003s)
+[2020.09.07-06.18.54:563][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.09.07-06.18.54:571][822]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.07-06.18.54:581][822]LogInit: FAudioDevice initialized.
+[2020.09.07-06.18.54:619][822]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.09.07-06.18.54:624][822]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.09.07-15.18.54
+[2020.09.07-06.18.54:625][822]LogWorld: Bringing up level for play took: 0.002228
+[2020.09.07-06.18.54:671][822]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 20 classes and 0 folders.
+[2020.09.07-06.18.54:689][822]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: 0.855
+[2020.09.07-06.18.54:689][822]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.09.07-06.18.55:444][865]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.09.07-06.18.55:444][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.07-06.18.55:474][865]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.07-06.18.55:475][865]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.09.07-06.18.55:525][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.07-06.18.55:529][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.09.07-06.18.55:544][866]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.09.07-06.19.13:275][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-06.19.16:799][139]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.07-06.19.16:861][139]LogSlate: Took 0.005365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.07-06.19.56:686][523]Running C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject" -game -rocket -progress
+[2020.09.07-06.19.56:990][523]Discovering modules, targets and source code for project...
+[2020.09.07-06.19.59:103][523]Binding IntelliSense data...
+[2020.09.07-06.20.00:820][523]Binding IntelliSense data... 100%
+[2020.09.07-06.20.00:820][523]Writing project files...
+[2020.09.07-06.20.02:836][523]Writing project files... 100%
+[2020.09.07-06.20.02:962][523]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.09.07-06.20.02:970][523]Candidate modules for hot reload:
+[2020.09.07-06.20.02:970][523]  UE4Self
+[2020.09.07-06.20.02:970][523]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Self,8317 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject"  -IgnoreJunk]
+[2020.09.07-06.20.23:928][523]CompilerResultsLog: New page: 컴파일 - 2020. 9. 8. 오전 12:20:23
+[2020.09.07-06.20.23:929][523]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UE4Self).
+[2020.09.07-06.20.23:929][523]CompilerResultsLog: Creating makefile for UE4SelfEditor (no existing makefile)
+[2020.09.07-06.20.23:929][523]CompilerResultsLog: Parsing headers for UE4SelfEditor
+[2020.09.07-06.20.23:929][523]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\UE4Self.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4SelfEditor\Development\UE4SelfEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.09.07-06.20.23:929][523]CompilerResultsLog: Reflection code generated for UE4SelfEditor in 15.2044429 seconds
+[2020.09.07-06.20.23:929][523]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.07-06.20.23:929][523]CompilerResultsLog: Building 11 actions with 12 processes...
+[2020.09.07-06.20.23:929][523]CompilerResultsLog:   [1/11] UE4Self.init.gen.cpp
+[2020.09.07-06.20.23:929][523]CompilerResultsLog:   [2/11] SpinMush.cpp
+[2020.09.07-06.20.23:929][523]CompilerResultsLog:   [3/11] UE4Self.cpp
+[2020.09.07-06.20.23:929][523]CompilerResultsLog:   [4/11] UE4SelfGameMode.cpp
+[2020.09.07-06.20.23:929][523]CompilerResultsLog:   [5/11] SpinMush.gen.cpp
+[2020.09.07-06.20.23:929][523]CompilerResultsLog:   [6/11] UE4SelfGameMode.gen.cpp
+[2020.09.07-06.20.23:929][523]CompilerResultsLog:   [7/11] UE4SelfCharacter.gen.cpp
+[2020.09.07-06.20.23:929][523]CompilerResultsLog:   [8/11] UE4SelfCharacter.cpp
+[2020.09.07-06.20.23:929][523]CompilerResultsLog:   [9/11] UE4Editor-UE4Self-8317.lib
+[2020.09.07-06.20.23:929][523]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-8317.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-8317.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-06.20.23:929][523]CompilerResultsLog:   [10/11] UE4Editor-UE4Self-8317.dll
+[2020.09.07-06.20.23:929][523]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-8317.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-8317.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-06.20.23:929][523]CompilerResultsLog:   [11/11] UE4SelfEditor.target
+[2020.09.07-06.20.23:929][523]CompilerResultsLog: Total time in Parallel executor: 3.26 seconds
+[2020.09.07-06.20.23:929][523]CompilerResultsLog: Total execution time: 20.80 seconds
+[2020.09.07-06.20.23:929][523]LogMainFrame: MainFrame: Module compiling took 20.967 seconds
+[2020.09.07-06.20.23:955][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.09.07-06.20.23:970][523]LogClass: Could not find existing class SpinMush in package /Script/UE4Self for HotReload, assuming new class
+[2020.09.07-06.20.23:976][523]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.09.07-06.20.23:977][523]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.07-06.20.24:150][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.09.07-06.20.24:164][523]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2736 classes and 663 folders.
+[2020.09.07-06.20.24:164][523]Display: HotReload took 21.2s.
+[2020.09.07-06.20.24:166][523]Warning: HotReload operation took 21.2s.
+[2020.09.07-06.20.24:269][523]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2020.09.07-06.20.24:273][523]LogHotReload: New module detected: UE4Editor-UE4Self-8317.dll
+[2020.09.07-06.20.24:304][524]LogHotReload: Starting Hot-Reload from IDE
+[2020.09.07-06.20.24:358][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.09.07-06.20.24:360][524]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.09.07-06.20.24:363][524]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.07-06.20.24:389][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.09.07-06.20.24:399][524]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2736 classes and 663 folders.
+[2020.09.07-06.20.24:400][524]Display: HotReload took  0.1s.
+[2020.09.07-06.54.04:805][902]Candidate modules for hot reload:
+[2020.09.07-06.54.04:806][902]  UE4Self
+[2020.09.07-06.54.04:806][902]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Self,9049 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject"  -IgnoreJunk]
+[2020.09.07-06.54.04:807][902]Warning: Starting HotReload took  0.0s.
+[2020.09.07-06.54.15:107][518]CompilerResultsLog: New page: 컴파일 - 2020. 9. 8. 오전 12:54:15
+[2020.09.07-06.54.15:107][518]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UE4Self).
+[2020.09.07-06.54.15:107][518]CompilerResultsLog: Parsing headers for UE4SelfEditor
+[2020.09.07-06.54.15:107][518]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\UE4Self.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4SelfEditor\Development\UE4SelfEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.09.07-06.54.15:107][518]CompilerResultsLog: Reflection code generated for UE4SelfEditor in 5.9982047 seconds
+[2020.09.07-06.54.15:107][518]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.07-06.54.15:107][518]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.09.07-06.54.15:107][518]CompilerResultsLog:   [1/6] UE4Self.init.gen.cpp
+[2020.09.07-06.54.15:107][518]CompilerResultsLog:   [2/6] SpinMush.cpp
+[2020.09.07-06.54.15:107][518]CompilerResultsLog:   [3/6] SpinMush.gen.cpp
+[2020.09.07-06.54.15:107][518]CompilerResultsLog:   [4/6] UE4Editor-UE4Self-9049.lib
+[2020.09.07-06.54.15:107][518]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-9049.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-9049.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-06.54.15:107][518]CompilerResultsLog:   [5/6] UE4Editor-UE4Self-9049.dll
+[2020.09.07-06.54.15:107][518]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-9049.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-9049.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-06.54.15:107][518]CompilerResultsLog:   [6/6] UE4SelfEditor.target
+[2020.09.07-06.54.15:107][518]CompilerResultsLog: Total time in Parallel executor: 3.28 seconds
+[2020.09.07-06.54.15:107][518]CompilerResultsLog: Total execution time: 10.21 seconds
+[2020.09.07-06.54.15:107][518]LogMainFrame: MainFrame: Module compiling took 10.305 seconds
+[2020.09.07-06.54.15:135][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.09.07-06.54.15:159][518]LogClass: Could not find existing class SpinMush in package /Script/UE4Self for HotReload, assuming new class
+[2020.09.07-06.54.15:164][518]LogHotReload: Re-instancing SpinMush after hot-reload.
+[2020.09.07-06.54.15:227][518]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0005 seconds. Added 3 classes and 2 folders.
+[2020.09.07-06.54.15:229][518]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.07-06.54.15:275][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.09.07-06.54.15:287][518]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2736 classes and 663 folders.
+[2020.09.07-06.54.15:287][518]Display: HotReload took 10.5s.
+[2020.09.07-06.54.18:389][703]LogEditor: Attempting to add actor of class 'SpinMush' to level at -400.00,560.00,900.00
+[2020.09.07-06.54.18:799][727]LogEditor: Attempting to add actor of class 'SpinMush' to level at 950.00,-900.00,50.00
+[2020.09.07-06.54.21:577][892]LogSlate: Took 0.005687 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.07-06.54.22:723][961]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-06.54.57:946][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.09.07-06.54.58:040][669]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Sample_Auto1ECD4BAF544B4F2058EC09EA4D2CCEC1F.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Autosaves/Game/ThirdPersonCPP/Maps/Sample_Auto1.umap'
+[2020.09.07-06.54.58:046][669]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/Sample' took 0.136
+[2020.09.07-06.54.58:046][669]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.136
+[2020.09.07-06.56.30:799][947]Candidate modules for hot reload:
+[2020.09.07-06.56.30:799][947]  UE4Self
+[2020.09.07-06.56.30:799][947]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Self,5263 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject"  -IgnoreJunk]
+[2020.09.07-06.56.30:800][947]Warning: Starting HotReload took  0.0s.
+[2020.09.07-06.56.41:446][581]CompilerResultsLog: New page: 컴파일 - 2020. 9. 8. 오전 12:56:41
+[2020.09.07-06.56.41:446][581]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UE4Self).
+[2020.09.07-06.56.41:446][581]CompilerResultsLog: Creating makefile for UE4SelfEditor (ini files are newer than makefile)
+[2020.09.07-06.56.41:446][581]CompilerResultsLog: Parsing headers for UE4SelfEditor
+[2020.09.07-06.56.41:446][581]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\UE4Self.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4SelfEditor\Development\UE4SelfEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.09.07-06.56.41:446][581]CompilerResultsLog: Reflection code generated for UE4SelfEditor in 5.4443324 seconds
+[2020.09.07-06.56.41:446][581]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.07-06.56.41:446][581]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.09.07-06.56.41:446][581]CompilerResultsLog:   [1/6] UE4Self.init.gen.cpp
+[2020.09.07-06.56.41:446][581]CompilerResultsLog:   [2/6] SpinMush.cpp
+[2020.09.07-06.56.41:446][581]CompilerResultsLog:   [3/6] SpinMush.gen.cpp
+[2020.09.07-06.56.41:446][581]CompilerResultsLog:   [4/6] UE4Editor-UE4Self-5263.lib
+[2020.09.07-06.56.41:446][581]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-5263.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-5263.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-06.56.41:446][581]CompilerResultsLog:   [5/6] UE4Editor-UE4Self-5263.dll
+[2020.09.07-06.56.41:446][581]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-5263.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-5263.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-06.56.41:446][581]CompilerResultsLog:   [6/6] UE4SelfEditor.target
+[2020.09.07-06.56.41:446][581]CompilerResultsLog: Total time in Parallel executor: 3.40 seconds
+[2020.09.07-06.56.41:446][581]CompilerResultsLog: Total execution time: 10.55 seconds
+[2020.09.07-06.56.41:446][581]LogMainFrame: MainFrame: Module compiling took 10.650 seconds
+[2020.09.07-06.56.41:474][581]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.09.07-06.56.41:490][581]LogClass: Could not find existing class SpinMush in package /Script/UE4Self for HotReload, assuming new class
+[2020.09.07-06.56.41:496][581]LogHotReload: Re-instancing SpinMush after hot-reload.
+[2020.09.07-06.56.41:566][581]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.09.07-06.56.41:569][581]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.07-06.56.41:618][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.09.07-06.56.41:633][581]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2736 classes and 663 folders.
+[2020.09.07-06.56.41:633][581]Display: HotReload took 10.8s.
+[2020.09.07-07.50.50:413][311]Candidate modules for hot reload:
+[2020.09.07-07.50.50:413][311]  UE4Self
+[2020.09.07-07.50.50:413][311]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Self,8747 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject"  -IgnoreJunk]
+[2020.09.07-07.50.50:415][311]Warning: Starting HotReload took  0.0s.
+[2020.09.07-07.51.13:648][697]CompilerResultsLog: New page: 컴파일 - 2020. 9. 8. 오전 1:51:13
+[2020.09.07-07.51.13:648][697]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UE4Self).
+[2020.09.07-07.51.13:649][697]CompilerResultsLog: Parsing headers for UE4SelfEditor
+[2020.09.07-07.51.13:649][697]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\UE4Self.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4SelfEditor\Development\UE4SelfEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.09.07-07.51.13:649][697]CompilerResultsLog: Reflection code generated for UE4SelfEditor in 17.3527569 seconds
+[2020.09.07-07.51.13:649][697]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.07-07.51.13:649][697]CompilerResultsLog: Building 5 actions with 12 processes...
+[2020.09.07-07.51.13:649][697]CompilerResultsLog:   [1/5] SpinMush.cpp
+[2020.09.07-07.51.13:649][697]CompilerResultsLog:   [2/5] SpinMush.gen.cpp
+[2020.09.07-07.51.13:649][697]CompilerResultsLog:   [3/5] UE4Editor-UE4Self-8747.lib
+[2020.09.07-07.51.13:649][697]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-8747.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-8747.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-07.51.13:649][697]CompilerResultsLog:   [4/5] UE4Editor-UE4Self-8747.dll
+[2020.09.07-07.51.13:649][697]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-8747.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-8747.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-07.51.13:649][697]CompilerResultsLog:   [5/5] UE4SelfEditor.target
+[2020.09.07-07.51.13:649][697]CompilerResultsLog: Total time in Parallel executor: 3.76 seconds
+[2020.09.07-07.51.13:649][697]CompilerResultsLog: Total execution time: 23.14 seconds
+[2020.09.07-07.51.13:649][697]LogMainFrame: MainFrame: Module compiling took 23.240 seconds
+[2020.09.07-07.51.13:692][697]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2020.09.07-07.51.13:733][697]LogHotReload: Re-instancing SpinMush after hot-reload.
+[2020.09.07-07.51.13:835][697]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0008 seconds. Added 3 classes and 2 folders.
+[2020.09.07-07.51.13:838][697]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.07-07.51.13:887][697]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.09.07-07.51.13:902][697]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2736 classes and 663 folders.
+[2020.09.07-07.51.13:902][697]Display: HotReload took 23.5s.
+[2020.09.07-07.51.22:958][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-07.51.56:490][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.09.07-07.51.56:587][238]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Sample_Auto2C554C4D143D4F1D7430E038746433FC0.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Autosaves/Game/ThirdPersonCPP/Maps/Sample_Auto2.umap'
+[2020.09.07-07.51.56:593][238]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/Sample' took 0.128
+[2020.09.07-07.51.56:593][238]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.128
+[2020.09.07-07.52.14:340][293]LogStaticMesh: SM_Prop_Barrel_01 스태틱 메시 빌드중...
+[2020.09.07-07.52.14:388][293]LogStaticMesh: Built static mesh [0.05s] /Game/PolygonTown/Meshes/Props/SM_Prop_Barrel_01.SM_Prop_Barrel_01
+[2020.09.07-07.52.14:459][296]LogActorFactory: Actor Factory created SM_Prop_Barrel_01
+[2020.09.07-07.52.15:062][332]LogActorFactory: Actor Factory created SM_Prop_Barrel_01
+[2020.09.07-07.52.16:171][397]Cmd: DELETE
+[2020.09.07-07.52.16:171][397]Cmd: ACTOR DELETE
+[2020.09.07-07.52.16:179][397]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-07.52.16:212][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.09.07-07.52.16:212][397]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2020.09.07-07.52.19:850][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-07.52.20:035][613]LogActorFactory: Actor Factory created SM_Prop_CardboardBox_01
+[2020.09.07-07.52.20:454][638]LogActorFactory: Actor Factory created SM_Prop_CardboardBox_01
+[2020.09.07-07.52.21:675][710]Cmd: DELETE
+[2020.09.07-07.52.21:675][710]Cmd: ACTOR DELETE
+[2020.09.07-07.52.21:676][710]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-07.52.21:700][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.09.07-07.52.21:700][710]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.09.07-07.52.30:739][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-07.52.30:937][183]LogActorFactory: Actor Factory created SM_Prop_Pool_Float_Ring_04
+[2020.09.07-07.52.31:472][215]LogActorFactory: Actor Factory created SM_Prop_Pool_Float_Ring_04
+[2020.09.07-07.52.34:722][409]Cmd: DELETE
+[2020.09.07-07.52.34:723][409]Cmd: ACTOR DELETE
+[2020.09.07-07.52.34:724][409]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-07.52.34:768][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.09.07-07.52.34:768][409]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2020.09.07-07.52.44:711][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-07.52.44:782][  7]LogStaticMesh: SM_Prop_Propanel_02 스태틱 메시 빌드중...
+[2020.09.07-07.52.44:795][  7]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_Propanel_02.SM_Prop_Propanel_02
+[2020.09.07-07.52.44:892][ 12]LogActorFactory: Actor Factory created SM_Prop_Propanel_02
+[2020.09.07-07.52.45:341][ 39]LogActorFactory: Actor Factory created SM_Prop_Propanel_02
+[2020.09.07-07.52.46:729][121]Cmd: DELETE
+[2020.09.07-07.52.46:729][121]Cmd: ACTOR DELETE
+[2020.09.07-07.52.46:730][121]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-07.52.46:752][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.09.07-07.52.46:753][121]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2020.09.07-07.52.47:909][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-07.52.48:127][203]LogActorFactory: Actor Factory created SM_Prop_Sandpit_01
+[2020.09.07-07.52.48:811][244]LogActorFactory: Actor Factory created SM_Prop_Sandpit_01
+[2020.09.07-07.52.51:533][405]Cmd: DELETE
+[2020.09.07-07.52.51:533][405]Cmd: ACTOR DELETE
+[2020.09.07-07.52.51:534][405]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-07.52.51:558][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.09.07-07.52.51:559][405]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.09.07-07.52.52:698][474]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-07.52.52:835][482]LogActorFactory: Actor Factory created SM_Prop_Sandpit_01
+[2020.09.07-07.52.53:086][497]LogActorFactory: Actor Factory created SM_Prop_Sandpit_01
+[2020.09.07-07.53.04:787][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-07.53.04:904][202]LogActorFactory: Actor Factory created SM_Prop_SandBucket_01
+[2020.09.07-07.53.05:774][254]LogActorFactory: Actor Factory created SM_Prop_SandBucket_01
+[2020.09.07-07.53.20:192][111]Cmd: DELETE
+[2020.09.07-07.53.20:192][111]Cmd: ACTOR DELETE
+[2020.09.07-07.53.20:194][111]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-07.53.20:227][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.09.07-07.53.20:227][111]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2020.09.07-07.53.20:719][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Sandpit_01)
+[2020.09.07-07.53.21:481][185]Cmd: DELETE
+[2020.09.07-07.53.21:481][185]Cmd: ACTOR DELETE
+[2020.09.07-07.53.21:483][185]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-07.53.21:507][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.09.07-07.53.21:507][185]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.09.07-07.53.59:898][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-07.54.00:041][477]LogActorFactory: Actor Factory created SM_Prop_Airvent_01
+[2020.09.07-07.54.00:728][518]LogActorFactory: Actor Factory created SM_Prop_Airvent_01
+[2020.09.07-07.54.02:046][595]Cmd: DELETE
+[2020.09.07-07.54.02:046][595]Cmd: ACTOR DELETE
+[2020.09.07-07.54.02:048][595]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-07.54.02:083][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2020.09.07-07.54.02:083][595]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2020.09.07-07.54.11:121][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-07.54.34:190][469]LogTexture: Display: 텍스처 빌드: T_PolygonCity_Emissive_01 (AutoDXT, 1024X1024)
+[2020.09.07-07.54.34:190][469]LogTexture: Display: 텍스처 빌드: T_PolygonCity_Texture_Roughness (AutoDXT, 1024X1024)
+[2020.09.07-07.54.34:190][469]LogTexture: Display: 텍스처 빌드: T_PolygonCity_Texture_Normal_01 (BC5, 1024X1024)
+[2020.09.07-07.54.34:190][469]LogTexture: Display: 텍스처 빌드: T_PolygonCity_Texture_Metallic (AutoDXT, 1024X1024)
+[2020.09.07-07.54.34:191][469]LogTexture: Display: 텍스처 빌드: T_PolygonCity_Texture_01_A (AutoDXT, 1024X1024)
+[2020.09.07-07.54.34:191][469]LogMaterial: Display: Missing cached shader map for material Mat_PolygonCity_Texture_01_A, compiling. 
+[2020.09.07-07.54.34:291][469]LogStaticMesh: SM_Prop_LargeSign_BowlingBall_01 스태틱 메시 빌드중...
+[2020.09.07-07.54.34:303][469]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonCity/Meshes/Props/SM_Prop_LargeSign_BowlingBall_01.SM_Prop_LargeSign_BowlingBall_01
+[2020.09.07-07.54.34:336][469]LogActorFactory: Actor Factory created SM_Prop_LargeSign_BowlingBall_01
+[2020.09.07-07.54.35:162][518]LogActorFactory: Actor Factory created SM_Prop_LargeSign_BowlingBall_01
+[2020.09.07-07.54.36:856][605]Cmd: DELETE
+[2020.09.07-07.54.36:856][605]Cmd: ACTOR DELETE
+[2020.09.07-07.54.36:858][605]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-07.54.36:889][605]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.09.07-07.54.36:890][605]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2020.09.07-07.54.59:699][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-07.55.44:769][627]LogActorFactory: Actor Factory created SM_Prop_Pool_Spa_01
+[2020.09.07-07.55.45:300][659]LogActorFactory: Actor Factory created SM_Prop_Pool_Spa_01
+[2020.09.07-07.55.52:171][ 69]Cmd: DELETE
+[2020.09.07-07.55.52:171][ 69]Cmd: ACTOR DELETE
+[2020.09.07-07.55.52:173][ 69]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-07.55.52:198][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.09.07-07.55.52:199][ 69]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2020.09.07-07.56.11:944][238]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-07.56.12:092][246]LogActorFactory: Actor Factory created SM_Prop_Toilet_01_Seat
+[2020.09.07-07.56.12:679][281]LogActorFactory: Actor Factory created SM_Prop_Toilet_01_Seat
+[2020.09.07-07.56.13:594][335]Cmd: DELETE
+[2020.09.07-07.56.13:594][335]Cmd: ACTOR DELETE
+[2020.09.07-07.56.13:595][335]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-07.56.13:619][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.09.07-07.56.13:620][335]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.09.07-07.56.26:395][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-07.56.26:548][110]LogStaticMesh: SM_Prop_Toilet_02 스태틱 메시 빌드중...
+[2020.09.07-07.56.26:558][110]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_Toilet_02.SM_Prop_Toilet_02
+[2020.09.07-07.56.26:676][116]LogActorFactory: Actor Factory created SM_Prop_Toilet_02
+[2020.09.07-07.56.27:079][140]LogActorFactory: Actor Factory created SM_Prop_Toilet_02
+[2020.09.07-07.56.28:069][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-07.56.28:422][219]LogActorFactory: Actor Factory created SM_Prop_Toilet_01_Seat
+[2020.09.07-07.56.31:045][376]LogActorFactory: Actor Factory created SM_Prop_Toilet_01_Seat
+[2020.09.07-07.56.53:367][709]Cmd: DELETE
+[2020.09.07-07.56.53:367][709]Cmd: ACTOR DELETE
+[2020.09.07-07.56.53:368][709]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-07.56.53:403][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.09.07-07.56.53:403][709]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2020.09.07-07.56.58:339][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Toilet_02)
+[2020.09.07-07.56.58:631][ 20]Cmd: DELETE
+[2020.09.07-07.56.58:631][ 20]Cmd: ACTOR DELETE
+[2020.09.07-07.56.58:632][ 20]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-07.56.58:655][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.09.07-07.56.58:655][ 20]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2020.09.07-08.00.43:782][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.00.43:952][535]LogActorFactory: Actor Factory created SM_Prop_Pool_Float_Ring_04
+[2020.09.07-08.00.44:237][552]LogActorFactory: Actor Factory created SM_Prop_Pool_Float_Ring_04
+[2020.09.07-08.00.58:937][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.00.59:126][435]LogActorFactory: Actor Factory created SM_Prop_Flamingo_01
+[2020.09.07-08.01.01:019][548]LogActorFactory: Actor Factory created SM_Prop_Flamingo_01
+[2020.09.07-08.01.07:053][909]Cmd: DELETE
+[2020.09.07-08.01.07:053][909]Cmd: ACTOR DELETE
+[2020.09.07-08.01.07:055][909]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-08.01.07:077][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.09.07-08.01.07:078][909]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.09.07-08.01.32:237][413]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.01.32:484][427]LogActorFactory: Actor Factory created SM_Prop_Antenna_01
+[2020.09.07-08.01.35:155][587]LogActorFactory: Actor Factory created SM_Prop_Antenna_01
+[2020.09.07-08.01.38:539][789]Cmd: DELETE
+[2020.09.07-08.01.38:539][789]Cmd: ACTOR DELETE
+[2020.09.07-08.01.38:540][789]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-08.01.38:565][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.09.07-08.01.38:565][789]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2020.09.07-08.01.49:611][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.01.49:737][455]LogStaticMesh: SM_Prop_Fountain_01 스태틱 메시 빌드중...
+[2020.09.07-08.01.49:753][455]LogStaticMesh: Built static mesh [0.02s] /Game/PolygonTown/Meshes/Props/SM_Prop_Fountain_01.SM_Prop_Fountain_01
+[2020.09.07-08.01.49:929][465]LogActorFactory: Actor Factory created SM_Prop_Fountain_01
+[2020.09.07-08.01.50:515][500]LogActorFactory: Actor Factory created SM_Prop_Fountain_01
+[2020.09.07-08.01.51:618][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.01.51:721][571]LogStaticMesh: SM_Prop_Fountain_Base_01 스태틱 메시 빌드중...
+[2020.09.07-08.01.51:732][571]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_Fountain_Base_01.SM_Prop_Fountain_Base_01
+[2020.09.07-08.01.51:827][576]LogActorFactory: Actor Factory created SM_Prop_Fountain_Base_01
+[2020.09.07-08.01.56:121][833]LogActorFactory: Actor Factory created SM_Prop_Fountain_Base_01
+[2020.09.07-08.01.58:691][986]Cmd: DELETE
+[2020.09.07-08.01.58:691][986]Cmd: ACTOR DELETE
+[2020.09.07-08.01.58:692][986]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-08.01.58:718][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.09.07-08.01.58:719][986]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2020.09.07-08.02.02:216][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Fountain_01)
+[2020.09.07-08.02.29:382][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.02.29:587][831]LogActorFactory: Actor Factory created SM_Prop_Outdoor_Table_01
+[2020.09.07-08.02.30:272][872]LogActorFactory: Actor Factory created SM_Prop_Outdoor_Table_01
+[2020.09.07-08.02.35:566][188]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.02.35:825][202]LogActorFactory: Actor Factory created SM_Prop_Plant_02
+[2020.09.07-08.02.37:413][297]LogActorFactory: Actor Factory created SM_Prop_Plant_02
+[2020.09.07-08.02.38:315][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Pool_Float_Ring_04)
+[2020.09.07-08.02.39:061][393]Cmd: DELETE
+[2020.09.07-08.02.39:061][393]Cmd: ACTOR DELETE
+[2020.09.07-08.02.39:063][393]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-08.02.39:086][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.09.07-08.02.39:087][393]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.09.07-08.02.39:517][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Fountain_01)
+[2020.09.07-08.02.39:566][420]Cmd: DELETE
+[2020.09.07-08.02.39:566][420]Cmd: ACTOR DELETE
+[2020.09.07-08.02.39:567][420]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-08.02.39:590][420]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.09.07-08.02.39:590][420]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.09.07-08.02.42:955][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Plant_02)
+[2020.09.07-08.02.46:187][811]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Concrete_Base_01)
+[2020.09.07-08.02.56:627][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Plant_02)
+[2020.09.07-08.02.57:304][474]Cmd: DELETE
+[2020.09.07-08.02.57:304][474]Cmd: ACTOR DELETE
+[2020.09.07-08.02.57:305][474]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-08.02.57:327][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.09.07-08.02.57:327][474]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2020.09.07-08.02.58:952][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.02.59:040][577]LogStaticMesh: SM_Prop_Plant_01 스태틱 메시 빌드중...
+[2020.09.07-08.02.59:050][577]LogStaticMesh: Built static mesh [0.01s] /Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01.SM_Prop_Plant_01
+[2020.09.07-08.02.59:245][588]LogActorFactory: Actor Factory created SM_Prop_Plant_01
+[2020.09.07-08.03.00:181][644]LogActorFactory: Actor Factory created SM_Prop_Plant_01
+[2020.09.07-08.03.03:085][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.03.14:160][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.03.26:490][944]Cmd: DELETE
+[2020.09.07-08.03.26:490][944]Cmd: ACTOR DELETE
+[2020.09.07-08.03.26:491][944]LogEditorActor: Deleted Actor: SpinMush
+[2020.09.07-08.03.26:514][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.09.07-08.03.26:514][944]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2020.09.07-08.03.26:893][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Outdoor_Table_01)
+[2020.09.07-08.03.27:214][985]Cmd: DELETE
+[2020.09.07-08.03.27:214][985]Cmd: ACTOR DELETE
+[2020.09.07-08.03.27:216][985]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-08.03.27:251][985]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.09.07-08.03.27:251][985]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2020.09.07-08.03.28:081][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.03.31:570][242]Cmd: DELETE
+[2020.09.07-08.03.31:570][242]Cmd: ACTOR DELETE
+[2020.09.07-08.03.31:572][242]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.07-08.03.31:620][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.09.07-08.03.31:620][242]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2020.09.07-08.03.35:633][483]LogEditor: Attempting to add actor of class 'SpinMush' to level at 730.00,-680.00,50.00
+[2020.09.07-08.03.35:877][497]LogEditor: Attempting to add actor of class 'SpinMush' to level at 720.00,-1200.00,50.00
+[2020.09.07-08.03.39:166][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.03.59:598][904]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.04.16:914][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.04.17:008][565]Candidate modules for hot reload:
+[2020.09.07-08.04.17:008][565]  UE4Self
+[2020.09.07-08.04.17:008][565]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Self,4529 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject"  -IgnoreJunk]
+[2020.09.07-08.04.17:009][565]Warning: Starting HotReload took  0.0s.
+[2020.09.07-08.04.17:794][610]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.09.07-08.04.27:832][211]CompilerResultsLog: New page: 컴파일 - 2020. 9. 8. 오전 2:04:27
+[2020.09.07-08.04.27:832][211]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UE4Self).
+[2020.09.07-08.04.27:832][211]CompilerResultsLog: Creating makefile for UE4SelfEditor (ini files are newer than makefile)
+[2020.09.07-08.04.27:832][211]CompilerResultsLog: Parsing headers for UE4SelfEditor
+[2020.09.07-08.04.27:832][211]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\UE4Self.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4SelfEditor\Development\UE4SelfEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.09.07-08.04.27:832][211]CompilerResultsLog: Reflection code generated for UE4SelfEditor in 5.6901239 seconds
+[2020.09.07-08.04.27:832][211]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.07-08.04.27:832][211]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.09.07-08.04.27:832][211]CompilerResultsLog:   [1/4] SpinMush.cpp
+[2020.09.07-08.04.27:832][211]CompilerResultsLog:   [2/4] UE4Editor-UE4Self-4529.lib
+[2020.09.07-08.04.27:832][211]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-4529.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-4529.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-08.04.27:832][211]CompilerResultsLog:   [3/4] UE4Editor-UE4Self-4529.dll
+[2020.09.07-08.04.27:832][211]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-4529.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-4529.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-08.04.27:832][211]CompilerResultsLog:   [4/4] UE4SelfEditor.target
+[2020.09.07-08.04.27:832][211]CompilerResultsLog: Total time in Parallel executor: 3.20 seconds
+[2020.09.07-08.04.27:832][211]CompilerResultsLog: Total execution time: 10.74 seconds
+[2020.09.07-08.04.27:833][211]LogMainFrame: MainFrame: Module compiling took 10.827 seconds
+[2020.09.07-08.04.27:858][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.09.07-08.04.27:885][211]LogHotReload: Re-instancing SpinMush after hot-reload.
+[2020.09.07-08.04.27:947][211]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.09.07-08.04.27:949][211]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.07-08.04.27:996][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.09.07-08.04.28:007][211]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2736 classes and 663 folders.
+[2020.09.07-08.04.28:007][211]Display: HotReload took 11.0s.
+[2020.09.07-08.04.28:941][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Concrete_Base_01)
+[2020.09.07-08.04.30:017][327]LogEditorViewport: Clicking on Actor (LMB): SpinMush (SpinMush3)
+[2020.09.07-08.04.33:151][513]LogEditorViewport: Clicking on Actor (LMB): SpinMush (SpinMush3)
+[2020.09.07-08.04.39:015][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Concrete_Base_01)
+[2020.09.07-08.04.41:505][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.04.41:596][804]Candidate modules for hot reload:
+[2020.09.07-08.04.41:596][804]  UE4Self
+[2020.09.07-08.04.41:596][804]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Self,5968 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject"  -IgnoreJunk]
+[2020.09.07-08.04.41:598][804]Warning: Starting HotReload took  0.0s.
+[2020.09.07-08.04.51:355][386]CompilerResultsLog: New page: 컴파일 - 2020. 9. 8. 오전 2:04:51
+[2020.09.07-08.04.51:355][386]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UE4Self).
+[2020.09.07-08.04.51:355][386]CompilerResultsLog: Parsing headers for UE4SelfEditor
+[2020.09.07-08.04.51:355][386]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\UE4Self.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4SelfEditor\Development\UE4SelfEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.09.07-08.04.51:355][386]CompilerResultsLog: Reflection code generated for UE4SelfEditor in 5.5231702 seconds
+[2020.09.07-08.04.51:356][386]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.07-08.04.51:356][386]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.09.07-08.04.51:356][386]CompilerResultsLog:   [1/4] SpinMush.cpp
+[2020.09.07-08.04.51:356][386]CompilerResultsLog:   [2/4] UE4Editor-UE4Self-5968.lib
+[2020.09.07-08.04.51:356][386]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-5968.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-5968.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-08.04.51:356][386]CompilerResultsLog:   [3/4] UE4Editor-UE4Self-5968.dll
+[2020.09.07-08.04.51:356][386]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-5968.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-5968.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-08.04.51:356][386]CompilerResultsLog:   [4/4] UE4SelfEditor.target
+[2020.09.07-08.04.51:356][386]CompilerResultsLog: Total time in Parallel executor: 3.27 seconds
+[2020.09.07-08.04.51:356][386]CompilerResultsLog: Total execution time: 9.69 seconds
+[2020.09.07-08.04.51:356][386]LogMainFrame: MainFrame: Module compiling took 9.762 seconds
+[2020.09.07-08.04.51:385][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.09.07-08.04.51:405][386]LogHotReload: Re-instancing SpinMush after hot-reload.
+[2020.09.07-08.04.51:483][386]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.09.07-08.04.51:485][386]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.07-08.04.51:529][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.09.07-08.04.51:539][386]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2736 classes and 663 folders.
+[2020.09.07-08.04.51:539][386]Display: HotReload took 10.0s.
+[2020.09.07-08.05.11:817][487]LogEditorViewport: Clicking on Actor (LMB): SpinMush (SpinMush3)
+[2020.09.07-08.05.12:902][551]Cmd: DELETE
+[2020.09.07-08.05.12:902][551]Cmd: ACTOR DELETE
+[2020.09.07-08.05.12:904][551]LogEditorActor: Deleted Actor: SpinMush
+[2020.09.07-08.05.12:939][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.09.07-08.05.12:939][551]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2020.09.07-08.05.14:670][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.05.16:725][778]LogEditor: Attempting to add actor of class 'SpinMush' to level at 550.00,-1190.00,50.00
+[2020.09.07-08.05.16:921][789]LogEditor: Attempting to add actor of class 'SpinMush' to level at 590.00,-1420.00,50.00
+[2020.09.07-08.05.20:550][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.05.37:020][981]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/SM_Prop_Plant_01FF8B49BA47FC168E3C5BBB824C767F19.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/PolygonTown/Meshes/Props/SM_Prop_Plant_01.uasset'
+[2020.09.07-08.05.47:367][272]MapCheck: New page: 맵 체크
+[2020.09.07-08.05.47:393][272]Cmd: MAP REBUILD ALLVISIBLE
+[2020.09.07-08.05.47:394][272]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.09.07-08.05.47:480][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.09.07-08.05.47:506][272]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.09.07-08.05.47:514][272]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.09.07-08.05.47:924][272]TextureStreamingBuild: Display: Compiling optional shaders took 0.426 seconds.
+[2020.09.07-08.05.47:941][272]LogLevel: Display: Export Material TexCoord Scales took 0.017 seconds.
+[2020.09.07-08.05.47:964][272]TextureStreamingBuild: Display: Build Texture Streaming took 0.022 seconds.
+[2020.09.07-08.05.47:988][272]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.09.07-08.05.47:990][272]LightingResults: New page: 라이팅 빌드 - 2020. 9. 8. 오전 2:05:47
+[2020.09.07-08.05.48:027][272]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.09.07-08.05.48:076][272]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.09.07-08.05.48:086][272]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.09.07-08.05.48:603][272]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.09.07-08.05.48:603][272]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7020
+[2020.09.07-08.05.55:585][272]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.09.07-08.05.55:585][272]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.09.07-08.05.55:585][272]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.09.07-08.05.55:585][272]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.09.07-08.05.55:585][272]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.09.07-08.05.55:585][272]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.09.07-08.05.55:728][272]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.09.07-08.05.55:728][272]MapCheck: New page: Sample - 2020. 9. 8. 오전 2:05:55
+[2020.09.07-08.05.55:728][272]MapCheck: Error: WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2020.09.07-08.05.55:728][272]MapCheck: 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 0.672ms.
+[2020.09.07-08.05.55:752][272]LogEditorBuildUtils: Build time 0:08
+[2020.09.07-08.05.55:778][272]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2020.09.07-08.05.55:786][272]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2020.09.07-08.05.55:904][273]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mat_PolygonTown_01_A, compiling. 
+[2020.09.07-08.05.55:916][273]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mat_PolygonTown_01_A, compiling. 
+[2020.09.07-08.05.56:563][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.09.07-08.05.58:458][369]Job is a success!
+[2020.09.07-08.05.58:525][370]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.009s
+[2020.09.07-08.05.58:525][370]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.09.07-08.05.58:525][370]LogVolumetricLightmapImport:      BrickData 150x5x5 = 0.1Mb
+[2020.09.07-08.05.58:525][370]LogVolumetricLightmapImport:      Bricks at Level
+[2020.09.07-08.05.58:525][370]LogVolumetricLightmapImport:          0: 3.3% covering 100.0% of volume
+[2020.09.07-08.05.58:525][370]LogVolumetricLightmapImport:          1: 13.3% covering 6.3% of volume
+[2020.09.07-08.05.58:525][370]LogVolumetricLightmapImport:          2: 83.3% covering 0.6% of volume
+[2020.09.07-08.05.58:550][370]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2020.09.07-08.05.58:550][370]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2020.09.07-08.05.58:550][370]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2020.09.07-08.05.58:551][370]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2020.09.07-08.05.58:551][370]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_1 (G8, 32X32)
+[2020.09.07-08.05.58:551][370]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_0 (G8, 64X64)
+[2020.09.07-08.05.58:577][370]Lightmass on LAPTOP-1UG54T2R: 1.46 sec total, 160 ms importing, 18 ms setup, 700 ms photons, 487 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 4.87 sec total, 171 ms processing.
+[2020.09.07-08.05.58:580][370]LogStaticLightingSystem: Sample_BuiltData storing lightmap data for 2 meshes in 2 LightmapResourceClusters (1.0 Meshes per cluster).
+[2020.09.07-08.05.58:607][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.09.07-08.05.58:613][370]LogStaticLightingSystem: Illumination: 10.6 sec (13 ms encoding lightmaps, 1 ms encoding shadowmaps)
+[2020.09.07-08.05.58:613][370]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.09.07-08.05.58:613][370]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2020.09.07-08.05.59:594][370]DumpUnbuiltLightIteractions
+[2020.09.07-08.05.59:594][370]Lights with unbuilt interactions: 0
+[2020.09.07-08.05.59:594][370]
+[2020.09.07-08.05.59:594][370]Primitives with unbuilt interactions: 0
+[2020.09.07-08.05.59:693][371]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.09.07-08.05.59:694][371]MapCheck: New page: Sample - 2020. 9. 8. 오전 2:05:59
+[2020.09.07-08.05.59:694][371]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.354ms.
+[2020.09.07-08.06.01:761][495]LogSlate: Window '메시지 로그' being destroyed
+[2020.09.07-08.06.01:766][495]LogSlate: Window '메시지 로그' being destroyed
+[2020.09.07-08.06.03:118][575]Candidate modules for hot reload:
+[2020.09.07-08.06.03:118][575]  UE4Self
+[2020.09.07-08.06.03:118][575]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Self,5839 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject"  -IgnoreJunk]
+[2020.09.07-08.06.03:120][575]Warning: Starting HotReload took  0.0s.
+[2020.09.07-08.06.03:848][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Concrete_Base_01)
+[2020.09.07-08.06.04:414][646]LogEditorViewport: Clicking on Actor (LMB): SpinMush (SpinMush7)
+[2020.09.07-08.06.10:138][987]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.06.12:814][148]CompilerResultsLog: New page: 컴파일 - 2020. 9. 8. 오전 2:06:12
+[2020.09.07-08.06.12:814][148]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UE4Self).
+[2020.09.07-08.06.12:814][148]CompilerResultsLog: Parsing headers for UE4SelfEditor
+[2020.09.07-08.06.12:814][148]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\UE4Self.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4SelfEditor\Development\UE4SelfEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.09.07-08.06.12:814][148]CompilerResultsLog: Reflection code generated for UE4SelfEditor in 5.5138802 seconds
+[2020.09.07-08.06.12:814][148]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.07-08.06.12:814][148]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.09.07-08.06.12:814][148]CompilerResultsLog:   [1/4] SpinMush.cpp
+[2020.09.07-08.06.12:814][148]CompilerResultsLog:   [2/4] UE4Editor-UE4Self-5839.lib
+[2020.09.07-08.06.12:814][148]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-5839.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-5839.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-08.06.12:814][148]CompilerResultsLog:   [3/4] UE4Editor-UE4Self-5839.dll
+[2020.09.07-08.06.12:814][148]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-5839.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-5839.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-08.06.12:814][148]CompilerResultsLog:   [4/4] UE4SelfEditor.target
+[2020.09.07-08.06.12:814][148]CompilerResultsLog: Total time in Parallel executor: 3.16 seconds
+[2020.09.07-08.06.12:814][148]CompilerResultsLog: Total execution time: 9.61 seconds
+[2020.09.07-08.06.12:814][148]LogMainFrame: MainFrame: Module compiling took 9.699 seconds
+[2020.09.07-08.06.12:843][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.09.07-08.06.12:859][148]LogHotReload: Re-instancing SpinMush after hot-reload.
+[2020.09.07-08.06.12:939][148]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.09.07-08.06.12:941][148]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.07-08.06.12:989][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.09.07-08.06.13:000][148]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2736 classes and 663 folders.
+[2020.09.07-08.06.13:000][148]Display: HotReload took  9.9s.
+[2020.09.07-08.06.48:405][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.09.07-08.06.48:501][136]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Sample_Auto373899EBD41D926FE680D03A04AC82882.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Autosaves/Game/ThirdPersonCPP/Maps/Sample_Auto3.umap'
+[2020.09.07-08.06.48:504][136]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/Sample' took 0.135
+[2020.09.07-08.06.48:504][136]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.135
+[2020.09.07-08.07.06:424][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Concrete_Base_01)
+[2020.09.07-08.07.07:659][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Concrete_Base_01)
+[2020.09.07-08.07.08:820][328]LogEditorViewport: Clicking on Actor (LMB): SpinMush (SpinMush7)
+[2020.09.07-08.07.10:805][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.07.20:481][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.09.07-08.07.20:564][ 22]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/SampleBC13DCAB484002EFB0410BAA41271192.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample.umap'
+[2020.09.07-08.07.20:609][ 22]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Sample_BuiltData492999F24641C0B19C6A1C813FE172AE.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample_BuiltData.uasset'
+[2020.09.07-08.07.21:055][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Concrete_Base_01)
+[2020.09.07-08.07.22:286][120]LogEditorViewport: Clicking on Actor (LMB): SpinMush (SpinMush7)
+[2020.09.07-08.07.23:764][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.07.28:013][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.07.41:456][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.07.46:407][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.09.07-08.07.46:492][559]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Sample6E5FC1EE4EE3EB897A8FBA9108091D52.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample.umap'
+[2020.09.07-08.07.46:531][559]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Sample_BuiltData3F7046914B858185F4D32693036EA8AC.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample_BuiltData.uasset'
+[2020.09.07-08.07.47:943][641]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (BODY)
+[2020.09.07-08.07.53:680][884]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.08.10:425][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Concrete_Base_01)
+[2020.09.07-08.08.11:043][351]LogEditorViewport: Clicking on Actor (LMB): SpinMush (SpinMush7)
+[2020.09.07-08.08.12:110][413]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.08.12:202][418]Candidate modules for hot reload:
+[2020.09.07-08.08.12:202][418]  UE4Self
+[2020.09.07-08.08.12:202][418]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Self,647 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject"  -IgnoreJunk]
+[2020.09.07-08.08.12:204][418]Warning: Starting HotReload took  0.0s.
+[2020.09.07-08.08.22:652][ 41]CompilerResultsLog: New page: 컴파일 - 2020. 9. 8. 오전 2:08:22
+[2020.09.07-08.08.22:652][ 41]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UE4Self).
+[2020.09.07-08.08.22:652][ 41]CompilerResultsLog: Creating makefile for UE4SelfEditor (ini files are newer than makefile)
+[2020.09.07-08.08.22:652][ 41]CompilerResultsLog: Parsing headers for UE4SelfEditor
+[2020.09.07-08.08.22:653][ 41]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\UE4Self.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4SelfEditor\Development\UE4SelfEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.09.07-08.08.22:653][ 41]CompilerResultsLog: Reflection code generated for UE4SelfEditor in 5.416121 seconds
+[2020.09.07-08.08.22:653][ 41]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.07-08.08.22:653][ 41]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.09.07-08.08.22:653][ 41]CompilerResultsLog:   [1/4] SpinMush.cpp
+[2020.09.07-08.08.22:653][ 41]CompilerResultsLog:   [2/4] UE4Editor-UE4Self-0647.lib
+[2020.09.07-08.08.22:653][ 41]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0647.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0647.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-08.08.22:653][ 41]CompilerResultsLog:   [3/4] UE4Editor-UE4Self-0647.dll
+[2020.09.07-08.08.22:653][ 41]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0647.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0647.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-08.08.22:653][ 41]CompilerResultsLog:   [4/4] UE4SelfEditor.target
+[2020.09.07-08.08.22:653][ 41]CompilerResultsLog: Total time in Parallel executor: 3.19 seconds
+[2020.09.07-08.08.22:653][ 41]CompilerResultsLog: Total execution time: 10.36 seconds
+[2020.09.07-08.08.22:653][ 41]LogMainFrame: MainFrame: Module compiling took 10.454 seconds
+[2020.09.07-08.08.22:677][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2020.09.07-08.08.22:687][ 41]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2736 classes and 663 folders.
+[2020.09.07-08.08.22:687][ 41]Display: HotReload took 10.5s.
+[2020.09.07-08.12.44:933][959]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.09.07-08.33.09:681][958]Candidate modules for hot reload:
+[2020.09.07-08.33.09:681][958]  UE4Self
+[2020.09.07-08.33.09:681][958]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Self,9138 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject"  -IgnoreJunk]
+[2020.09.07-08.33.09:682][958]Warning: Starting HotReload took  0.0s.
+[2020.09.07-08.33.19:350][534]CompilerResultsLog: New page: 컴파일 - 2020. 9. 8. 오전 2:33:19
+[2020.09.07-08.33.19:351][534]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UE4Self).
+[2020.09.07-08.33.19:351][534]CompilerResultsLog: Parsing headers for UE4SelfEditor
+[2020.09.07-08.33.19:351][534]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\UE4Self.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4SelfEditor\Development\UE4SelfEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.09.07-08.33.19:351][534]CompilerResultsLog: Reflection code generated for UE4SelfEditor in 5.5090601 seconds
+[2020.09.07-08.33.19:351][534]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.07-08.33.19:351][534]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.09.07-08.33.19:351][534]CompilerResultsLog:   [1/4] SpinMush.cpp
+[2020.09.07-08.33.19:351][534]CompilerResultsLog:   [2/4] UE4Editor-UE4Self-9138.lib
+[2020.09.07-08.33.19:351][534]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-9138.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-9138.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-08.33.19:351][534]CompilerResultsLog:   [3/4] UE4Editor-UE4Self-9138.dll
+[2020.09.07-08.33.19:351][534]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-9138.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-9138.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-08.33.19:351][534]CompilerResultsLog:   [4/4] UE4SelfEditor.target
+[2020.09.07-08.33.19:351][534]CompilerResultsLog: Total time in Parallel executor: 3.14 seconds
+[2020.09.07-08.33.19:351][534]CompilerResultsLog: Total execution time: 9.57 seconds
+[2020.09.07-08.33.19:351][534]LogMainFrame: MainFrame: Module compiling took 9.673 seconds
+[2020.09.07-08.33.19:377][534]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.09.07-08.33.19:406][534]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.19:406][534]LogLinker: Warning: 'Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01' 파일을 찾을 수 없습니다.
+[2020.09.07-08.33.19:406][534]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.19:406][534]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.19:406][534]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.19:406][534]LogLinker: Warning: 'Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01' 파일을 찾을 수 없습니다.
+[2020.09.07-08.33.19:406][534]LogUObjectGlobals: Warning: 'StaticMesh Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01.SM_Prop_Outdoor_Table_01' 오브젝트를 찾는 데 실패했습니다.
+[2020.09.07-08.33.19:406][534]Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01.SM_Prop_Outdoor_Table_01
+
+[2020.09.07-08.33.19:406][534]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.19:406][534]LogLinker: Warning: 'Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01' 파일을 찾을 수 없습니다.
+[2020.09.07-08.33.19:406][534]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.19:406][534]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.19:406][534]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.19:406][534]LogLinker: Warning: 'Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01' 파일을 찾을 수 없습니다.
+[2020.09.07-08.33.19:406][534]LogUObjectGlobals: Warning: 'StaticMesh Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01.SM_Prop_Plant_01' 오브젝트를 찾는 데 실패했습니다.
+[2020.09.07-08.33.19:406][534]Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01.SM_Prop_Plant_01
+
+[2020.09.07-08.33.19:407][534]LogHotReload: Re-instancing SpinMush after hot-reload.
+[2020.09.07-08.33.19:407][534]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.19:407][534]Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01.SM_Prop_Outdoor_Table_01
+
+[2020.09.07-08.33.19:407][534]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.19:407][534]Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01.SM_Prop_Plant_01
+
+[2020.09.07-08.33.19:562][534]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0014 seconds. Added 3 classes and 2 folders.
+[2020.09.07-08.33.19:563][534]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01.SM_Prop_Outdoor_Table_01
+
+Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01.SM_Prop_Plant_01
+
+Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01.SM_Prop_Outdoor_Table_01
+
+Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01.SM_Prop_Plant_01
+
+
+[2020.09.07-08.33.19:570][534]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.07-08.33.19:635][534]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.09.07-08.33.19:645][534]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2736 classes and 663 folders.
+[2020.09.07-08.33.19:645][534]Display: HotReload took 10.0s.
+[2020.09.07-08.33.28:930][ 87]LogEditor: Attempting to add actor of class 'SpinMush' to level at -110.00,-1050.00,50.00
+[2020.09.07-08.33.28:930][ 87]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.28:930][ 87]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.28:930][ 87]Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01.SM_Prop_Outdoor_Table_01
+
+[2020.09.07-08.33.28:930][ 87]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.28:930][ 87]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.28:930][ 87]Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01.SM_Prop_Plant_01
+
+[2020.09.07-08.33.29:494][120]LogEditor: Attempting to add actor of class 'SpinMush' to level at 220.00,-1390.00,50.00
+[2020.09.07-08.33.29:495][120]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.29:495][120]Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01.SM_Prop_Outdoor_Table_01
+
+[2020.09.07-08.33.29:495][120]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.29:495][120]Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01.SM_Prop_Plant_01
+
+[2020.09.07-08.33.31:405][233]Cmd: DELETE
+[2020.09.07-08.33.31:405][233]Cmd: ACTOR DELETE
+[2020.09.07-08.33.31:406][233]LogEditorActor: Deleted Actor: SpinMush
+[2020.09.07-08.33.31:428][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.09.07-08.33.31:428][233]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2020.09.07-08.33.46:074][358]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.33.47:650][442]Candidate modules for hot reload:
+[2020.09.07-08.33.47:650][442]  UE4Self
+[2020.09.07-08.33.47:650][442]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Self,2075 Win64 Development -TargetType=Editor -Project="C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject" "C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/UE4Self.uproject"  -IgnoreJunk]
+[2020.09.07-08.33.47:651][442]Warning: Starting HotReload took  0.0s.
+[2020.09.07-08.33.49:285][537]LogEditorViewport: Clicking on Actor (LMB): SpinMush (SpinMush7)
+[2020.09.07-08.33.50:297][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Concrete_Base_01)
+[2020.09.07-08.33.51:825][685]LogEditorViewport: Clicking on Actor (LMB): SpinMush (SpinMush7)
+[2020.09.07-08.33.54:799][862]CompilerResultsLog: New page: 컴파일 - 2020. 9. 8. 오전 2:33:54
+[2020.09.07-08.33.54:799][862]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\UE4Self).
+[2020.09.07-08.33.54:800][862]CompilerResultsLog: Parsing headers for UE4SelfEditor
+[2020.09.07-08.33.54:800][862]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\UE4Self.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4SelfEditor\Development\UE4SelfEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.09.07-08.33.54:800][862]CompilerResultsLog: Reflection code generated for UE4SelfEditor in 5.4510412 seconds
+[2020.09.07-08.33.54:800][862]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.07-08.33.54:800][862]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.09.07-08.33.54:800][862]CompilerResultsLog:   [1/3] UE4Editor-UE4Self-2075.lib
+[2020.09.07-08.33.54:800][862]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-2075.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-2075.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-08.33.54:800][862]CompilerResultsLog:   [2/3] UE4Editor-UE4Self-2075.dll
+[2020.09.07-08.33.54:800][862]CompilerResultsLog:      C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-2075.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-2075.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.09.07-08.33.54:800][862]CompilerResultsLog:   [3/3] UE4SelfEditor.target
+[2020.09.07-08.33.54:800][862]CompilerResultsLog: Total time in Parallel executor: 0.74 seconds
+[2020.09.07-08.33.54:800][862]CompilerResultsLog: Total execution time: 7.07 seconds
+[2020.09.07-08.33.54:800][862]LogMainFrame: MainFrame: Module compiling took 7.153 seconds
+[2020.09.07-08.33.54:826][862]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.09.07-08.33.54:841][862]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.54:841][862]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.54:842][862]Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01.SM_Prop_Outdoor_Table_01
+
+[2020.09.07-08.33.54:842][862]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.54:842][862]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01' is not a standard unreal filename or a long path name. Reason: 경로는 '/' 로 시작해야 합니다.
+[2020.09.07-08.33.54:842][862]Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01.SM_Prop_Plant_01
+
+[2020.09.07-08.33.54:845][862]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.09.07-08.33.54:845][862]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01.SM_Prop_Outdoor_Table_01
+
+Error: CDO Constructor (SpinMush): Failed to find Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01.SM_Prop_Plant_01
+
+
+[2020.09.07-08.33.54:847][862]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.07-08.33.54:898][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.09.07-08.33.54:909][862]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2736 classes and 663 folders.
+[2020.09.07-08.33.54:909][862]Display: HotReload took  7.3s.
+[2020.09.07-08.33.56:510][958]Cmd: DELETE
+[2020.09.07-08.33.56:510][958]Cmd: ACTOR DELETE
+[2020.09.07-08.33.56:511][958]LogEditorActor: Deleted Actor: SpinMush
+[2020.09.07-08.33.56:551][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.09.07-08.33.56:551][958]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2020.09.07-08.33.57:923][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.34.00:589][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Concrete_Base_01)
+[2020.09.07-08.34.02:014][279]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.09.07-08.34.02:084][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.09.07-08.34.02:179][279]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/SampleDE51C15144DB6BC7F22E6C9AA8E13015.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample.umap'
+[2020.09.07-08.34.02:219][279]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Sample_BuiltData1F47C8444E3BF685DAE55FADBC59F1E0.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample_BuiltData.uasset'
+[2020.09.07-08.34.05:067][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.09.07-08.34.05:174][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.09.07-08.34.05:253][454]LogSlate: Window 'UE4Self - 언리얼 에디터' being destroyed
+[2020.09.07-08.34.05:257][454]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2020.09.07-08.34.05:463][455]Cmd: QUIT_EDITOR
+[2020.09.07-08.34.05:683][455]LogExit: Preparing to exit.
+[2020.09.07-08.34.06:264][455]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.07-08.34.06:264][455]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.07-08.34.06:264][455]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.07-08.34.06:264][455]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.07-08.34.06:264][455]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.07-08.34.06:264][455]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.07-08.34.06:264][455]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.07-08.34.06:264][455]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.07-08.34.06:264][455]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.07-08.34.06:264][455]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.07-08.34.06:264][455]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.07-08.34.06:264][455]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.07-08.34.06:300][455]LogExit: Editor shut down
+[2020.09.07-08.34.06:300][455]LogExit: Transaction tracking system shut down
+[2020.09.07-08.34.06:695][455]LogExit: Object subsystem successfully closed.
+[2020.09.07-08.34.06:726][455]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.09.07-08.34.06:732][455]LogD3D11RHI: Shutdown
+[2020.09.07-08.34.06:732][455]LogD3D11RHI: CleanupD3DDevice
+[2020.09.07-08.34.06:734][455]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.09.07-08.34.06:734][455]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.09.07-08.34.06:734][455]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.09.07-08.34.06:734][455]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.09.07-08.34.06:734][455]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.09.07-08.34.06:734][455]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.09.07-08.34.06:909][455]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.09.07-08.34.06:951][455]LogModuleManager: Shutting down and abandoning module UE4Self (662)
+[2020.09.07-08.34.06:951][455]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (657)
+[2020.09.07-08.34.06:951][455]LogModuleManager: Shutting down and abandoning module MeshBuilder (655)
+[2020.09.07-08.34.06:951][455]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (648)
+[2020.09.07-08.34.06:951][455]LogModuleManager: Shutting down and abandoning module Voice (646)
+[2020.09.07-08.34.06:951][455]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2020.09.07-08.34.06:951][455]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2020.09.07-08.34.06:951][455]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
+[2020.09.07-08.34.06:954][455]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
+[2020.09.07-08.34.06:954][455]LogModuleManager: Shutting down and abandoning module EditorWidgets (636)
+[2020.09.07-08.34.06:954][455]LogModuleManager: Shutting down and abandoning module CollectionManager (634)
+[2020.09.07-08.34.06:955][455]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2020.09.07-08.34.06:955][455]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2020.09.07-08.34.06:955][455]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2020.09.07-08.34.06:956][455]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2020.09.07-08.34.06:956][455]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2020.09.07-08.34.06:956][455]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2020.09.07-08.34.06:956][455]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2020.09.07-08.34.06:956][455]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2020.09.07-08.34.06:956][455]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2020.09.07-08.34.06:956][455]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2020.09.07-08.34.06:956][455]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2020.09.07-08.34.06:956][455]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2020.09.07-08.34.06:957][455]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2020.09.07-08.34.06:957][455]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2020.09.07-08.34.06:957][455]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2020.09.07-08.34.06:957][455]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2020.09.07-08.34.06:957][455]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2020.09.07-08.34.06:957][455]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2020.09.07-08.34.06:957][455]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2020.09.07-08.34.06:957][455]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2020.09.07-08.34.06:957][455]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2020.09.07-08.34.06:957][455]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2020.09.07-08.34.06:957][455]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2020.09.07-08.34.06:957][455]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2020.09.07-08.34.06:957][455]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2020.09.07-08.34.06:958][455]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2020.09.07-08.34.06:959][455]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2020.09.07-08.34.06:959][455]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2020.09.07-08.34.06:959][455]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2020.09.07-08.34.06:959][455]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2020.09.07-08.34.06:959][455]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2020.09.07-08.34.06:959][455]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2020.09.07-08.34.06:959][455]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2020.09.07-08.34.06:959][455]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2020.09.07-08.34.08:629][455]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2020.09.07-08.34.08:629][455]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2020.09.07-08.34.08:629][455]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2020.09.07-08.34.08:629][455]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2020.09.07-08.34.08:629][455]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2020.09.07-08.34.08:629][455]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2020.09.07-08.34.08:630][455]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2020.09.07-08.34.08:630][455]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2020.09.07-08.34.08:630][455]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2020.09.07-08.34.08:630][455]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2020.09.07-08.34.08:630][455]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2020.09.07-08.34.08:630][455]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2020.09.07-08.34.08:631][455]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2020.09.07-08.34.08:631][455]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2020.09.07-08.34.08:631][455]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2020.09.07-08.34.08:631][455]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2020.09.07-08.34.08:633][455]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2020.09.07-08.34.08:633][455]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2020.09.07-08.34.08:633][455]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2020.09.07-08.34.08:634][455]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2020.09.07-08.34.08:634][455]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2020.09.07-08.34.08:635][455]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2020.09.07-08.34.08:635][455]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2020.09.07-08.34.08:678][455]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2020.09.07-08.34.08:678][455]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2020.09.07-08.34.08:680][455]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2020.09.07-08.34.08:684][455]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2020.09.07-08.34.08:684][455]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2020.09.07-08.34.08:684][455]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2020.09.07-08.34.08:685][455]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2020.09.07-08.34.08:686][455]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2020.09.07-08.34.08:687][455]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2020.09.07-08.34.08:687][455]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2020.09.07-08.34.08:687][455]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2020.09.07-08.34.08:688][455]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2020.09.07-08.34.08:691][455]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2020.09.07-08.34.08:700][455]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2020.09.07-08.34.08:700][455]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2020.09.07-08.34.08:701][455]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2020.09.07-08.34.08:701][455]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2020.09.07-08.34.08:701][455]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2020.09.07-08.34.08:701][455]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2020.09.07-08.34.08:701][455]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2020.09.07-08.34.08:702][455]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2020.09.07-08.34.08:702][455]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2020.09.07-08.34.08:702][455]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2020.09.07-08.34.08:702][455]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2020.09.07-08.34.08:702][455]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2020.09.07-08.34.08:702][455]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2020.09.07-08.34.08:702][455]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2020.09.07-08.34.08:702][455]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2020.09.07-08.34.08:702][455]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2020.09.07-08.34.08:703][455]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2020.09.07-08.34.08:703][455]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2020.09.07-08.34.08:703][455]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2020.09.07-08.34.08:703][455]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2020.09.07-08.34.08:703][455]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2020.09.07-08.34.08:703][455]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2020.09.07-08.34.08:714][455]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2020.09.07-08.34.08:938][455]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2020.09.07-08.34.08:938][455]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2020.09.07-08.34.08:938][455]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2020.09.07-08.34.08:938][455]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2020.09.07-08.34.08:939][455]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2020.09.07-08.34.08:940][455]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2020.09.07-08.34.08:940][455]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2020.09.07-08.34.08:940][455]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2020.09.07-08.34.08:940][455]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2020.09.07-08.34.08:940][455]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2020.09.07-08.34.08:940][455]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2020.09.07-08.34.08:940][455]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2020.09.07-08.34.08:940][455]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2020.09.07-08.34.08:940][455]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2020.09.07-08.34.08:940][455]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2020.09.07-08.34.08:940][455]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2020.09.07-08.34.08:940][455]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2020.09.07-08.34.08:940][455]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2020.09.07-08.34.08:940][455]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2020.09.07-08.34.08:941][455]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2020.09.07-08.34.08:941][455]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2020.09.07-08.34.08:941][455]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2020.09.07-08.34.08:941][455]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2020.09.07-08.34.08:941][455]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2020.09.07-08.34.08:941][455]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2020.09.07-08.34.08:941][455]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2020.09.07-08.34.08:941][455]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2020.09.07-08.34.08:941][455]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2020.09.07-08.34.08:942][455]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2020.09.07-08.34.08:942][455]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2020.09.07-08.34.08:942][455]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2020.09.07-08.34.08:942][455]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2020.09.07-08.34.08:942][455]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2020.09.07-08.34.08:942][455]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2020.09.07-08.34.08:942][455]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2020.09.07-08.34.08:942][455]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2020.09.07-08.34.08:942][455]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2020.09.07-08.34.08:942][455]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2020.09.07-08.34.08:942][455]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2020.09.07-08.34.09:044][455]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2020.09.07-08.34.09:144][455]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2020.09.07-08.34.09:144][455]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2020.09.07-08.34.09:144][455]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2020.09.07-08.34.09:144][455]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2020.09.07-08.34.09:144][455]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2020.09.07-08.34.09:144][455]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.09.07-08.34.09:144][455]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2020.09.07-08.34.09:144][455]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2020.09.07-08.34.09:144][455]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2020.09.07-08.34.09:144][455]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2020.09.07-08.34.09:144][455]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2020.09.07-08.34.09:145][455]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2020.09.07-08.34.09:145][455]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2020.09.07-08.34.09:145][455]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.09.07-08.34.09:146][455]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.09.07-08.34.09:146][455]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2020.09.07-08.34.09:146][455]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2020.09.07-08.34.09:146][455]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2020.09.07-08.34.09:147][455]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2020.09.07-08.34.09:148][455]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2020.09.07-08.34.09:149][455]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2020.09.07-08.34.09:149][455]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2020.09.07-08.34.09:149][455]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2020.09.07-08.34.09:149][455]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2020.09.07-08.34.09:149][455]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2020.09.07-08.34.09:149][455]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2020.09.07-08.34.09:150][455]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2020.09.07-08.34.09:150][455]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2020.09.07-08.34.09:151][455]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2020.09.07-08.34.09:151][455]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2020.09.07-08.34.09:151][455]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2020.09.07-08.34.09:151][455]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2020.09.07-08.34.09:154][455]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2020.09.07-08.34.09:154][455]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.09.07-08.34.09:154][455]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.09.07-08.34.09:154][455]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.09.07-08.34.09:154][455]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.09.07-08.34.09:154][455]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.09.07-08.34.09:154][455]LogModuleManager: Shutting down and abandoning module Core (174)
+[2020.09.07-08.34.09:154][455]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2020.09.07-08.34.09:154][455]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2020.09.07-08.34.09:154][455]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2020.09.07-08.34.09:154][455]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2020.09.07-08.34.09:154][455]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2020.09.07-08.34.09:154][455]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2020.09.07-08.34.09:155][455]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2020.09.07-08.34.09:155][455]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2020.09.07-08.34.09:155][455]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2020.09.07-08.34.09:163][455]LogDerivedDataCache: Shutdown
+[2020.09.07-08.34.09:163][455]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2020.09.07-08.34.09:163][455]LogXGEController: Cleaning working directory: C:/Users/wonji/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.07-08.34.09:163][455]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2020.09.07-08.34.09:164][455]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2020.09.07-08.34.09:164][455]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2020.09.07-08.34.09:164][455]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2020.09.07-08.34.09:164][455]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2020.09.07-08.34.09:164][455]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2020.09.07-08.34.09:164][455]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2020.09.07-08.34.09:164][455]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2020.09.07-08.34.09:164][455]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2020.09.07-08.34.09:164][455]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2020.09.07-08.34.09:164][455]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2020.09.07-08.34.09:164][455]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2020.09.07-08.34.09:165][455]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2020.09.07-08.34.09:165][455]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2020.09.07-08.34.09:165][455]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2020.09.07-08.34.09:165][455]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2020.09.07-08.34.09:165][455]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2020.09.07-08.34.09:172][455]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.09.07-08.34.09:172][455]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2020.09.07-08.34.09:172][455]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2020.09.07-08.34.09:172][455]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2020.09.07-08.34.09:172][455]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2020.09.07-08.34.09:175][455]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2020.09.07-08.34.09:175][455]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2020.09.07-08.34.09:179][455]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2020.09.07-08.34.09:179][455]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2020.09.07-08.34.09:210][455]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2020.09.07-08.34.09:211][455]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2020.09.07-08.34.09:211][455]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2020.09.07-08.34.09:211][455]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2020.09.07-08.34.09:211][455]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2020.09.07-08.34.09:211][455]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2020.09.07-08.34.09:211][455]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2020.09.07-08.34.09:211][455]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2020.09.07-08.34.09:211][455]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2020.09.07-08.34.09:211][455]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2020.09.07-08.34.09:211][455]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2020.09.07-08.34.09:211][455]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2020.09.07-08.34.09:212][455]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2020.09.07-08.34.09:212][455]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2020.09.07-08.34.09:212][455]LogHMD: Freeing OpenVRDLLHandle.
+[2020.09.07-08.34.09:212][455]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2020.09.07-08.34.09:212][455]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2020.09.07-08.34.09:212][455]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2020.09.07-08.34.09:212][455]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2020.09.07-08.34.09:212][455]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2020.09.07-08.34.09:213][455]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2020.09.07-08.34.09:213][455]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2020.09.07-08.34.09:229][455]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2020.09.07-08.34.09:229][455]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.09.07-08.34.09:229][455]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5C18350-472B-DFA7-B7D1-B799FA969998%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=f12ef1bb4e594f414e84f2897a34c226%7C3f48d6b6f70f467b93bb318a4d8594ab%7C9b5ca533-6ae9-4b13-bf4a-4b300a6c18da&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.09.07-08.34.09:251][455]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2020.09.07-08.34.09:253][455]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2020.09.07-08.34.09:255][455]LogModuleManager: Shutting down and abandoning module Media (45)
+[2020.09.07-08.34.09:261][455]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2020.09.07-08.34.09:261][455]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2020.09.07-08.34.09:262][455]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.09.07-08.34.09:262][455]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.09.07-08.34.09:262][455]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.09.07-08.34.09:263][455]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.09.07-08.34.09:263][455]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.09.07-08.34.09:263][455]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.09.07-08.34.09:263][455]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.09.07-08.34.09:265][455]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.09.07-08.34.09:266][455]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.09.07-08.34.09:266][455]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.09.07-08.34.09:266][455]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.09.07-08.34.09:266][455]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.09.07-08.34.09:266][455]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.09.07-08.34.09:266][455]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.09.07-08.34.09:266][455]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.09.07-08.34.09:266][455]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.09.07-08.34.09:266][455]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.09.07-08.34.09:266][455]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.09.07-08.34.09:266][455]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.09.07-08.34.09:287][455]LogExit: Exiting.
+[2020.09.07-08.34.09:296][455]Log file closed, 09/07/20 17:34:09

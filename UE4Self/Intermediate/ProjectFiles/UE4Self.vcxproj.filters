@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UE4Self.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D3557E7E-F535-49F2-BF59-289BFD4D906F}</UniqueIdentifier>
+      <UniqueIdentifier>{206D85EC-CB1D-4BC8-A701-C51256331E52}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UE4Self.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5673CDB2-322D-4151-9F7B-910BB711BDD3}</UniqueIdentifier>
+      <UniqueIdentifier>{3E7DBC57-0DC7-4C91-AF17-70869DFB7D58}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UE4Self">
-      <UniqueIdentifier>{184A1980-545B-4690-833D-93D9DF7F33A1}</UniqueIdentifier>
+      <UniqueIdentifier>{4BDF29E8-467D-4CE5-AC60-98A36635059F}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UE4Self\SpinMush.cpp">
+      <Filter>Source\UE4Self</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4Self\SpinMush.h">
+      <Filter>Source\UE4Self</Filter>
+    </ClInclude>
     <None Include="..\..\Source\UE4Self\UE4Self.Build.cs">
       <Filter>Source\UE4Self</Filter>
     </None>
