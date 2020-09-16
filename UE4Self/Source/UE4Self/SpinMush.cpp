@@ -32,6 +32,7 @@ ASpinMush::ASpinMush()
 void ASpinMush::BeginPlay()
 {
 	Super::BeginPlay();
+	UE_LOG(LogTemp, Warning, TEXT("Actor Location : %s"), *GetActorLocation().ToString()); //must use Pointer
 }
 
 // Called every frame
