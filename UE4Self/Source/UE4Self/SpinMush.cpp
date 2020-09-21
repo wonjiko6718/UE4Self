@@ -11,10 +11,14 @@ ASpinMush::ASpinMush()
 
 	Body = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BODY"));
 	PlusBody = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PLUSBODY"));
+	Trigger = CreateDefaultSubobject<UBoxComponent>(TEXT("TRIGGER"));
 
 	RootComponent = Body; // Main component
 	PlusBody->SetupAttachment(Body); // Use PlusBody for Son
+	Trigger->SetupAttachment(Body);
 	PlusBody->SetRelativeLocation(FVector(50.0f, 0.0f, 80.0f));
+	Trigger->SetBoxExtent(FVector(80.0f,80.0f,80.0f));
+	Trigger->SetRelativeLocation(FVector(0.0f,0.0f,80.0f));
 
 	ConstructorHelpers::FObjectFinder<UStaticMesh> Table_Body(TEXT("/Game/PolygonTown/Meshes/Props/SM_Prop_Outdoor_Table_01.SM_Prop_Outdoor_Table_01")); // Find Object
 	ConstructorHelpers::FObjectFinder<UStaticMesh> Table_Obj(TEXT("/Game/PolygonTown/Meshes/Props/SM_Prop_Plant_01.SM_Prop_Plant_01")); // Find Object

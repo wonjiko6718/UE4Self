@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeSpinMush() {}
 	UE4SELF_API UClass* Z_Construct_UClass_ASpinMush();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_UE4Self();
+	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void ASpinMush::StaticRegisterNativesASpinMush()
@@ -32,6 +33,10 @@ void EmptyLinkFunctionForGeneratedCodeSpinMush() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Trigger_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Trigger;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlusBody_MetaData[];
 #endif
@@ -55,6 +60,14 @@ void EmptyLinkFunctionForGeneratedCodeSpinMush() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpinMush_Statics::NewProp_Trigger_MetaData[] = {
+		{ "Category", "SpinMush" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "SpinMush.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASpinMush_Statics::NewProp_Trigger = { "Trigger", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpinMush, Trigger), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASpinMush_Statics::NewProp_Trigger_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASpinMush_Statics::NewProp_Trigger_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpinMush_Statics::NewProp_PlusBody_MetaData[] = {
 		{ "Category", "SpinMush" },
 		{ "EditInline", "true" },
@@ -71,6 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeSpinMush() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASpinMush_Statics::NewProp_Body = { "Body", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpinMush, Body), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASpinMush_Statics::NewProp_Body_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASpinMush_Statics::NewProp_Body_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASpinMush_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASpinMush_Statics::NewProp_Trigger,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASpinMush_Statics::NewProp_PlusBody,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASpinMush_Statics::NewProp_Body,
 	};
@@ -101,7 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeSpinMush() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASpinMush, 3339480097);
+	IMPLEMENT_CLASS(ASpinMush, 1419180922);
 	template<> UE4SELF_API UClass* StaticClass<ASpinMush>()
 	{
 		return ASpinMush::StaticClass();

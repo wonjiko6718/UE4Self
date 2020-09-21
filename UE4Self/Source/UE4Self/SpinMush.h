@@ -27,6 +27,8 @@ public:
 		UStaticMeshComponent* Body;
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* PlusBody;
+	UPROPERTY(VisibleAnywhere)
+		UBoxComponent* Trigger;
 
 };
 
