@@ -372,6 +372,8 @@
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <ClCompile Include="..\..\Source\UE4Self\ComponActor.cpp"/>
+    <ClInclude Include="..\..\Source\UE4Self\ComponActor.h"/>
     <ClCompile Include="..\..\Source\UE4Self\SpinMush.cpp"/>
     <ClInclude Include="..\..\Source\UE4Self\SpinMush.h"/>
     <None Include="..\..\Source\UE4Self\UE4Self.Build.cs"/>
