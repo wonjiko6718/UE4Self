@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UE4Self.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D3A280D8-1C28-4CFD-BF68-E780DF962EF8}</UniqueIdentifier>
+      <UniqueIdentifier>{F893051F-C22C-44CC-B6ED-5C79C460BE19}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UE4Self.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BDC5A8F5-697C-41E4-A4F3-25ED7E8E4608}</UniqueIdentifier>
+      <UniqueIdentifier>{AC15CEDA-9812-4389-8817-374374A896C2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UE4Self">
-      <UniqueIdentifier>{F7713EAF-30FD-49D5-80FB-13C09965164B}</UniqueIdentifier>
+      <UniqueIdentifier>{4E29C935-FD24-4CC1-9842-D50B6193EF8D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UE4Self\ComponActor.cpp">
       <Filter>Source\UE4Self</Filter>
@@ -42,6 +42,12 @@
       <Filter>Source\UE4Self</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\UE4Self\SpinMush.h">
+      <Filter>Source\UE4Self</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4Self\TriggerAct.cpp">
+      <Filter>Source\UE4Self</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4Self\TriggerAct.h">
       <Filter>Source\UE4Self</Filter>
     </ClInclude>
     <None Include="..\..\Source\UE4Self\UE4Self.Build.cs">

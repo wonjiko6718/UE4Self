@@ -376,6 +376,8 @@
     <ClInclude Include="..\..\Source\UE4Self\ComponActor.h"/>
     <ClCompile Include="..\..\Source\UE4Self\SpinMush.cpp"/>
     <ClInclude Include="..\..\Source\UE4Self\SpinMush.h"/>
+    <ClCompile Include="..\..\Source\UE4Self\TriggerAct.cpp"/>
+    <ClInclude Include="..\..\Source\UE4Self\TriggerAct.h"/>
     <None Include="..\..\Source\UE4Self\UE4Self.Build.cs"/>
     <ClCompile Include="..\..\Source\UE4Self\UE4Self.cpp"/>
     <ClInclude Include="..\..\Source\UE4Self\UE4Self.h"/>

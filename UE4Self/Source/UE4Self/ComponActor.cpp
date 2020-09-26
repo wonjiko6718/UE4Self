@@ -35,4 +35,4 @@ void AComponActor::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
-
+//next->Practice delegate
