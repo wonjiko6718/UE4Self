@@ -14,10 +14,11 @@ class UE4SELF_API ATriggerAct : public AActor
 public:	
 	// Sets default values for this actor's properties
 	ATriggerAct();
-
+	// add GetOverlapping Actors
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	//void GetOverlappingActors(TArray < AActor*>& OverlappingActors,TSubclassOf < AActor > ClassFilter) const override;
 
 public:	
 	// Called every frame
