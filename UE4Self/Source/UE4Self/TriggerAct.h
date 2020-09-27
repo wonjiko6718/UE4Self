@@ -24,4 +24,6 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	UPROPERTY(VisibleAnywhere)
 		UBoxComponent* TA_Body;
+	UPROPERTY(VisibleAnywhere)
+		UStaticMeshComponent* TA_Ceiling;
 };

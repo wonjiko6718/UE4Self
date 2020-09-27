@@ -6,6 +6,7 @@
 // Sets default values
 AComponActor::AComponActor()
 {
+	this->Tags.AddUnique(TEXT("PiObj"));
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
@@ -25,7 +26,7 @@ void AComponActor::BeginPlay()
 	Super::BeginPlay();
 	UE_LOG(LogTemp, Warning, TEXT("CA_Body Location : %s"), *GetActorLocation().ToString());
 	UE_LOG(LogTemp, Warning, TEXT("CA_Body Scale : %s"), *GetActorScale().ToString());
-	UE_LOG(LogTemp, Warning, TEXT("CA_Body Scale3D : %s"), *GetActorScale3D().ToString());
+	UE_LOG(LogTemp, Warning, TEXT("CA_Actor Tag : %s"));
 	
 }
 

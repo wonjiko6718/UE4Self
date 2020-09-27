@@ -9,7 +9,6 @@ ASpinMush::ASpinMush()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 	Body = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BODY"));
 	PlusBody = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PLUSBODY"));
 	Trigger = CreateDefaultSubobject<UBoxComponent>(TEXT("TRIGGERCollider"));
@@ -37,6 +36,7 @@ void ASpinMush::BeginPlay()
 {
 	Super::BeginPlay();
 	UE_LOG(LogTemp, Warning, TEXT("Actor Location : %s"), *GetActorLocation().ToString()); //must use Pointer
+	UE_LOG(LogTemp, Warning, TEXT("Actor Tag : %s"));
 }
 // Called every frame
 void ASpinMush::Tick(float DeltaTime)
