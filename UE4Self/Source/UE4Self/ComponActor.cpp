@@ -26,7 +26,7 @@ void AComponActor::BeginPlay()
 	Super::BeginPlay();
 	UE_LOG(LogTemp, Warning, TEXT("CA_Body Location : %s"), *GetActorLocation().ToString());
 	UE_LOG(LogTemp, Warning, TEXT("CA_Body Scale : %s"), *GetActorScale().ToString());
-	UE_LOG(LogTemp, Warning, TEXT("CA_Actor Tag : %s"));
+	UE_LOG(LogTemp, Warning, TEXT("CA_Actor Tag : %s"), *Tags[0].ToString());
 	
 }
 

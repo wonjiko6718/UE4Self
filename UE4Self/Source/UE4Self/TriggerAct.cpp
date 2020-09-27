@@ -2,7 +2,6 @@
 
 
 #include "TriggerAct.h"
-
 // Sets default values
 ATriggerAct::ATriggerAct()
 {
@@ -26,13 +25,25 @@ ATriggerAct::ATriggerAct()
 void ATriggerAct::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	GetObj();
 }
 
 // Called every frame
 void ATriggerAct::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
+void ATriggerAct::GetObj()
+{
+	TArray <AActor*> InZone;
+	GetOverlappingActors(InZone, TSubclassOf <AActor>());
+	if (InZone.Num() == 1)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("InZone Something"));
+	}
+	else if (InZone.Num() >= 2)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("InZone 2 Something"));
+	}
 
 }
-
