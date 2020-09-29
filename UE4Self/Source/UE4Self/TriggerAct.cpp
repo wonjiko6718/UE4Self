@@ -25,21 +25,26 @@ ATriggerAct::ATriggerAct()
 void ATriggerAct::BeginPlay()
 {
 	Super::BeginPlay();
-	GetObj();
 }
 
 // Called every frame
 void ATriggerAct::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	GetObj();
 }
 void ATriggerAct::GetObj()
 {
 	TArray <AActor*> InZone;
+	TArray <FVector> InZoneVec;
 	GetOverlappingActors(InZone, TSubclassOf <AActor>());
 	if (InZone.Num() == 1)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("InZone Something"));
+		//InZoneVec.Add(InZone[0]->GetActorLocation()); C3867 <-
+		InZone[0]->SetActorLocation(FVector(1510.0f, -930.0f, 300.0f));
+		UE_LOG(LogTemp, Warning, TEXT("InZone Something End"));
+		//UE_LOG(LogTemp, Warning, TEXT("InZone Something Array Location : %s"),InZoneVec[0].ToString());
 	}
 	else if (InZone.Num() >= 2)
 	{
