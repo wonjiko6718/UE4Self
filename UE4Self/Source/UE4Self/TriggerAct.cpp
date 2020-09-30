@@ -41,6 +41,7 @@ void ATriggerAct::GetObj()
 	if (InZone.Num() == 1)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("InZone Something"));
+		UE_LOG(LogTemp, Warning, TEXT("InZone Something Tag:"),InZone[0]->Tags[0].ToString());
 		//InZoneVec.Add(InZone[0]->GetActorLocation()); C3867 <-
 		InZone[0]->SetActorLocation(FVector(1510.0f, -930.0f, 300.0f));
 		UE_LOG(LogTemp, Warning, TEXT("InZone Something End"));
