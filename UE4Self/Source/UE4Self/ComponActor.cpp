@@ -12,6 +12,7 @@ AComponActor::AComponActor()
 
 	ComponActorBody = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("COMPONACTOR BODY"));
 	RootComponent = ComponActorBody;
+	ComponActorBody->SetSimulatePhysics(true);
 	ConstructorHelpers::FObjectFinder<UStaticMesh> CA_Body(TEXT("/Game/PolygonTown/Meshes/Props/SM_Prop_Propane_Tall_02.SM_Prop_Propane_Tall_02"));
 	SetActorScale3D(FVector(2.0f, 2.0f, 2.0f));
 	if (CA_Body.Succeeded())
@@ -24,9 +25,9 @@ AComponActor::AComponActor()
 void AComponActor::BeginPlay()
 {
 	Super::BeginPlay();
-	UE_LOG(LogTemp, Warning, TEXT("CA_Body Location : %s"), *GetActorLocation().ToString());
-	UE_LOG(LogTemp, Warning, TEXT("CA_Body Scale : %s"), *GetActorScale().ToString());
-	UE_LOG(LogTemp, Warning, TEXT("CA_Actor Tag : %s"), *Tags[0].ToString());
+	//UE_LOG(LogTemp, Warning, TEXT("CA_Body Location : %s"), *GetActorLocation().ToString());
+	//UE_LOG(LogTemp, Warning, TEXT("CA_Body Scale : %s"), *GetActorScale().ToString());
+	//UE_LOG(LogTemp, Warning, TEXT("CA_Actor Tag : %s"), *Tags[0].ToString());
 	
 }
 
