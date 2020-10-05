@@ -56,3 +56,7 @@ void ATriggerAct::GetObj()
 		UE_LOG(LogTemp, Warning, TEXT("InZone Trigger End"));
 	}
 }
+void ATriggerAct::NotifyActorBeginOverlap(AActor* OtherActor)
+{
+	GetObj();
+}
