@@ -34,7 +34,7 @@ void ASpawnCPActor::ActivateFun()
 	UE_LOG(LogTemp, Warning, TEXT("SCPAA_Body Location : %s"), *MainLocation.ToString());
 	for (int i = 0; i < SpawnCount; i++)
 	{
-		FVector SpawnLocation = MainLocation-FVector((35.0f*SpawnCount)-(70.0f*i), 0.0f, 0.0f);
+		FVector SpawnLocation = MainLocation-FVector((35.0f*SpawnCount)-(70.0f*i), 0.0f, -(20.0f*i));
 		GetWorld()->SpawnActor<AComponActor>(AComponActor::StaticClass(), SpawnLocation, MainRotator);
 	}
 }
