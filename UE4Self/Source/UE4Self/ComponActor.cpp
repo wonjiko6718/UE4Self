@@ -9,12 +9,12 @@ AComponActor::AComponActor()
 	this->Tags.AddUnique(TEXT("PiObj"));
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 	ComponActorBody = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("COMPONACTOR BODY"));
 	RootComponent = ComponActorBody;
 	ComponActorBody->SetSimulatePhysics(true);
+	int32 RandScaleZ = FMath::RandRange(1.0f, 7.0f);
 	ConstructorHelpers::FObjectFinder<UStaticMesh> CA_Body(TEXT("/Game/PolygonTown/Meshes/Props/SM_Prop_Propane_Tall_02.SM_Prop_Propane_Tall_02"));
-	SetActorScale3D(FVector(2.0f, 2.0f, 2.0f));
+	SetActorScale3D(FVector(2.0f, 2.0f,RandScaleZ));
 	if (CA_Body.Succeeded())
 	{
 		ComponActorBody->SetStaticMesh(CA_Body.Object);
@@ -35,6 +35,6 @@ void AComponActor::BeginPlay()
 void AComponActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	SetActorRotation(FRotator(0.0f, 0.0f, 0.0f));
 }
 //next->Practice delegate

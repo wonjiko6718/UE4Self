@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UE4Self.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F893051F-C22C-44CC-B6ED-5C79C460BE19}</UniqueIdentifier>
+      <UniqueIdentifier>{4F52A04E-1EF0-443A-A778-07BD2D25BB5B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UE4Self.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{AC15CEDA-9812-4389-8817-374374A896C2}</UniqueIdentifier>
+      <UniqueIdentifier>{8B9C8D6C-1346-40D2-AAFE-BB56B06D2D2C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,12 +30,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UE4Self">
-      <UniqueIdentifier>{4E29C935-FD24-4CC1-9842-D50B6193EF8D}</UniqueIdentifier>
+      <UniqueIdentifier>{3675FE95-192D-4547-B543-F788AA4D34A9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UE4Self\ComponActor.cpp">
       <Filter>Source\UE4Self</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\UE4Self\ComponActor.h">
+      <Filter>Source\UE4Self</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4Self\SpawnCPActor.cpp">
+      <Filter>Source\UE4Self</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4Self\SpawnCPActor.h">
       <Filter>Source\UE4Self</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\UE4Self\SpinMush.cpp">
