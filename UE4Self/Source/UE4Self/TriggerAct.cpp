@@ -36,6 +36,7 @@ void ATriggerAct::Tick(float DeltaTime)
 void ATriggerAct::GetObj()
 {
 	FVector BodyVec = this->GetActorLocation();
+	FVector SaveVec;
 	TArray <AActor*> InZone;
 	TArray <FVector> InZoneVec;
 	GetOverlappingActors(InZone, TSubclassOf <AActor>());
@@ -49,11 +50,26 @@ void ATriggerAct::GetObj()
 		UE_LOG(LogTemp, Warning, TEXT("InZone Array Size : %d"),InZoneCount);
 		for (int i = 0; i < InZoneCount; i++)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("InZone Array Object Name : %s") , *InZone[i]->GetName());
-			UE_LOG(LogTemp, Warning, TEXT("InZone Array Object Size : %s"), *InZone[i]->GetActorScale().ToString());
 			InZone[i]->SetActorLocation(FVector(BodyVec.X-440.0f+(70*i),BodyVec.Y-130.0f,BodyVec.Z-330.0f));
 		}
 		UE_LOG(LogTemp, Warning, TEXT("InZone Trigger End"));
+	}
+	if (InZoneCount == 12) // Active Bubble Sort
+	{
+		for (int j = 0; j < InZoneCount - 1; j++)
+		{
+			for (int z = 0; z < InZoneCount - j -1; z++)
+			{
+				UE_LOG(LogTemp, Warning, TEXT("Search Index : %d"),z);
+				if (InZone[z]->GetActorScale().Z > InZone[z + 1]->GetActorScale().Z)
+				{
+					SaveVec = InZone[z + 1]->GetActorLocation();
+					InZone[z + 1]->SetActorLocation(FVector(SaveVec.X,SaveVec.Y+150,SaveVec.Z));
+					InZone[z]->SetActorLocation(SaveVec);
+					InZone[z + 1]->SetActorLocation(FVector(SaveVec.X, SaveVec.Y, SaveVec.Z));
+				}
+			}
+		}
 	}
 }
 void ATriggerAct::NotifyActorBeginOverlap(AActor* OtherActor)
