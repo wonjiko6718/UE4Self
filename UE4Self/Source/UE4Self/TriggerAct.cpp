@@ -39,6 +39,7 @@ void ATriggerAct::GetObj()
 	FVector SaveVec;
 	TArray <AActor*> InZone;
 	TArray <FVector> InZoneVec;
+	AActor *SaveObj;
 	GetOverlappingActors(InZone, TSubclassOf <AActor>());
 	int32 InZoneCount = InZone.Num();
 
@@ -63,10 +64,15 @@ void ATriggerAct::GetObj()
 				UE_LOG(LogTemp, Warning, TEXT("Search Index : %d"),z);
 				if (InZone[z]->GetActorScale().Z > InZone[z + 1]->GetActorScale().Z)
 				{
-					SaveVec = InZone[z + 1]->GetActorLocation();
-					InZone[z + 1]->SetActorLocation(FVector(SaveVec.X,SaveVec.Y+150,SaveVec.Z));
-					InZone[z]->SetActorLocation(SaveVec);
-					InZone[z + 1]->SetActorLocation(FVector(SaveVec.X, SaveVec.Y, SaveVec.Z));
+					UE_LOG(LogTemp, Warning, TEXT("Sort Activate"));
+					 // Crash cause of Move so fast
+					//SaveVec = InZone[z + 1]->GetActorLocation();
+					//InZone[z + 1]->SetActorLocation(FVector(0.0f,0.0f,0.0f));
+					//InZone[z]->SetActorLocation(SaveVec);
+					//InZone[z + 1]->SetActorLocation(FVector(SaveVec.X-70, SaveVec.Y, SaveVec.Z));
+					SaveObj = InZone[z+1];
+					InZone[z+1] = InZone[z];
+					InZone[z] = SaveObj;
 				}
 			}
 		}
