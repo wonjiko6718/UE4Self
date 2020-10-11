@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UE4Self.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4F52A04E-1EF0-443A-A778-07BD2D25BB5B}</UniqueIdentifier>
+      <UniqueIdentifier>{913A7C37-6954-4C22-A91D-A7618E0C0443}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UE4Self.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8B9C8D6C-1346-40D2-AAFE-BB56B06D2D2C}</UniqueIdentifier>
+      <UniqueIdentifier>{3FDA91EF-1AE0-4878-A1CB-8F3D33A3A595}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UE4Self">
-      <UniqueIdentifier>{3675FE95-192D-4547-B543-F788AA4D34A9}</UniqueIdentifier>
+      <UniqueIdentifier>{C9DB9B63-2C7B-403F-AD6B-BDA476E266CA}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UE4Self\CommonFloor.cpp">
+      <Filter>Source\UE4Self</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4Self\CommonFloor.h">
+      <Filter>Source\UE4Self</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\UE4Self\ComponActor.cpp">
       <Filter>Source\UE4Self</Filter>
     </ClCompile>
