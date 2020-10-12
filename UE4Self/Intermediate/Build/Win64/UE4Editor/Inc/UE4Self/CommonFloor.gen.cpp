@@ -33,6 +33,22 @@ void EmptyLinkFunctionForGeneratedCodeCommonFloor() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CommonFloor_WallRight_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CommonFloor_WallRight;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CommonFloor_WallLeft_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CommonFloor_WallLeft;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CommonFloor_WallDown_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CommonFloor_WallDown;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CommonFloor_WallUp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CommonFloor_WallUp;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CommonFloor_body_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CommonFloor_body;
@@ -51,6 +67,38 @@ void EmptyLinkFunctionForGeneratedCodeCommonFloor() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallRight_MetaData[] = {
+		{ "Category", "CommonFloor" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CommonFloor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallRight = { "CommonFloor_WallRight", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACommonFloor, CommonFloor_WallRight), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallRight_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallRight_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallLeft_MetaData[] = {
+		{ "Category", "CommonFloor" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CommonFloor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallLeft = { "CommonFloor_WallLeft", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACommonFloor, CommonFloor_WallLeft), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallLeft_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallLeft_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallDown_MetaData[] = {
+		{ "Category", "CommonFloor" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CommonFloor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallDown = { "CommonFloor_WallDown", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACommonFloor, CommonFloor_WallDown), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallDown_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallDown_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallUp_MetaData[] = {
+		{ "Category", "CommonFloor" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CommonFloor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallUp = { "CommonFloor_WallUp", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACommonFloor, CommonFloor_WallUp), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallUp_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallUp_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_body_MetaData[] = {
 		{ "Category", "CommonFloor" },
 		{ "EditInline", "true" },
@@ -59,6 +107,10 @@ void EmptyLinkFunctionForGeneratedCodeCommonFloor() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_body = { "CommonFloor_body", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACommonFloor, CommonFloor_body), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_body_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_body_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACommonFloor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallRight,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallLeft,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallDown,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_WallUp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACommonFloor_Statics::NewProp_CommonFloor_body,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACommonFloor_Statics::StaticCppClassTypeInfo = {
@@ -88,7 +140,7 @@ void EmptyLinkFunctionForGeneratedCodeCommonFloor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACommonFloor, 1467803498);
+	IMPLEMENT_CLASS(ACommonFloor, 3145295323);
 	template<> UE4SELF_API UClass* StaticClass<ACommonFloor>()
 	{
 		return ACommonFloor::StaticClass();

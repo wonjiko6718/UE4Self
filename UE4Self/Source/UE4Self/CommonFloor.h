@@ -24,4 +24,12 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* CommonFloor_body;
+	UPROPERTY(VisibleAnywhere)
+		UStaticMeshComponent* CommonFloor_WallUp;
+	UPROPERTY(VisibleAnywhere)
+		UStaticMeshComponent* CommonFloor_WallDown;
+	UPROPERTY(VisibleAnywhere)
+		UStaticMeshComponent* CommonFloor_WallLeft;
+	UPROPERTY(VisibleAnywhere)
+		UStaticMeshComponent* CommonFloor_WallRight;
 };
