@@ -84,4 +84,14 @@
       <Filter>Source\UE4Self</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\UE4Self\Pawn_Main.h">
+      <Filter>Source\UE4Self</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\UE4Self\Pawn_Main.cpp">
+      <Filter>Source\UE4Self</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
