@@ -22,8 +22,15 @@ APawn_Main::APawn_Main()
 
 	Capsule->SetCapsuleHalfHeight(88.0f);
 	Capsule->SetCapsuleRadius(34.0f);
+	Capsule->SetSimulatePhysics(true);
+	Capsule->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+	Capsule->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Block);
+	Capsule->BodyInstance.bLockXRotation = true;
+	Capsule->BodyInstance.bLockYRotation = true;
+
 	Mesh->SetRelativeLocationAndRotation(FVector(0.0f, 0.0f, -88.0f),FRotator(0.0f,-90.0f,0.0f));
 	Mesh->SetRelativeScale3D(FVector(0.35f,0.35f,0.35f));
+
 	SpringArm->TargetArmLength = 400.0f;
 	SpringArm->SetRelativeRotation(FRotator(-15.0f, 0.0f, 0.0f));
 
@@ -55,5 +62,24 @@ void APawn_Main::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	PlayerInputComponent->BindAxis(TEXT("UpDown"), this, &APawn_Main::UpDown);
+	PlayerInputComponent->BindAxis(TEXT("LeftRight"), this, &APawn_Main::LeftRight);
+	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &APawn_Main::LookUp);
+	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &APawn_Main::Turn);
 }
-
+void APawn_Main::UpDown(float NewAxisValue)
+{
+	AddMovementInput(GetActorForwardVector(), NewAxisValue);
+}
+void APawn_Main::LeftRight(float NewAxisValue)
+{
+	AddMovementInput(GetActorRightVector(), NewAxisValue);
+}
+void APawn_Main::LookUp(float NewAxisValue)
+{
+	AddControllerPitchInput(NewAxisValue);
+}
+void APawn_Main::Turn(float NewAxisValue)
+{
+	AddControllerYawInput(NewAxisValue);
+}

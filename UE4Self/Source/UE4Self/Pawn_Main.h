@@ -37,5 +37,10 @@ public:
 	UPROPERTY(VisibleAnywhere)
 		UCameraComponent* Camera;
 		
+private:
+	void UpDown(float NewAxisValue);
+	void LeftRight(float NewAxisValue);
+	void LookUp(float NewAxisValue);
+	void Turn(float NewAxisValue);
 
 };
