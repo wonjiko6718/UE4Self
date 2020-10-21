@@ -47,6 +47,7 @@ APawn_Main::APawn_Main()
 void APawn_Main::BeginPlay()
 {
 	Super::BeginPlay();
+	this->SetActorLocation(FVector(1000.0f, -1000.0f, 200.0f));
 	
 }
 
