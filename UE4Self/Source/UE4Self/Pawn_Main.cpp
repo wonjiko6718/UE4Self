@@ -33,6 +33,8 @@ APawn_Main::APawn_Main()
 
 	SpringArm->TargetArmLength = 400.0f;
 	SpringArm->SetRelativeRotation(FRotator(-15.0f, 0.0f, 0.0f));
+	SpringArm->bUsePawnControlRotation = true;
+
 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> SK_Uni(TEXT("/Game/SelfImport/unicorn.unicorn"));
 	//SkeletalMesh'/Game/SelfImport/unicorn.unicorn'
@@ -70,11 +72,12 @@ void APawn_Main::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 }
 void APawn_Main::UpDown(float NewAxisValue)
 {
-	AddMovementInput(GetActorForwardVector(), NewAxisValue);
+	AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::X), NewAxisValue);
+	//GetActorForwardVector(), NewAxisValue
 }
 void APawn_Main::LeftRight(float NewAxisValue)
 {
-	AddMovementInput(GetActorRightVector(), NewAxisValue);
+	AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::Y), NewAxisValue);
 }
 void APawn_Main::LookUp(float NewAxisValue)
 {
