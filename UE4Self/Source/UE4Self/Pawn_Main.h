@@ -31,7 +31,7 @@ public:
 	UPROPERTY(VisibleAnywhere)
 		USkeletalMeshComponent* Mesh;
 	UPROPERTY(VisibleAnywhere)
-		UFloatingPawnMovement* Movement;
+		UPawnMovementComponent* Movement;
 	UPROPERTY(VisibleAnywhere)
 		USpringArmComponent* SpringArm;
 	UPROPERTY(VisibleAnywhere)

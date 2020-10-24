@@ -376,8 +376,10 @@
     <ClInclude Include="..\..\Source\UE4Self\CommonFloor.h" />
     <ClCompile Include="..\..\Source\UE4Self\ComponActor.cpp" />
     <ClInclude Include="..\..\Source\UE4Self\ComponActor.h" />
+    <ClCompile Include="..\..\Source\UE4Self\MainCharacter.cpp" />
     <ClCompile Include="..\..\Source\UE4Self\Pawn_Main.cpp" />
     <ClCompile Include="..\..\Source\UE4Self\SpawnCPActor.cpp" />
+    <ClInclude Include="..\..\Source\UE4Self\MainCharacter.h" />
     <ClInclude Include="..\..\Source\UE4Self\Pawn_Main.h" />
     <ClInclude Include="..\..\Source\UE4Self\SpawnCPActor.h" />
     <ClCompile Include="..\..\Source\UE4Self\SpinMush.cpp" />

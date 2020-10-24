@@ -11,7 +11,7 @@ APawn_Main::APawn_Main()
 
 	Capsule = CreateDefaultSubobject<UCapsuleComponent>(TEXT("CAPSULE"));
 	Mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("MESH"));
-	Movement = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("MOVEMENT"));
+	Movement = CreateDefaultSubobject<UPawnMovementComponent>(TEXT("MOVEMENT"));
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SPRINGARM"));
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("CAMERA"));
 
@@ -35,6 +35,7 @@ APawn_Main::APawn_Main()
 	SpringArm->SetRelativeRotation(FRotator(-15.0f, 0.0f, 0.0f));
 	SpringArm->bUsePawnControlRotation = true;
 
+	this->bUseControllerRotationYaw = true; // use to Rotate Camera = Pawn Direction
 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> SK_Uni(TEXT("/Game/SelfImport/unicorn.unicorn"));
 	//SkeletalMesh'/Game/SelfImport/unicorn.unicorn'
@@ -72,12 +73,12 @@ void APawn_Main::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 }
 void APawn_Main::UpDown(float NewAxisValue)
 {
-	AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::X), NewAxisValue);
+	AddMovementInput(GetActorForwardVector(), NewAxisValue);
 	//GetActorForwardVector(), NewAxisValue
 }
 void APawn_Main::LeftRight(float NewAxisValue)
 {
-	AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::Y), NewAxisValue);
+	AddMovementInput(GetActorRightVector(), NewAxisValue);
 }
 void APawn_Main::LookUp(float NewAxisValue)
 {

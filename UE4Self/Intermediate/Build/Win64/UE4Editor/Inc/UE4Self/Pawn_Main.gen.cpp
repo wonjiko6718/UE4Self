@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodePawn_Main() {}
 	UPackage* Z_Construct_UPackage__Script_UE4Self();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UFloatingPawnMovement_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UPawnMovementComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
 // End Cross Module References
@@ -94,7 +94,7 @@ void EmptyLinkFunctionForGeneratedCodePawn_Main() {}
 		{ "ModuleRelativePath", "Pawn_Main.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APawn_Main_Statics::NewProp_Movement = { "Movement", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APawn_Main, Movement), Z_Construct_UClass_UFloatingPawnMovement_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APawn_Main_Statics::NewProp_Movement_MetaData, ARRAY_COUNT(Z_Construct_UClass_APawn_Main_Statics::NewProp_Movement_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APawn_Main_Statics::NewProp_Movement = { "Movement", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APawn_Main, Movement), Z_Construct_UClass_UPawnMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APawn_Main_Statics::NewProp_Movement_MetaData, ARRAY_COUNT(Z_Construct_UClass_APawn_Main_Statics::NewProp_Movement_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APawn_Main_Statics::NewProp_Mesh_MetaData[] = {
 		{ "Category", "Pawn_Main" },
@@ -145,7 +145,7 @@ void EmptyLinkFunctionForGeneratedCodePawn_Main() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APawn_Main, 4257547073);
+	IMPLEMENT_CLASS(APawn_Main, 317275397);
 	template<> UE4SELF_API UClass* StaticClass<APawn_Main>()
 	{
 		return APawn_Main::StaticClass();
