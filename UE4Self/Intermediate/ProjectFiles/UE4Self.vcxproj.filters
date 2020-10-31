@@ -91,12 +91,18 @@
     <ClInclude Include="..\..\Source\UE4Self\MainCharacter.h">
       <Filter>Source\UE4Self</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\UE4Self\MainChar_Anim.h">
+      <Filter>Source\UE4Self</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\UE4Self\Pawn_Main.cpp">
       <Filter>Source\UE4Self</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\UE4Self\MainCharacter.cpp">
+      <Filter>Source\UE4Self</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4Self\MainChar_Anim.cpp">
       <Filter>Source\UE4Self</Filter>
     </ClCompile>
   </ItemGroup>

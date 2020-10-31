@@ -30,11 +30,19 @@ AMainCharacter::AMainCharacter()
 	{
 		GetMesh()->SetSkeletalMesh(SK_Uni.Object);
 	}
+	static ConstructorHelpers::FClassFinder<UAnimInstance> MC_Anim(TEXT("/Game/Animation/BP_MCAnim.BP_MCAnim_C"));
+	//AnimBlueprint'/Game/Animation/BP_MCAnim.BP_MCAnim'
+	if (MC_Anim.Succeeded())
+	{
+		UE_LOG(LogTemp,Warning, TEXT("AnimComplete"));
+		GetMesh()->SetAnimInstanceClass(MC_Anim.Class);
+	}
 }
 // Called when the game starts or when spawned
 void AMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	GetMesh()->SetAnimationMode(EAnimationMode::AnimationSingleNode);
 	//this->SetActorLocation(FVector(1000.0f, -1000.0f, 200.0f));
 }
 
