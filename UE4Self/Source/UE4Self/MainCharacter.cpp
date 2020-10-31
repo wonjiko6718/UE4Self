@@ -16,13 +16,21 @@ AMainCharacter::AMainCharacter()
 	Camera->SetupAttachment(SpringArm);
 
 	GetMesh()->SetRelativeLocationAndRotation(FVector(0.0f, 0.0f, -88.0f), FRotator(0.0f, -90.0f, 0.0f));
-	GetMesh()->SetRelativeScale3D(FVector(0.35f, 0.35f, 0.35f));
+	GetMesh()->SetRelativeScale3D(FVector(0.35f, 0.35f, 0.35f));;
+	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
 
 	SpringArm->TargetArmLength = 400.0f;
-	SpringArm->SetRelativeRotation(FRotator(-15.0f, 0.0f, 0.0f));
+	SpringArm->SetRelativeRotation(FRotator::ZeroRotator);
 	SpringArm->bUsePawnControlRotation = true;
+	SpringArm->bInheritPitch = true;
+	SpringArm->bInheritRoll = true;
+	SpringArm->bInheritYaw = true;
+	SpringArm->bDoCollisionTest = true;
 
-	this->bUseControllerRotationYaw = true; // use to Rotate Camera = Pawn Direction
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+	GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f);
+
+	this->bUseControllerRotationYaw = false; // use to Rotate Camera = Pawn Direction
 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> SK_Uni(TEXT("/Game/SelfImport/unicorn.unicorn"));
 	//SkeletalMesh'/Game/SelfImport/unicorn.unicorn'
@@ -42,7 +50,6 @@ AMainCharacter::AMainCharacter()
 void AMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	GetMesh()->SetAnimationMode(EAnimationMode::AnimationSingleNode);
 	//this->SetActorLocation(FVector(1000.0f, -1000.0f, 200.0f));
 }
 
@@ -65,12 +72,12 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 }
 void AMainCharacter::UpDown(float NewAxisValue)
 {
-	AddMovementInput(GetActorForwardVector(), NewAxisValue);
+	AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::X),NewAxisValue);
 	//GetActorForwardVector(), NewAxisValue
 }
 void AMainCharacter::LeftRight(float NewAxisValue)
 {
-	AddMovementInput(GetActorRightVector(), NewAxisValue);
+	AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::Y), NewAxisValue);
 }
 void AMainCharacter::LookUp(float NewAxisValue)
 {
