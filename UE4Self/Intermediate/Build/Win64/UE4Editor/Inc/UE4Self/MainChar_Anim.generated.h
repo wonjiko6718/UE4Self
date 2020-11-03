@@ -58,7 +58,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMainChar_Anim); \
 
 
 #define UE4Self_Source_UE4Self_MainChar_Anim_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CurrentPawnSpeed() { return STRUCT_OFFSET(UMainChar_Anim, CurrentPawnSpeed); }
+	FORCEINLINE static uint32 __PPO__CurrentPawnSpeed() { return STRUCT_OFFSET(UMainChar_Anim, CurrentPawnSpeed); } \
+	FORCEINLINE static uint32 __PPO__IsInAir() { return STRUCT_OFFSET(UMainChar_Anim, IsInAir); }
 
 
 #define UE4Self_Source_UE4Self_MainChar_Anim_h_12_PROLOG

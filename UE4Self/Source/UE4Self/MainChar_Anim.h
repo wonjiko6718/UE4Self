@@ -21,4 +21,6 @@ public:
 private:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Meta = (AllowPrivateAccess = true))
 		float CurrentPawnSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Meta = (AllowPrivateAccess = true))
+		bool IsInAir;
 };

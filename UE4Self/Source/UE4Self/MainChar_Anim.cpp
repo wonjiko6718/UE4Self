@@ -6,6 +6,7 @@
 UMainChar_Anim::UMainChar_Anim()
 {
 	CurrentPawnSpeed = 0.0f;
+	IsInAir = false;
 }
 void UMainChar_Anim::NativeUpdateAnimation(float DeltaSeconds)
 {
@@ -15,5 +16,10 @@ void UMainChar_Anim::NativeUpdateAnimation(float DeltaSeconds)
 	if (::IsValid(Pawn))
 	{
 		CurrentPawnSpeed = Pawn->GetVelocity().Size();
+		auto Character = Cast<ACharacter>(Pawn);
+		if (Character)
+		{
+			IsInAir = Character->GetMovementComponent()->IsFalling();
+		}
 	}
 }
