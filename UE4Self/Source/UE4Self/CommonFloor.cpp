@@ -9,6 +9,8 @@ ACommonFloor::ACommonFloor()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	this->Tags.AddUnique(TEXT("Floor"));
+
 	CommonFloor_body = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("COMMONFLOOR_BODY"));
 	CommonFloor_WallUp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("COMMONFLOOR_WALLUP"));
 	CommonFloor_WallDown = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("COMMONFLOOR_WALLDOWN"));

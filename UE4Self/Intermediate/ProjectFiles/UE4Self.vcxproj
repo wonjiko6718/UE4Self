@@ -372,7 +372,9 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
+    <ClCompile Include="..\..\Source\UE4Self\CollectCoffee.cpp" />
     <ClCompile Include="..\..\Source\UE4Self\CommonFloor.cpp" />
+    <ClInclude Include="..\..\Source\UE4Self\CollectCoffee.h" />
     <ClInclude Include="..\..\Source\UE4Self\CommonFloor.h" />
     <ClCompile Include="..\..\Source\UE4Self\ComponActor.cpp" />
     <ClInclude Include="..\..\Source\UE4Self\ComponActor.h" />

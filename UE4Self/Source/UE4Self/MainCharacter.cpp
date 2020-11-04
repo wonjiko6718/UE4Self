@@ -32,6 +32,7 @@ AMainCharacter::AMainCharacter()
 	GetCharacterMovement()->JumpZVelocity = 800.0f;
 
 	this->bUseControllerRotationYaw = false; // use to Rotate Camera = Pawn Direction
+	this->Tags.AddUnique(TEXT("Player"));
 
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> SK_Uni(TEXT("/Game/SelfImport/unicorn.unicorn"));
 	//SkeletalMesh'/Game/SelfImport/unicorn.unicorn'
