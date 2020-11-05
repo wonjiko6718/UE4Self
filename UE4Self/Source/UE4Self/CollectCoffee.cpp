@@ -53,17 +53,21 @@ void ACollectCoffee::Tick(float DeltaTime)
 }
 void ACollectCoffee::CoffeeExecute()
 {
-	TArray<AActor*> CoffeeOverlapActors; // must Use Pointer
-	int32 CoffeeOverlapActorsLen = CoffeeOverlapActors.Num();
+	TArray<AActor*> CoffeeOverlapActors;
 	GetOverlappingActors(CoffeeOverlapActors, TSubclassOf<AActor>());
-	if (CoffeeOverlapActors[CoffeeOverlapActorsLen-1]->ActorHasTag(FName(TEXT("Player"))))
+	int32 CoffeeOverlapActorsLen = CoffeeOverlapActors.Num();
+	if (CoffeeOverlapActorsLen >= 2)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Search Index : %s"), *CoffeeOverlapActors[1]->GetName());
-		CoffeeEndEffect->Activate(true);
-		CoffeeTrigger->SetHiddenInGame(true, true);
-		CoffeeBody->SetSimulatePhysics(false);
-		CoffeeBody->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-		CoffeeEndEffect->OnSystemFinished.AddDynamic(this, &ACollectCoffee::OnEffectFinished);
+		UE_LOG(LogTemp, Warning, TEXT("Search Player : %s"), *CoffeeOverlapActors[CoffeeOverlapActorsLen-1]->GetClass()->GetName());
+		if (CoffeeOverlapActors[CoffeeOverlapActorsLen - 1]->GetClass()->GetName() == "MainCharacter")
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Player Notify"));
+			CoffeeEndEffect->Activate(true);
+			CoffeeTrigger->SetHiddenInGame(true, true);
+			CoffeeBody->SetSimulatePhysics(false);
+			CoffeeBody->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+			CoffeeEndEffect->OnSystemFinished.AddDynamic(this, &ACollectCoffee::OnEffectFinished);
+		}
 	}
 }
 void ACollectCoffee::NotifyActorBeginOverlap(AActor* OtherActor)

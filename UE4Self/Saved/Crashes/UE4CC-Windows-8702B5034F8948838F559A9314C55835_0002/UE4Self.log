@@ -1,0 +1,1395 @@
+﻿Log file open, 11/04/20 17:52:57
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: UE4Self
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.552672
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Engine.ini]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Engine.ini]
+[2020.11.04-08.52.58:230][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Engine.ini]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Engine.ini]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.04-08.52.58:230][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Engine.ini]
+[2020.11.04-08.52.58:230][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Engine.ini]
+[2020.11.04-08.52.58:235][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.04-08.52.58:235][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.04-08.52.58:235][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.04-08.52.58:235][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.04-08.52.58:247][  0]LogHAL: Display: Platform has ~ 16 GB [17073135616 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.04-08.52.58:247][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.11.04-08.52.58:247][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.04-08.52.58:247][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.11.04-08.52.58:247][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.04-08.52.58:247][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.04-08.52.58:247][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.11.04-08.52.58:247][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Scalability.ini]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.04-08.52.58:248][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.04-08.52.58:248][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.04-08.52.58:249][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.04-08.52.58:249][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Config/Windows/Engine.ini]
+[2020.11.04-08.52.58:249][  0]LogInit: Computer: LAPTOP-1UG54T2R
+[2020.11.04-08.52.58:249][  0]LogInit: User: wonji
+[2020.11.04-08.52.58:249][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.11.04-08.52.58:249][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.04-08.52.58:249][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.11.04-08.52.58:249][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.04-08.52.58:249][  0]LogMemory: Process Physical Memory: 99.40 MB used, 99.41 MB peak
+[2020.11.04-08.52.58:249][  0]LogMemory: Process Virtual Memory: 89.68 MB used, 89.68 MB peak
+[2020.11.04-08.52.58:249][  0]LogMemory: Physical Memory: 5715.48 MB used,  10566.73 MB free, 16282.21 MB total
+[2020.11.04-08.52.58:249][  0]LogMemory: Virtual Memory: 4660.91 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2020.11.04-08.52.58:266][  0]LogInit: Using OS detected language (ko-KR).
+[2020.11.04-08.52.58:266][  0]LogInit: Using OS detected locale (ko-KR).
+[2020.11.04-08.52.58:266][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2020.11.04-08.52.58:327][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.04-08.52.58:363][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.04-08.52.58:363][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.04-08.52.58:522][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.04-08.52.58:522][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.04-08.52.58:609][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (Feature Level 11_0)
+[2020.11.04-08.52.58:609][  0]LogD3D11RHI:       8010/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.11.04-08.52.58:633][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.11.04-08.52.58:633][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.11.04-08.52.58:634][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.04-08.52.58:634][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.04-08.52.58:634][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.04-08.52.58:665][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.04-08.52.58:665][  0]LogD3D11RHI:     GPU DeviceId: 0x1e90 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.04-08.52.58:665][  0]LogWindows: EnumDisplayDevices:
+[2020.11.04-08.52.58:665][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.11.04-08.52.58:665][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.11.04-08.52.58:666][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.11.04-08.52.58:666][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:1)
+[2020.11.04-08.52.58:666][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2020.11.04-08.52.58:666][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2020.11.04-08.52.58:666][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2020.11.04-08.52.58:667][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.11.04-08.52.58:667][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 with Max-Q Design
+[2020.11.04-08.52.58:667][  0]LogD3D11RHI:   Driver Version: 425.45 (internal:25.21.14.2545, unified:425.45)
+[2020.11.04-08.52.58:667][  0]LogD3D11RHI:      Driver Date: 4-23-2019
+[2020.11.04-08.52.58:667][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.11.04-08.52.58:724][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.04-08.52.58:727][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.11.04-08.52.58:727][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.11.04-08.52.58:727][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.11.04-08.52.58:734][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.04-08.52.59:061][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.11.04-08.52.59:073][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.11.04-08.52.59:085][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.11.04-08.52.59:098][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.11.04-08.52.59:110][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.11.04-08.52.59:122][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.11.04-08.52.59:134][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.04-08.52.59:146][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.11.04-08.52.59:152][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.11.04-08.52.59:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.11.04-08.52.59:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.11.04-08.52.59:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.11.04-08.52.59:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.11.04-08.52.59:219][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.11.04-08.52.59:219][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.11.04-08.52.59:219][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.11.04-08.52.59:219][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.11.04-08.52.59:219][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.11.04-08.52.59:219][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.04-08.52.59:219][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.11.04-08.52.59:219][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.11.04-08.52.59:219][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.11.04-08.52.59:219][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.11.04-08.52.59:219][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.04-08.52.59:219][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.11.04-08.52.59:219][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.11.04-08.52.59:219][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.11.04-08.52.59:220][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.11.04-08.52.59:265][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.11.04-08.52.59:265][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.11.04-08.52.59:284][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.11.04-08.52.59:284][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.11.04-08.52.59:294][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.11.04-08.52.59:304][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.04-08.52.59:314][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.11.04-08.52.59:324][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.11.04-08.52.59:358][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.11.04-08.52.59:358][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.11.04-08.52.59:358][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.04-08.52.59:366][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.04-08.52.59:415][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Intermediate/Shaders/WorkingDirectory/6552/).
+[2020.11.04-08.52.59:415][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/wonji/AppData/Local/Temp/UnrealShaderWorkingDir/BFFCDA194B5287A65B895F9699CDCFC0/'.
+[2020.11.04-08.52.59:417][  0]LogXGEController: Cleaning working directory: C:/Users/wonji/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.04-08.52.59:417][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.04-08.52.59:417][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.04-08.52.59:418][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.04-08.52.59:855][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.04-08.52.59:898][  0]LogDerivedDataCache: Loaded boot cache 0.04s 74MB C:/Users/wonji/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.11.04-08.52.59:898][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/wonji/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.11.04-08.52.59:898][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.04-08.52.59:898][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.04-08.52.59:898][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.04-08.52.59:898][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.04-08.52.59:908][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.04-08.52.59:908][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.04-08.52.59:908][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.04-08.52.59:921][  0]LogDerivedDataCache: Using Local data cache path C:/Users/wonji/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.04-08.52.59:921][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.04-08.52.59:921][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.04-08.52.59:940][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.11.04-08.52.59:941][  0]LogSlate: Using FreeType 2.6.0
+[2020.11.04-08.52.59:941][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.04-08.53.00:012][  0]LogAssetRegistry: FAssetRegistry took 0.0314 seconds to start up
+[2020.11.04-08.53.00:280][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.04-08.53.00:394][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.04-08.53.00:394][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.04-08.53.00:394][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.04-08.53.00:394][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.04-08.53.00:394][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.04-08.53.00:404][  0]LogNetVersion: UE4Self 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3979475100)
+[2020.11.04-08.53.00:721][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.031867 seconds
+[2020.11.04-08.53.00:725][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.11.04-08.53.00:725][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.11.04-08.53.00:725][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.04-08.53.01:385][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.04-08.53.01:399][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.04-08.53.01:664][  0]LogTemp: Warning: AnimComplete
+[2020.11.04-08.53.01:665][  0]LogUObjectGlobals: Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. MOVEMENT PawnMovementComponent
+[2020.11.04-08.53.03:020][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.355 s
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: 
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 2184]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. MOVEMENT PawnMovementComponent
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: Stack: 
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa919d4d98 UE4Editor-CoreUObject.dll!DispatchCheckVerify<bool,<lambda_66917936361af7021c9de027589ae75a> >() [d:\build\++ue4\sync\engine\source\runtime\core\public\misc\assertionmacros.h:161]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa919199fc UE4Editor-CoreUObject.dll!StaticAllocateObjectErrorTests() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:2184]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa919182dc UE4Editor-CoreUObject.dll!StaticAllocateObject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:2252]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa9191a4ef UE4Editor-CoreUObject.dll!StaticConstructObject_Internal() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:3080]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa918f6058 UE4Editor-CoreUObject.dll!FObjectInitializer::CreateDefaultSubobject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:3678]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa91853c18 UE4Editor-CoreUObject.dll!UObject::CreateDefaultSubobject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\obj.cpp:107]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa73ca9686 UE4Editor-UE4Self-0124.dll!APawn_Main::APawn_Main() [C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Source\UE4Self\Pawn_Main.cpp:14]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa916e610f UE4Editor-CoreUObject.dll!UClass::CreateDefaultObject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:3076]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa91921056 UE4Editor-CoreUObject.dll!UObjectLoadAllCompiledInDefaultProperties() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:793]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa9190edef UE4Editor-CoreUObject.dll!ProcessNewlyLoadedUObjects() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:869]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa916ea727 UE4Editor-CoreUObject.dll!TBaseStaticDelegateInstance<void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:813]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa91cb4a2b UE4Editor-Core.dll!TBaseMulticastDelegate<void>::Broadcast() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:977]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa91e85cb5 UE4Editor-Core.dll!FModuleManager::LoadModuleWithFailureReason() [d:\build\++ue4\sync\engine\source\runtime\core\private\modules\modulemanager.cpp:530]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffabe198d67 UE4Editor-Projects.dll!FModuleDescriptor::LoadModulesForPhase() [d:\build\++ue4\sync\engine\source\runtime\projects\private\moduledescriptor.cpp:596]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffabe198ff7 UE4Editor-Projects.dll!FProjectManager::LoadModulesForProject() [d:\build\++ue4\sync\engine\source\runtime\projects\private\projectmanager.cpp:63]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ff60bb07eb1 UE4Editor.exe!FEngineLoop::LoadStartupModules() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3135]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ff60bb0d671 UE4Editor.exe!FEngineLoop::PreInit() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2536]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ff60bb05377 UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:129]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ff60bb055ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ff60bb1316c UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:275]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ff60bb15b8e UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\3\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffafbef7034 KERNEL32.DLL!UnknownFunction []
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: [Callstack] 0x00007ffafde9cec1 ntdll.dll!UnknownFunction []
+[2020.11.04-08.53.03:020][  0]LogOutputDevice: Error: 
+[2020.11.04-08.53.03:030][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2020.11.04-08.53.03:290][  0]LogStats:                    SendNewReport -  0.261 s
+[2020.11.04-08.53.03:290][  0]LogStats:             FDebug::EnsureFailed -  1.626 s
+[2020.11.04-08.53.03:323][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.11.04-08.53.03:323][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.11.04-08.53.03:324][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.11.04-08.53.03:325][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.11.04-08.53.03:382][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.04-08.53.03:450][  0]LogOcInput: OculusInput pre-init called
+[2020.11.04-08.53.04:004][  0]LogEngine: Initializing Engine...
+[2020.11.04-08.53.04:005][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.04-08.53.04:005][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.11.04-08.53.04:197][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.04-08.53.04:215][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.04-08.53.04:239][  0]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-08.53.04:416][  0]LogInit: FAudioDevice initialized.
+[2020.11.04-08.53.04:416][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.04-08.53.04:714][  0]LogDerivedDataCache: Saved boot cache 0.30s 74MB C:/Users/wonji/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.11.04-08.53.04:748][  0]LogInit: Texture streaming: Enabled
+[2020.11.04-08.53.04:780][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.04-08.53.04:802][  0]LogInit: Transaction tracking system initialized
+[2020.11.04-08.53.04:829][  0]BlueprintLog: New page: 에디터 로드
+[2020.11.04-08.53.04:910][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2020.11.04-08.53.05:153][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/' took 0.02s
+[2020.11.04-08.53.05:153][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.04-08.53.05:153][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.04-08.53.05:296][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2020.11.04-08.53.05:296][  0]Cmd: MAP LOAD FILE="../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.04-08.53.05:296][  0]LightingResults: New page: 라이팅 빌드
+[2020.11.04-08.53.05:299][  0]MapCheck: New page: 맵 체크
+[2020.11.04-08.53.05:299][  0]LightingResults: New page: 라이팅 빌드
+[2020.11.04-08.53.05:326][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.11.04-08.53.05:386][  0]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-08.53.05:389][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.04-08.53.05:415][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.11.04-08.53.05:415][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.04-08.53.05:415][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.11ms.
+[2020.11.04-08.53.05:415][  0]LogFileHelpers: Loading map 'Sample' took 0.119
+[2020.11.04-08.53.05:514][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-08.53.05:520][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-08.53.05:525][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-08.53.05:531][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-08.53.05:538][  0]LogCollectionManager: Loaded 0 collections in 0.002237 seconds
+[2020.11.04-08.53.05:554][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Collections/' took 0.01s
+[2020.11.04-08.53.05:554][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/Developers/wonji/Collections/' took 0.00s
+[2020.11.04-08.53.05:554][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/Collections/' took 0.00s
+[2020.11.04-08.53.05:554][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.11.04-08.53.05:561][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2743 classes and 661 folders.
+[2020.11.04-08.53.05:568][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.04-08.53.05:569][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:569][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:570][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:570][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:570][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:571][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:571][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:571][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:572][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:572][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:572][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:574][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:574][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:574][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:576][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:576][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:576][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:577][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:577][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:577][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.11.04-08.53.05:602][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.04-08.53.05:608][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.11.04-08.53.05:655][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.04-08.53.05:657][  0]LogSlate: Took 0.001582 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2020.11.04-08.53.05:660][  0]LogSlate: Took 0.002203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2020.11.04-08.53.05:660][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.04-08.53.05:664][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.04-08.53.05:714][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2020.11.04-08.53.05:757][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.04-08.53.05:859][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.04-08.53.05:859][  0]LogLoad: (Engine Initialization) Total time: 9.75 seconds
+[2020.11.04-08.53.05:859][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.04-08.53.05:985][  0]LogAssetRegistry: Asset discovery search completed in 5.9952 seconds
+[2020.11.04-08.53.05:986][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.11.04-08.53.05:986][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2020.11.04-08.53.05:987][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.04-08.53.06:224][  1]LogUObjectGlobals: Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. MOVEMENT PawnMovementComponent
+[2020.11.04-08.53.06:557][  2]LogTemp: Warning: AnimComplete
+[2020.11.04-08.53.08:235][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-08.53.08:238][  7]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.04-08.53.08:244][  7]LogAssetEditorManager: Opening Asset editor for Class /Script/UE4Self.CollectCoffee
+[2020.11.04-08.58.29:280][954]LogHotReload: New module detected: UE4Editor-UE4Self-0126.dll
+[2020.11.04-08.58.29:625][956]LogHotReload: Starting Hot-Reload from IDE
+[2020.11.04-08.58.29:673][956]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.11.04-08.58.29:716][956]LogTemp: Warning: AnimComplete
+[2020.11.04-08.58.29:719][956]LogUObjectGlobals: Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. MOVEMENT PawnMovementComponent
+[2020.11.04-08.58.29:727][956]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2020.11.04-08.58.29:729][956]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.11.04-08.58.29:894][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.11.04-08.58.29:905][956]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2744 classes and 663 folders.
+[2020.11.04-08.58.29:913][956]Display: HotReload took  0.3s.
+[2020.11.04-08.58.32:250][ 18]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-08.58.32:264][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.58.32:264][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-08.58.32:265][ 18]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 2:58:32)
+[2020.11.04-08.58.32:277][ 18]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-08.58.32:280][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003446s)
+[2020.11.04-08.58.32:281][ 18]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-08.58.32:281][ 18]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2020.11.04-08.58.32:281][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.004602s)
+[2020.11.04-08.58.32:314][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.11.04-08.58.32:321][ 18]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-08.58.32:345][ 18]LogInit: FAudioDevice initialized.
+[2020.11.04-08.58.32:381][ 18]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-08.58.32:383][ 18]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-17.58.32
+[2020.11.04-08.58.32:383][ 18]LogWorld: Bringing up level for play took: 0.000789
+[2020.11.04-08.58.32:419][ 18]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.11.04-08.58.32:419][ 18]LogTemp: Warning: AnimComplete
+[2020.11.04-08.58.32:420][ 18]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: 0.662
+[2020.11.04-08.58.32:420][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.58.34:895][164]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.58.34:895][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-08.58.34:926][164]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-08.58.34:926][164]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.58.34:955][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-08.58.34:958][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.11.04-08.58.35:009][167]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.11.04-08.58.37:426][312]LogEditorViewport: Clicking on Actor (LMB): CollectCoffee (CollectCoffee1)
+[2020.11.04-08.58.56:328][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-08.58.56:413][662]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-08.58.56:442][662]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.58.56:442][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-08.58.56:442][662]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 2:58:56)
+[2020.11.04-08.58.56:443][662]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-08.58.56:446][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002938s)
+[2020.11.04-08.58.56:446][662]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-08.58.56:447][662]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2020.11.04-08.58.56:447][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.003953s)
+[2020.11.04-08.58.56:472][662]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.11.04-08.58.56:477][662]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-08.58.56:488][662]LogInit: FAudioDevice initialized.
+[2020.11.04-08.58.56:513][662]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-08.58.56:514][662]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-17.58.56
+[2020.11.04-08.58.56:514][662]LogWorld: Bringing up level for play took: 0.000612
+[2020.11.04-08.58.56:526][662]LogTemp: Warning: AnimComplete
+[2020.11.04-08.58.56:527][662]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: 0.769
+[2020.11.04-08.58.56:527][662]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.59.00:637][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.59.00:638][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-08.59.00:666][907]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-08.59.00:667][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.59.00:699][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-08.59.00:703][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.11.04-08.59.00:744][909]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.11.04-08.59.02:550][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-08.59.02:562][ 17]LogSlate: Took 0.008907 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.04-08.59.02:605][ 17]LogSlate: Took 0.010586 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2020.11.04-08.59.05:178][171]LogEditorViewport: Clicking on Actor (LMB): CollectCoffee (CollectCoffee1)
+[2020.11.04-08.59.07:577][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-08.59.07:644][316]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-08.59.07:666][316]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.59.07:667][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-08.59.07:667][316]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 2:59:07)
+[2020.11.04-08.59.07:667][316]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-08.59.07:669][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002001s)
+[2020.11.04-08.59.07:669][316]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-08.59.07:670][316]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2020.11.04-08.59.07:670][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.002829s)
+[2020.11.04-08.59.07:696][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.11.04-08.59.07:700][316]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-08.59.07:710][316]LogInit: FAudioDevice initialized.
+[2020.11.04-08.59.07:734][316]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-08.59.07:736][316]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-17.59.07
+[2020.11.04-08.59.07:736][316]LogWorld: Bringing up level for play took: 0.000714
+[2020.11.04-08.59.07:748][316]LogTemp: Warning: AnimComplete
+[2020.11.04-08.59.07:749][316]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: -0.009
+[2020.11.04-08.59.07:749][316]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.59.11:767][556]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.59.11:768][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-08.59.11:801][556]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-08.59.11:802][556]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.59.11:846][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-08.59.11:849][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.11.04-08.59.11:887][558]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.11.04-08.59.35:184][791]LogEditorViewport: Clicking on Actor (LMB): CollectCoffee (CollectCoffee1)
+[2020.11.04-08.59.36:823][881]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.11.04-08.59.36:856][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.11.04-08.59.36:946][881]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/SampleF1F09B98436FC8B850A81599758AD170.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample.umap'
+[2020.11.04-08.59.36:999][881]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Sample_BuiltData5C4ED018482FED8758751AAF4C2483B8.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample_BuiltData.uasset'
+[2020.11.04-08.59.37:428][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-08.59.37:511][911]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-08.59.37:523][911]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.59.37:524][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-08.59.37:524][911]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 2:59:37)
+[2020.11.04-08.59.37:524][911]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-08.59.37:526][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002074s)
+[2020.11.04-08.59.37:527][911]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-08.59.37:527][911]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2020.11.04-08.59.37:527][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.003003s)
+[2020.11.04-08.59.37:559][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.11.04-08.59.37:563][911]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-08.59.37:574][911]LogInit: FAudioDevice initialized.
+[2020.11.04-08.59.37:601][911]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-08.59.37:602][911]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-17.59.37
+[2020.11.04-08.59.37:603][911]LogWorld: Bringing up level for play took: 0.001004
+[2020.11.04-08.59.37:614][911]LogTemp: Warning: AnimComplete
+[2020.11.04-08.59.37:615][911]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: -0.143
+[2020.11.04-08.59.37:615][911]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.59.41:178][124]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.59.41:178][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-08.59.41:211][124]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-08.59.41:211][124]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-08.59.41:247][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-08.59.41:250][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.11.04-08.59.41:296][126]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.11.04-08.59.42:779][215]LogEditorViewport: Clicking on Actor (LMB): CollectCoffee (CollectCoffee1)
+[2020.11.04-09.00.10:923][664]LogSlate: Took 0.006061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.04-09.00.18:723][687]LogHotReload: New module detected: UE4Editor-UE4Self-0127.dll
+[2020.11.04-09.00.19:407][690]LogHotReload: Starting Hot-Reload from IDE
+[2020.11.04-09.00.19:446][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.11.04-09.00.19:478][690]LogHotReload: Re-instancing ComponActor after hot-reload.
+[2020.11.04-09.00.19:542][690]LogTemp: Warning: AnimComplete
+[2020.11.04-09.00.19:544][690]LogHotReload: Re-instancing MainCharacter after hot-reload.
+[2020.11.04-09.00.19:544][690]LogTemp: Warning: AnimComplete
+[2020.11.04-09.00.19:609][690]LogUObjectGlobals: Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. MOVEMENT PawnMovementComponent
+[2020.11.04-09.00.19:616][690]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2020.11.04-09.00.19:618][690]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.11.04-09.00.19:668][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.11.04-09.00.19:682][690]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2744 classes and 663 folders.
+[2020.11.04-09.00.19:684][690]Display: HotReload took  0.3s.
+[2020.11.04-09.00.21:198][695]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.00.21:392][695]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.00.21:408][695]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.00.21:408][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.00.21:408][695]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:00:21)
+[2020.11.04-09.00.21:408][695]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.00.21:410][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001927s)
+[2020.11.04-09.00.21:411][695]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.00.21:411][695]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2020.11.04-09.00.21:411][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.002920s)
+[2020.11.04-09.00.21:439][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.11.04-09.00.21:443][695]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.00.21:452][695]LogInit: FAudioDevice initialized.
+[2020.11.04-09.00.21:480][695]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.00.21:481][695]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.00.21
+[2020.11.04-09.00.21:481][695]LogWorld: Bringing up level for play took: 0.000696
+[2020.11.04-09.00.21:493][695]LogTemp: Warning: AnimComplete
+[2020.11.04-09.00.21:494][695]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: -0.263
+[2020.11.04-09.00.21:494][695]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.00.27:620][ 61]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.00.27:621][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.00.27:655][ 61]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.00.27:656][ 61]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.00.27:702][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.00.27:705][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.11.04-09.00.27:727][ 62]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.11.04-09.00.30:120][205]LogEditorViewport: Clicking on Actor (LMB): CommonFloor (CommonFloor2)
+[2020.11.04-09.00.33:783][421]LogEditorViewport: Clicking on Actor (LMB): CollectCoffee (CollectCoffee1)
+[2020.11.04-09.00.35:734][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.00.35:801][536]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.00.35:814][536]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.00.35:814][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.00.35:814][536]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:00:35)
+[2020.11.04-09.00.35:814][536]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.00.35:816][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002075s)
+[2020.11.04-09.00.35:817][536]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.00.35:817][536]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2020.11.04-09.00.35:817][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.003007s)
+[2020.11.04-09.00.35:845][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.11.04-09.00.35:851][536]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.00.35:868][536]LogInit: FAudioDevice initialized.
+[2020.11.04-09.00.35:899][536]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.00.35:900][536]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.00.35
+[2020.11.04-09.00.35:900][536]LogWorld: Bringing up level for play took: 0.000724
+[2020.11.04-09.00.35:912][536]LogTemp: Warning: AnimComplete
+[2020.11.04-09.00.35:913][536]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: 0.156
+[2020.11.04-09.00.35:913][536]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.00.37:693][642]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.00.37:693][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.00.37:724][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.00.37:724][642]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.00.37:753][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.00.37:756][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.11.04-09.00.37:792][644]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.11.04-09.00.39:814][765]LogEditorViewport: Clicking on Actor (LMB): CollectCoffee (CollectCoffee1)
+[2020.11.04-09.00.40:908][827]Cmd: DELETE
+[2020.11.04-09.00.40:908][827]Cmd: ACTOR DELETE
+[2020.11.04-09.00.40:910][827]LogEditorActor: Deleted Actor: CollectCoffee
+[2020.11.04-09.00.40:932][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.11.04-09.00.40:933][827]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2020.11.04-09.00.43:189][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.00.43:473][980]LogTemp: Warning: AnimComplete
+[2020.11.04-09.00.44:141][ 20]LogEditor: Attempting to add actor of class 'CollectCoffee' to level at 1140.00,-510.00,30.00
+[2020.11.04-09.00.44:555][ 44]LogEditor: Attempting to add actor of class 'CollectCoffee' to level at 200.00,-1040.00,30.00
+[2020.11.04-09.00.48:392][270]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.11.04-09.00.48:425][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.11.04-09.00.48:543][270]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Sample272D380A46ACAADF5A9862A24D2F8B7B.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample.umap'
+[2020.11.04-09.00.48:594][270]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Sample_BuiltData87B3D1754C730BEA34411CBCC37D1FB8.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample_BuiltData.uasset'
+[2020.11.04-09.00.48:797][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.00.48:863][286]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.00.48:875][286]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.00.48:875][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.00.48:875][286]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:00:48)
+[2020.11.04-09.00.48:875][286]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.00.48:877][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001948s)
+[2020.11.04-09.00.48:878][286]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.00.48:878][286]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2020.11.04-09.00.48:878][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.002791s)
+[2020.11.04-09.00.48:904][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.11.04-09.00.48:908][286]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.00.48:917][286]LogInit: FAudioDevice initialized.
+[2020.11.04-09.00.48:943][286]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.00.48:944][286]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.00.48
+[2020.11.04-09.00.48:945][286]LogWorld: Bringing up level for play took: 0.000756
+[2020.11.04-09.00.48:957][286]LogTemp: Warning: AnimComplete
+[2020.11.04-09.00.48:957][286]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: -0.8
+[2020.11.04-09.00.48:958][286]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.00.52:183][479]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.00.52:184][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.00.52:215][479]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.00.52:215][479]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.00.52:245][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.00.52:247][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.11.04-09.00.52:298][482]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.11.04-09.00.52:964][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.02.08:363][599]LogHotReload: New module detected: UE4Editor-UE4Self-0128.dll
+[2020.11.04-09.02.09:045][602]LogHotReload: Starting Hot-Reload from IDE
+[2020.11.04-09.02.09:084][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.11.04-09.02.09:125][602]LogTemp: Warning: AnimComplete
+[2020.11.04-09.02.09:127][602]LogHotReload: Re-instancing MainCharacter after hot-reload.
+[2020.11.04-09.02.09:127][602]LogTemp: Warning: AnimComplete
+[2020.11.04-09.02.09:184][602]LogUObjectGlobals: Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. MOVEMENT PawnMovementComponent
+[2020.11.04-09.02.09:190][602]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2020.11.04-09.02.09:192][602]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.11.04-09.02.09:238][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.11.04-09.02.09:247][602]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2744 classes and 663 folders.
+[2020.11.04-09.02.09:250][602]Display: HotReload took  0.2s.
+[2020.11.04-09.02.13:055][613]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.02.13:072][613]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.02.13:073][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.02.13:073][613]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:02:13)
+[2020.11.04-09.02.13:073][613]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.02.13:076][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002841s)
+[2020.11.04-09.02.13:077][613]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.02.13:077][613]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2020.11.04-09.02.13:077][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.004204s)
+[2020.11.04-09.02.13:107][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.11.04-09.02.13:113][613]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.02.13:130][613]LogInit: FAudioDevice initialized.
+[2020.11.04-09.02.13:161][613]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.02.13:162][613]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.02.13
+[2020.11.04-09.02.13:162][613]LogWorld: Bringing up level for play took: 0.000717
+[2020.11.04-09.02.13:174][613]LogTemp: Warning: AnimComplete
+[2020.11.04-09.02.13:175][613]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: -0.582
+[2020.11.04-09.02.13:175][613]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.02.13:735][645]LogTemp: Warning: Search Player : CommonFloor_2
+[2020.11.04-09.02.16:768][827]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.02.16:769][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.02.16:800][827]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.02.16:800][827]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.02.16:853][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.02.16:855][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.11.04-09.02.16:872][828]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.11.04-09.02.31:244][946]LogHotReload: New module detected: UE4Editor-UE4Self-0129.dll
+[2020.11.04-09.02.31:597][948]LogHotReload: Starting Hot-Reload from IDE
+[2020.11.04-09.02.31:636][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.11.04-09.02.31:667][948]LogHotReload: Re-instancing ComponActor after hot-reload.
+[2020.11.04-09.02.31:731][948]LogTemp: Warning: AnimComplete
+[2020.11.04-09.02.31:732][948]LogHotReload: Re-instancing MainCharacter after hot-reload.
+[2020.11.04-09.02.31:732][948]LogTemp: Warning: AnimComplete
+[2020.11.04-09.02.31:788][948]LogUObjectGlobals: Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. MOVEMENT PawnMovementComponent
+[2020.11.04-09.02.31:794][948]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0003 seconds. Added 11 classes and 2 folders.
+[2020.11.04-09.02.31:795][948]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.11.04-09.02.31:839][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.11.04-09.02.31:850][948]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2744 classes and 663 folders.
+[2020.11.04-09.02.31:852][948]Display: HotReload took  0.3s.
+[2020.11.04-09.02.32:892][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.02.32:984][955]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.02.32:998][955]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.02.32:998][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.02.32:999][955]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:02:32)
+[2020.11.04-09.02.32:999][955]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.02.33:001][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001986s)
+[2020.11.04-09.02.33:001][955]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.02.33:001][955]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2020.11.04-09.02.33:002][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.002921s)
+[2020.11.04-09.02.33:029][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.11.04-09.02.33:032][955]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.02.33:042][955]LogInit: FAudioDevice initialized.
+[2020.11.04-09.02.33:071][955]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.02.33:073][955]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.02.33
+[2020.11.04-09.02.33:073][955]LogWorld: Bringing up level for play took: 0.000716
+[2020.11.04-09.02.33:085][955]LogTemp: Warning: AnimComplete
+[2020.11.04-09.02.33:086][955]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: -0.672
+[2020.11.04-09.02.33:086][955]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.02.35:517][ 99]LogTemp: Warning: Search Player : MainCharacter_0
+[2020.11.04-09.02.38:385][271]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.02.38:385][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.02.38:414][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.02.38:415][271]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.02.38:442][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.02.38:443][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.11.04-09.02.38:497][274]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.11.04-09.02.39:331][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.02.39:414][329]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.02.39:430][329]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.02.39:430][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.02.39:430][329]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:02:39)
+[2020.11.04-09.02.39:431][329]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.02.39:433][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002041s)
+[2020.11.04-09.02.39:433][329]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.02.39:433][329]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2020.11.04-09.02.39:434][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.002863s)
+[2020.11.04-09.02.39:458][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.11.04-09.02.39:461][329]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.02.39:470][329]LogInit: FAudioDevice initialized.
+[2020.11.04-09.02.39:499][329]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.02.39:500][329]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.02.39
+[2020.11.04-09.02.39:501][329]LogWorld: Bringing up level for play took: 0.000725
+[2020.11.04-09.02.39:512][329]LogTemp: Warning: AnimComplete
+[2020.11.04-09.02.39:513][329]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: -0.244
+[2020.11.04-09.02.39:513][329]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.02.42:193][489]LogTemp: Warning: Search Player : MainCharacter_0
+[2020.11.04-09.02.43:277][554]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.02.43:278][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.02.43:311][554]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.02.43:311][554]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.02.43:340][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.02.43:342][554]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.11.04-09.02.43:383][557]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.11.04-09.12.06:860][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.12.06:899][382]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.12.06:919][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.06:920][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.12.06:920][382]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:12:06)
+[2020.11.04-09.12.06:920][382]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.12.06:924][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003811s)
+[2020.11.04-09.12.06:926][382]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.12.06:926][382]LogPlayLevel: PIE: World Init took: (0.001736s)
+[2020.11.04-09.12.06:926][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.005981s)
+[2020.11.04-09.12.06:956][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.11.04-09.12.06:961][382]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.12.06:980][382]LogInit: FAudioDevice initialized.
+[2020.11.04-09.12.07:011][382]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.12.07:012][382]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.12.07
+[2020.11.04-09.12.07:013][382]LogWorld: Bringing up level for play took: 0.000827
+[2020.11.04-09.12.07:025][382]LogTemp: Warning: AnimComplete
+[2020.11.04-09.12.07:026][382]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: -0.731
+[2020.11.04-09.12.07:026][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.11:918][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.11:919][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.12.11:950][674]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.12.11:951][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.11:978][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.12.11:981][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.11.04-09.12.12:033][677]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.11.04-09.12.12:900][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.12.12:967][733]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.12.12:978][733]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.12:979][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.12.12:979][733]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:12:12)
+[2020.11.04-09.12.12:979][733]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.12.12:981][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002249s)
+[2020.11.04-09.12.12:982][733]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.12.12:982][733]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2020.11.04-09.12.12:982][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.003128s)
+[2020.11.04-09.12.13:008][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.11.04-09.12.13:012][733]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.12.13:021][733]LogInit: FAudioDevice initialized.
+[2020.11.04-09.12.13:046][733]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.12.13:048][733]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.12.13
+[2020.11.04-09.12.13:048][733]LogWorld: Bringing up level for play took: 0.000772
+[2020.11.04-09.12.13:059][733]LogTemp: Warning: AnimComplete
+[2020.11.04-09.12.13:060][733]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: -0.697
+[2020.11.04-09.12.13:060][733]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.20:374][171]LogTemp: Warning: Search Player : MainCharacter_0
+[2020.11.04-09.12.23:725][372]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.23:725][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.12.23:756][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.12.23:756][372]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.23:787][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.12.23:789][372]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.11.04-09.12.23:835][375]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.11.04-09.12.24:519][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.12.24:618][422]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.12.24:634][422]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.24:634][422]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.12.24:634][422]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:12:24)
+[2020.11.04-09.12.24:634][422]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.12.24:637][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002211s)
+[2020.11.04-09.12.24:637][422]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.12.24:637][422]LogPlayLevel: PIE: World Init took: (0.000459s)
+[2020.11.04-09.12.24:637][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.002955s)
+[2020.11.04-09.12.24:664][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.11.04-09.12.24:667][422]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.12.24:677][422]LogInit: FAudioDevice initialized.
+[2020.11.04-09.12.24:704][422]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.12.24:705][422]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.12.24
+[2020.11.04-09.12.24:706][422]LogWorld: Bringing up level for play took: 0.000751
+[2020.11.04-09.12.24:718][422]LogTemp: Warning: AnimComplete
+[2020.11.04-09.12.24:718][422]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: 0.96
+[2020.11.04-09.12.24:719][422]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.28:091][624]LogTemp: Warning: Search Player : MainCharacter_0
+[2020.11.04-09.12.31:338][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.31:338][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.12.31:372][818]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.12.31:372][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.31:405][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.12.31:407][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.11.04-09.12.31:459][820]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.11.04-09.12.32:645][891]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.12.32:726][896]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.12.32:739][896]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.32:740][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.12.32:740][896]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:12:32)
+[2020.11.04-09.12.32:740][896]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.12.32:742][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002068s)
+[2020.11.04-09.12.32:743][896]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.12.32:743][896]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2020.11.04-09.12.32:743][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.002903s)
+[2020.11.04-09.12.32:769][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.11.04-09.12.32:772][896]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.12.32:782][896]LogInit: FAudioDevice initialized.
+[2020.11.04-09.12.32:812][896]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.12.32:813][896]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.12.32
+[2020.11.04-09.12.32:813][896]LogWorld: Bringing up level for play took: 0.000736
+[2020.11.04-09.12.32:826][896]LogTemp: Warning: AnimComplete
+[2020.11.04-09.12.32:826][896]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: 1.068
+[2020.11.04-09.12.32:827][896]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.35:323][ 45]LogTemp: Warning: Search Player : MainCharacter_0
+[2020.11.04-09.12.37:674][186]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.37:674][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.12.37:704][186]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.12.37:704][186]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.37:735][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.12.37:737][186]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.11.04-09.12.37:780][189]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.11.04-09.12.38:729][246]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.12.38:830][252]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.12.38:842][252]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.38:842][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.12.38:842][252]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:12:38)
+[2020.11.04-09.12.38:843][252]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.12.38:845][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002289s)
+[2020.11.04-09.12.38:845][252]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.12.38:846][252]LogPlayLevel: PIE: World Init took: (0.000485s)
+[2020.11.04-09.12.38:846][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.003077s)
+[2020.11.04-09.12.38:871][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.11.04-09.12.38:875][252]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.12.38:884][252]LogInit: FAudioDevice initialized.
+[2020.11.04-09.12.38:910][252]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.12.38:911][252]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.12.38
+[2020.11.04-09.12.38:912][252]LogWorld: Bringing up level for play took: 0.000772
+[2020.11.04-09.12.38:925][252]LogTemp: Warning: AnimComplete
+[2020.11.04-09.12.38:925][252]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: -0.832
+[2020.11.04-09.12.38:926][252]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.40:585][350]LogTemp: Warning: Search Player : MainCharacter_0
+[2020.11.04-09.12.41:619][412]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.41:619][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.12.41:648][412]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.12.41:648][412]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.12.41:676][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.12.41:678][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.11.04-09.12.41:730][415]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.11.04-09.14.35:967][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.17.26:441][978]LogHotReload: New module detected: UE4Editor-UE4Self-0131.dll
+[2020.11.04-09.17.26:787][980]LogHotReload: Starting Hot-Reload from IDE
+[2020.11.04-09.17.26:834][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.11.04-09.17.26:892][980]LogTemp: Warning: AnimComplete
+[2020.11.04-09.17.26:895][980]LogHotReload: Re-instancing MainCharacter after hot-reload.
+[2020.11.04-09.17.26:895][980]LogTemp: Warning: AnimComplete
+[2020.11.04-09.17.26:967][980]LogUObjectGlobals: Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. MOVEMENT PawnMovementComponent
+[2020.11.04-09.17.26:973][980]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0007 seconds. Added 11 classes and 2 folders.
+[2020.11.04-09.17.26:976][980]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.11.04-09.17.27:024][980]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.11.04-09.17.27:035][980]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2744 classes and 663 folders.
+[2020.11.04-09.17.27:038][980]Display: HotReload took  0.3s.
+[2020.11.04-09.17.28:440][984]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.17.28:454][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.17.28:455][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.17.28:455][984]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:17:28)
+[2020.11.04-09.17.28:455][984]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.17.28:457][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002103s)
+[2020.11.04-09.17.28:458][984]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.17.28:459][984]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2020.11.04-09.17.28:459][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.003745s)
+[2020.11.04-09.17.28:486][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.11.04-09.17.28:490][984]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.17.28:499][984]LogInit: FAudioDevice initialized.
+[2020.11.04-09.17.28:526][984]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.17.28:527][984]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.17.28
+[2020.11.04-09.17.28:528][984]LogWorld: Bringing up level for play took: 0.000772
+[2020.11.04-09.17.28:540][984]LogTemp: Warning: AnimComplete
+[2020.11.04-09.17.28:541][984]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: 0.784
+[2020.11.04-09.17.28:541][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.17.31:134][138]LogTemp: Warning: Search Player : MainCharacter
+[2020.11.04-09.17.33:501][280]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.11.04-09.17.40:969][728]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.17.40:970][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.17.40:999][728]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.17.40:999][728]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.17.41:029][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.17.41:032][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2020.11.04-09.17.41:085][731]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.11.04-09.19.25:970][276]LogHotReload: New module detected: UE4Editor-UE4Self-0132.dll
+[2020.11.04-09.19.26:656][279]LogHotReload: Starting Hot-Reload from IDE
+[2020.11.04-09.19.26:696][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.11.04-09.19.26:724][279]LogTemp: Warning: AnimComplete
+[2020.11.04-09.19.26:725][279]LogHotReload: Re-instancing MainCharacter after hot-reload.
+[2020.11.04-09.19.26:725][279]LogTemp: Warning: AnimComplete
+[2020.11.04-09.19.26:782][279]LogUObjectGlobals: Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. MOVEMENT PawnMovementComponent
+[2020.11.04-09.19.26:787][279]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0003 seconds. Added 11 classes and 2 folders.
+[2020.11.04-09.19.26:789][279]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.11.04-09.19.26:833][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.11.04-09.19.26:842][279]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2744 classes and 663 folders.
+[2020.11.04-09.19.26:845][279]Display: HotReload took  0.2s.
+[2020.11.04-09.19.29:214][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.19.29:319][286]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.19.29:339][286]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.19.29:339][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.19.29:340][286]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:19:29)
+[2020.11.04-09.19.29:340][286]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.19.29:344][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003851s)
+[2020.11.04-09.19.29:345][286]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.19.29:345][286]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2020.11.04-09.19.29:345][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.005482s)
+[2020.11.04-09.19.29:374][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.11.04-09.19.29:378][286]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.19.29:389][286]LogInit: FAudioDevice initialized.
+[2020.11.04-09.19.29:415][286]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.19.29:416][286]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.19.29
+[2020.11.04-09.19.29:416][286]LogWorld: Bringing up level for play took: 0.000779
+[2020.11.04-09.19.29:428][286]LogTemp: Warning: AnimComplete
+[2020.11.04-09.19.29:429][286]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: -0.328
+[2020.11.04-09.19.29:429][286]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.19.31:385][402]LogTemp: Warning: Search Player : MainCharacter
+[2020.11.04-09.19.31:385][402]LogTemp: Warning: Player Notify
+[2020.11.04-09.19.34:603][595]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.19.34:604][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.19.34:633][595]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.19.34:634][595]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.19.34:666][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.19.34:670][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.11.04-09.19.34:709][597]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.11.04-09.19.37:047][737]LogEditorViewport: Clicking on Actor (LMB): CommonFloor (CommonFloor2)
+[2020.11.04-09.19.37:559][764]LogEditorViewport: Clicking on Actor (LMB): CollectCoffee (CollectCoffee2)
+[2020.11.04-09.19.39:387][870]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.11.04-09.19.39:416][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.11.04-09.19.39:508][870]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Sample4A78C97D433CA5F002ABBB8ABDD29F9A.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample.umap'
+[2020.11.04-09.19.39:565][870]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Sample_BuiltData58B7CB3B429F60EE9B07E9B40478D4C9.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample_BuiltData.uasset'
+[2020.11.04-09.24.31:936][782]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.24.32:195][792]LogTemp: Warning: AnimComplete
+[2020.11.04-09.24.33:255][854]LogEditor: Attempting to add actor of class 'CollectCoffee' to level at 590.00,-640.00,30.00
+[2020.11.04-09.24.33:720][881]LogEditor: Attempting to add actor of class 'CollectCoffee' to level at 870.00,-1080.00,370.00
+[2020.11.04-09.24.42:613][406]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.11.04-09.24.42:646][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.11.04-09.24.42:758][406]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Sample713AB92646B8469A54E7509DBB48EEEB.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample.umap'
+[2020.11.04-09.24.42:816][406]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved/Sample_BuiltData4D75249A4B6D184E071438B9ECD8E1DA.tmp' to '../../../../../../Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content/ThirdPersonCPP/Maps/Sample_BuiltData.uasset'
+[2020.11.04-09.24.43:135][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.24.43:202][429]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.24.43:215][429]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.24.43:215][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.24.43:216][429]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:24:43)
+[2020.11.04-09.24.43:216][429]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.24.43:218][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002245s)
+[2020.11.04-09.24.43:219][429]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.24.43:219][429]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2020.11.04-09.24.43:219][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.003130s)
+[2020.11.04-09.24.43:246][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.11.04-09.24.43:250][429]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.24.43:260][429]LogInit: FAudioDevice initialized.
+[2020.11.04-09.24.43:292][429]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.24.43:293][429]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.24.43
+[2020.11.04-09.24.43:294][429]LogWorld: Bringing up level for play took: 0.000785
+[2020.11.04-09.24.43:306][429]LogTemp: Warning: AnimComplete
+[2020.11.04-09.24.43:307][429]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: -0.451
+[2020.11.04-09.24.43:307][429]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.24.44:370][492]LogTemp: Warning: Search Player : CollectCoffee
+[2020.11.04-09.24.44:535][502]LogTemp: Warning: Search Player : CommonFloor
+[2020.11.04-09.24.46:235][604]LogTemp: Warning: Search Player : MainCharacter
+[2020.11.04-09.24.46:235][604]LogTemp: Warning: Player Notify
+[2020.11.04-09.24.46:235][604]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.11.04-09.24.51:461][604]LogStats: FPlatformStackWalk::StackWalkAndDump -  5.225 s
+[2020.11.04-09.24.51:461][604]LogOutputDevice: Error: === Handled ensure: ===
+[2020.11.04-09.24.51:461][604]LogOutputDevice: Error: 
+[2020.11.04-09.24.51:461][604]LogOutputDevice: Error: Ensure condition failed: InvocationList[ CurFunctionIndex ] != InDelegate [File:C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h] [Line: 556]
+[2020.11.04-09.24.51:461][604]LogOutputDevice: Error: 
+[2020.11.04-09.24.51:461][604]LogOutputDevice: Error: Stack: 
+[2020.11.04-09.24.51:461][604]LogOutputDevice: Error: [Callstack] 0x00007ffab92953f9 UE4Editor-UE4Self-0132.dll!<lambda_1435919252c87fd0e5ac33265dc60f58>::operator()() [C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:556]
+[2020.11.04-09.24.51:461][604]LogOutputDevice: Error: [Callstack] 0x00007ffab9284661 UE4Editor-UE4Self-0132.dll!TMulticastScriptDelegate<FWeakObjectPtr>::Add() [C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:327]
+[2020.11.04-09.24.51:462][604]LogOutputDevice: Error: [Callstack] 0x00007ffab9284ad1 UE4Editor-UE4Self-0132.dll!ACollectCoffee::CoffeeExecute() [C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Source\UE4Self\CollectCoffee.cpp:70]
+[2020.11.04-09.24.51:462][604]LogOutputDevice: Error: [Callstack] 0x00007ffa8bc4dd49 UE4Editor-Engine.dll!UPrimitiveComponent::BeginComponentOverlap() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\primitivecomponent.cpp:2510]
+[2020.11.04-09.24.51:462][604]LogOutputDevice: Error: [Callstack] 0x00007ffa8bc897ef UE4Editor-Engine.dll!UPrimitiveComponent::UpdateOverlapsImpl() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\primitivecomponent.cpp:2926]
+[2020.11.04-09.24.51:462][604]LogOutputDevice: Error: [Callstack] 0x00007ffa8bcb41a1 UE4Editor-Engine.dll!USceneComponent::EndScopedMovementUpdate() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:840]
+[2020.11.04-09.24.51:462][604]LogOutputDevice: Error: [Callstack] 0x00007ffa8bc9ba43 UE4Editor-Engine.dll!FScopedMovementUpdate::~FScopedMovementUpdate() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:3421]
+[2020.11.04-09.24.51:463][604]LogOutputDevice: Error: [Callstack] 0x00007ffa8bc10e0a UE4Editor-Engine.dll!UCharacterMovementComponent::PerformMovement() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\charactermovementcomponent.cpp:2364]
+[2020.11.04-09.24.51:463][604]LogOutputDevice: Error: [Callstack] 0x00007ffa8bc34441 UE4Editor-Engine.dll!UCharacterMovementComponent::TickComponent() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\charactermovementcomponent.cpp:1257]
+[2020.11.04-09.24.51:463][604]LogOutputDevice: Error: [Callstack] 0x00007ffa8bbcf3fa UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTickHelper<<lambda_04d8ef4b869923d6312932fb3543d049> >() [d:\build\++ue4\sync\engine\source\runtime\engine\classes\gameframework\actor.h:3109]
+[2020.11.04-09.24.51:463][604]LogOutputDevice: Error: [Callstack] 0x00007ffa8bbf5464 UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\actorcomponent.cpp:816]
+[2020.11.04-09.24.51:463][604]LogOutputDevice: Error: [Callstack] 0x00007ffa8c8372bc UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [d:\build\++ue4\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:842]
+[2020.11.04-09.24.51:463][604]LogOutputDevice: Error: [Callstack] 0x00007ffa91c422d8 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:686]
+[2020.11.04-09.24.51:464][604]LogOutputDevice: Error: [Callstack] 0x00007ffa91c42563 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:582]
+[2020.11.04-09.24.51:464][604]LogOutputDevice: Error: [Callstack] 0x00007ffa91c52309 UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:1457]
+[2020.11.04-09.24.51:464][604]LogOutputDevice: Error: [Callstack] 0x00007ffa8c87f9e3 UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:557]
+[2020.11.04-09.24.51:464][604]LogOutputDevice: Error: [Callstack] 0x00007ffa8c88bd12 UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:1505]
+[2020.11.04-09.24.51:464][604]LogOutputDevice: Error: [Callstack] 0x00007ffa8c0adc4f UE4Editor-Engine.dll!UWorld::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:789]
+[2020.11.04-09.24.51:464][604]LogOutputDevice: Error: [Callstack] 0x00007ffa8c0b7e28 UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:1568]
+[2020.11.04-09.24.51:465][604]LogOutputDevice: Error: [Callstack] 0x00007ffa827402f7 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:1618]
+[2020.11.04-09.24.51:465][604]LogOutputDevice: Error: [Callstack] 0x00007ffa82f5d396 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:403]
+[2020.11.04-09.24.51:465][604]LogOutputDevice: Error: [Callstack] 0x00007ff60baf6bb1 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3967]
+[2020.11.04-09.24.51:465][604]LogOutputDevice: Error: [Callstack] 0x00007ff60bb0554c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:168]
+[2020.11.04-09.24.51:465][604]LogOutputDevice: Error: [Callstack] 0x00007ff60bb055ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2020.11.04-09.24.51:465][604]LogOutputDevice: Error: [Callstack] 0x00007ff60bb1316c UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:275]
+[2020.11.04-09.24.51:465][604]LogOutputDevice: Error: [Callstack] 0x00007ff60bb15b8e UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\3\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2020.11.04-09.24.51:466][604]LogOutputDevice: Error: [Callstack] 0x00007ffafbef7034 KERNEL32.DLL!UnknownFunction []
+[2020.11.04-09.24.51:466][604]LogOutputDevice: Error: [Callstack] 0x00007ffafde9cec1 ntdll.dll!UnknownFunction []
+[2020.11.04-09.24.51:466][604]LogOutputDevice: Error: 
+[2020.11.04-09.24.51:474][604]LogStats:                SubmitErrorReport -  0.000 s
+[2020.11.04-09.24.52:061][604]LogStats:                    SendNewReport -  0.588 s
+[2020.11.04-09.24.52:062][604]LogStats:             FDebug::EnsureFailed -  5.826 s
+[2020.11.04-09.24.52:090][605]LogTemp: Warning: Search Player : MainCharacter
+[2020.11.04-09.24.52:090][605]LogTemp: Warning: Player Notify
+[2020.11.04-09.24.56:014][841]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.24.56:015][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.24.56:045][841]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.24.56:045][841]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.24.56:075][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.24.56:077][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.11.04-09.24.56:128][844]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.11.04-09.24.57:444][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.24.57:528][928]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.24.57:541][928]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.24.57:541][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.24.57:541][928]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:24:57)
+[2020.11.04-09.24.57:541][928]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.24.57:544][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002174s)
+[2020.11.04-09.24.57:544][928]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.24.57:544][928]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2020.11.04-09.24.57:545][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.003319s)
+[2020.11.04-09.24.57:571][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.11.04-09.24.57:575][928]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.24.57:587][928]LogInit: FAudioDevice initialized.
+[2020.11.04-09.24.57:619][928]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.24.57:619][928]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.24.57
+[2020.11.04-09.24.57:619][928]LogWorld: Bringing up level for play took: 0.000775
+[2020.11.04-09.24.57:631][928]LogTemp: Warning: AnimComplete
+[2020.11.04-09.24.57:632][928]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: -0.125
+[2020.11.04-09.24.57:632][928]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.24.58:697][991]LogTemp: Warning: Search Player : CollectCoffee
+[2020.11.04-09.24.58:864][  1]LogTemp: Warning: Search Player : CommonFloor
+[2020.11.04-09.25.00:347][ 90]LogTemp: Warning: Search Player : MainCharacter
+[2020.11.04-09.25.00:347][ 90]LogTemp: Warning: Player Notify
+[2020.11.04-09.25.00:364][ 91]LogTemp: Warning: Search Player : MainCharacter
+[2020.11.04-09.25.00:364][ 91]LogTemp: Warning: Player Notify
+[2020.11.04-09.25.05:414][394]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.25.05:415][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.25.05:449][394]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.25.05:449][394]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.25.05:480][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.25.05:482][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.11.04-09.25.05:534][396]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.11.04-09.25.06:417][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.25.06:518][455]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.25.06:529][455]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.25.06:529][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.25.06:529][455]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:25:06)
+[2020.11.04-09.25.06:529][455]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.25.06:532][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002136s)
+[2020.11.04-09.25.06:533][455]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.25.06:533][455]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2020.11.04-09.25.06:533][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.003272s)
+[2020.11.04-09.25.06:559][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.11.04-09.25.06:563][455]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.25.06:572][455]LogInit: FAudioDevice initialized.
+[2020.11.04-09.25.06:604][455]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.25.06:605][455]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.25.06
+[2020.11.04-09.25.06:605][455]LogWorld: Bringing up level for play took: 0.000733
+[2020.11.04-09.25.06:618][455]LogTemp: Warning: AnimComplete
+[2020.11.04-09.25.06:618][455]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: 0.861
+[2020.11.04-09.25.06:619][455]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.25.07:680][518]LogTemp: Warning: Search Player : CollectCoffee
+[2020.11.04-09.25.07:847][528]LogTemp: Warning: Search Player : CommonFloor
+[2020.11.04-09.25.11:013][718]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.25.11:014][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.25.11:043][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.04-09.25.11:044][718]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.25.11:075][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.04-09.25.11:077][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.11.04-09.25.11:122][720]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.11.04-09.25.38:656][ 55]LogHotReload: New module detected: UE4Editor-UE4Self-0133.dll
+[2020.11.04-09.25.39:010][ 57]LogHotReload: Starting Hot-Reload from IDE
+[2020.11.04-09.25.39:055][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.11.04-09.25.39:114][ 57]LogHotReload: Re-instancing ComponActor after hot-reload.
+[2020.11.04-09.25.39:177][ 57]LogTemp: Warning: AnimComplete
+[2020.11.04-09.25.39:179][ 57]LogHotReload: Re-instancing MainCharacter after hot-reload.
+[2020.11.04-09.25.39:179][ 57]LogTemp: Warning: AnimComplete
+[2020.11.04-09.25.39:236][ 57]LogUObjectGlobals: Warning: Class which was marked abstract was trying to be loaded.  It will be nulled out on save. MOVEMENT PawnMovementComponent
+[2020.11.04-09.25.39:242][ 57]LogContentBrowser: Native class hierarchy updated for 'UE4Self' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2020.11.04-09.25.39:245][ 57]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.11.04-09.25.39:292][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2020.11.04-09.25.39:302][ 57]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2744 classes and 663 folders.
+[2020.11.04-09.25.39:304][ 57]Display: HotReload took  0.3s.
+[2020.11.04-09.25.41:801][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.11.04-09.25.42:006][ 65]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.11.04-09.25.42:026][ 65]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.25.42:027][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.04-09.25.42:027][ 65]PIE: New page: PIE 세션: Sample (2020. 11. 5. 오전 3:25:42)
+[2020.11.04-09.25.42:027][ 65]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample
+[2020.11.04-09.25.42:029][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002019s)
+[2020.11.04-09.25.42:030][ 65]LogAIModule: Creating AISystem for world Sample
+[2020.11.04-09.25.42:030][ 65]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2020.11.04-09.25.42:030][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Sample.Sample to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample (0.003447s)
+[2020.11.04-09.25.42:058][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.11.04-09.25.42:062][ 65]LogInit: XAudio2 using 'Speakers(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.04-09.25.42:071][ 65]LogInit: FAudioDevice initialized.
+[2020.11.04-09.25.42:096][ 65]LogLoad: Game class is 'UE4SelfGameMode'
+[2020.11.04-09.25.42:098][ 65]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample.Sample up for play (max tick rate 60) at 2020.11.04-18.25.42
+[2020.11.04-09.25.42:098][ 65]LogWorld: Bringing up level for play took: 0.000778
+[2020.11.04-09.25.42:110][ 65]LogTemp: Warning: AnimComplete
+[2020.11.04-09.25.42:111][ 65]PIE: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Sample 에 대한 에디터에서 플레이 시작 시간: 0.353
+[2020.11.04-09.25.42:111][ 65]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample' with GeneratedClass '/Game/ThirdPersonCPP/Maps/Sample.Sample_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/Sample.Sample:PersistentLevel.Sample'
+[2020.11.04-09.25.43:146][126]LogTemp: Warning: Search Player : CollectCoffee
+[2020.11.04-09.25.43:296][135]LogTemp: Warning: Search Player : CommonFloor
+[2020.11.04-09.25.43:346][138]LogTemp: Warning: Search Player : CommonFloor
+[2020.11.04-09.25.45:313][256]LogTemp: Warning: Search Player : MainCharacter
+[2020.11.04-09.25.45:314][256]LogTemp: Warning: Player Notify
+[2020.11.04-09.25.46:079][302]LogTemp: Warning: Search Player : MainCharacter
+[2020.11.04-09.25.46:080][302]LogTemp: Warning: Player Notify
+[2020.11.04-09.25.47:297][375]LogTemp: Warning: Search Player : MainCharacter
+[2020.11.04-09.25.47:297][375]LogTemp: Warning: Player Notify
+[2020.11.04-09.25.47:297][375]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.11.04-09.25.47:625][375]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.328 s
+[2020.11.04-09.25.47:626][375]LogOutputDevice: Error: === Handled ensure: ===
+[2020.11.04-09.25.47:626][375]LogOutputDevice: Error: 
+[2020.11.04-09.25.47:626][375]LogOutputDevice: Error: Ensure condition failed: InvocationList[ CurFunctionIndex ] != InDelegate [File:C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h] [Line: 556]
+[2020.11.04-09.25.47:626][375]LogOutputDevice: Error: 
+[2020.11.04-09.25.47:626][375]LogOutputDevice: Error: Stack: 
+[2020.11.04-09.25.47:626][375]LogOutputDevice: Error: [Callstack] 0x00007ffa796a53f9 UE4Editor-UE4Self-0133.dll!<lambda_1435919252c87fd0e5ac33265dc60f58>::operator()() [C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:556]
+[2020.11.04-09.25.47:626][375]LogOutputDevice: Error: [Callstack] 0x00007ffa79694661 UE4Editor-UE4Self-0133.dll!TMulticastScriptDelegate<FWeakObjectPtr>::Add() [C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:327]
+[2020.11.04-09.25.47:626][375]LogOutputDevice: Error: [Callstack] 0x00007ffa79694ad3 UE4Editor-UE4Self-0133.dll!ACollectCoffee::CoffeeExecute() [C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Source\UE4Self\CollectCoffee.cpp:69]
+[2020.11.04-09.25.47:626][375]LogOutputDevice: Error: [Callstack] 0x00007ffa8bc4dd49 UE4Editor-Engine.dll!UPrimitiveComponent::BeginComponentOverlap() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\primitivecomponent.cpp:2510]
+[2020.11.04-09.25.47:627][375]LogOutputDevice: Error: [Callstack] 0x00007ffa8bc897ef UE4Editor-Engine.dll!UPrimitiveComponent::UpdateOverlapsImpl() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\primitivecomponent.cpp:2926]
+[2020.11.04-09.25.47:627][375]LogOutputDevice: Error: [Callstack] 0x00007ffa8bcb41a1 UE4Editor-Engine.dll!USceneComponent::EndScopedMovementUpdate() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:840]
+[2020.11.04-09.25.47:627][375]LogOutputDevice: Error: [Callstack] 0x00007ffa8bc9ba43 UE4Editor-Engine.dll!FScopedMovementUpdate::~FScopedMovementUpdate() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:3421]
+[2020.11.04-09.25.47:627][375]LogOutputDevice: Error: [Callstack] 0x00007ffa8bc10e0a UE4Editor-Engine.dll!UCharacterMovementComponent::PerformMovement() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\charactermovementcomponent.cpp:2364]
+[2020.11.04-09.25.47:627][375]LogOutputDevice: Error: [Callstack] 0x00007ffa8bc34441 UE4Editor-Engine.dll!UCharacterMovementComponent::TickComponent() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\charactermovementcomponent.cpp:1257]
+[2020.11.04-09.25.47:627][375]LogOutputDevice: Error: [Callstack] 0x00007ffa8bbcf3fa UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTickHelper<<lambda_04d8ef4b869923d6312932fb3543d049> >() [d:\build\++ue4\sync\engine\source\runtime\engine\classes\gameframework\actor.h:3109]
+[2020.11.04-09.25.47:628][375]LogOutputDevice: Error: [Callstack] 0x00007ffa8bbf5464 UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\actorcomponent.cpp:816]
+[2020.11.04-09.25.47:628][375]LogOutputDevice: Error: [Callstack] 0x00007ffa8c8372bc UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [d:\build\++ue4\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:842]
+[2020.11.04-09.25.47:628][375]LogOutputDevice: Error: [Callstack] 0x00007ffa91c422d8 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:686]
+[2020.11.04-09.25.47:628][375]LogOutputDevice: Error: [Callstack] 0x00007ffa91c42563 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:582]
+[2020.11.04-09.25.47:628][375]LogOutputDevice: Error: [Callstack] 0x00007ffa91c52309 UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:1457]
+[2020.11.04-09.25.47:629][375]LogOutputDevice: Error: [Callstack] 0x00007ffa8c87f9e3 UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:557]
+[2020.11.04-09.25.47:629][375]LogOutputDevice: Error: [Callstack] 0x00007ffa8c88bd12 UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:1505]
+[2020.11.04-09.25.47:629][375]LogOutputDevice: Error: [Callstack] 0x00007ffa8c0adc4f UE4Editor-Engine.dll!UWorld::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:789]
+[2020.11.04-09.25.47:629][375]LogOutputDevice: Error: [Callstack] 0x00007ffa8c0b7e28 UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:1568]
+[2020.11.04-09.25.47:629][375]LogOutputDevice: Error: [Callstack] 0x00007ffa827402f7 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:1618]
+[2020.11.04-09.25.47:629][375]LogOutputDevice: Error: [Callstack] 0x00007ffa82f5d396 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:403]
+[2020.11.04-09.25.47:630][375]LogOutputDevice: Error: [Callstack] 0x00007ff60baf6bb1 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3967]
+[2020.11.04-09.25.47:630][375]LogOutputDevice: Error: [Callstack] 0x00007ff60bb0554c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:168]
+[2020.11.04-09.25.47:630][375]LogOutputDevice: Error: [Callstack] 0x00007ff60bb055ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2020.11.04-09.25.47:630][375]LogOutputDevice: Error: [Callstack] 0x00007ff60bb1316c UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:275]
+[2020.11.04-09.25.47:630][375]LogOutputDevice: Error: [Callstack] 0x00007ff60bb15b8e UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\3\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2020.11.04-09.25.47:630][375]LogOutputDevice: Error: [Callstack] 0x00007ffafbef7034 KERNEL32.DLL!UnknownFunction []
+[2020.11.04-09.25.47:630][375]LogOutputDevice: Error: [Callstack] 0x00007ffafde9cec1 ntdll.dll!UnknownFunction []
+[2020.11.04-09.25.47:631][375]LogOutputDevice: Error: 
+[2020.11.04-09.25.47:637][375]LogStats:                SubmitErrorReport -  0.000 s
