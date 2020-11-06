@@ -2,14 +2,15 @@
   Creating makefile for UE4SelfEditor (ini files are newer than makefile)
   Parsing headers for UE4SelfEditor
     Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\UE4Self.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4SelfEditor\Development\UE4SelfEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for UE4SelfEditor in 4.9741832 seconds
+  Reflection code generated for UE4SelfEditor in 14.8854189 seconds
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] CollectCoffee.cpp
-    [2/4] UE4Editor-UE4Self-0133.lib
-       C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0133.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0133.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [3/4] UE4Editor-UE4Self-0133.dll
-       C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0133.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0133.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [4/4] UE4SelfEditor.target
-  Total time in Parallel executor: 2.78 seconds
-  Total execution time: 9.31 seconds
+  Building 5 actions with 12 processes...
+    [1/5] CollectCoffee.gen.cpp
+    [2/5] CollectCoffee.cpp
+    [3/5] UE4Editor-UE4Self-0134.lib
+       C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0134.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0134.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [4/5] UE4Editor-UE4Self-0134.dll
+       C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0134.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0134.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [5/5] UE4SelfEditor.target
+  Total time in Parallel executor: 13.42 seconds
+  Total execution time: 30.43 seconds

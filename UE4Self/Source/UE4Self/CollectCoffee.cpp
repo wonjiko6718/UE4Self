@@ -28,8 +28,9 @@ ACollectCoffee::ACollectCoffee()
 	{
 		CoffeeBody->SetStaticMesh(OF_CoffeeBody.Object);
 	}
-	ConstructorHelpers::FObjectFinder<UParticleSystem> OF_CoffeeEndEffect(TEXT("/Game/AdvancedMagicFX13/Particles/P_ky_cross.P_ky_cross"));
+	ConstructorHelpers::FObjectFinder<UParticleSystem> OF_CoffeeEndEffect(TEXT("/Game/AdvancedMagicFX13/Particles/P_ky_explosion3.P_ky_explosion3"));
 	//ParticleSystem'/Game/AdvancedMagicFX13/Particles/P_ky_cross.P_ky_cross'
+	//ParticleSystem'/Game/AdvancedMagicFX13/Particles/P_ky_explosion3.P_ky_explosion3'
 	if (OF_CoffeeEndEffect.Succeeded())
 	{
 		CoffeeEndEffect->SetTemplate(OF_CoffeeEndEffect.Object);
