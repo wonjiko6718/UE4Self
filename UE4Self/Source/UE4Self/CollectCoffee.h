@@ -30,6 +30,8 @@ public:
 		UBoxComponent* CoffeeTrigger;
 	UPROPERTY(VisibleAnywhere)
 		UParticleSystemComponent* CoffeeEndEffect;
+	UPROPERTY(VisibleAnywhere)
+		int32 CoffeeEnd;
 private:
 	UFUNCTION()
 		void OnEffectFinished(class UParticleSystemComponent* PSystem);

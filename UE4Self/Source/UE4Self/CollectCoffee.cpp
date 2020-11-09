@@ -11,6 +11,7 @@ ACollectCoffee::ACollectCoffee()
 	CoffeeBody = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("COFFEEBODY"));
 	CoffeeTrigger = CreateDefaultSubobject<UBoxComponent>(TEXT("COFFEETRIGGER"));
 	CoffeeEndEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("COFFEEENDEFFECT"));
+	CoffeeEnd = 0;
 
 	RootComponent = CoffeeBody;
 
@@ -57,11 +58,12 @@ void ACollectCoffee::CoffeeExecute()
 	TArray<AActor*> CoffeeOverlapActors;
 	GetOverlappingActors(CoffeeOverlapActors, TSubclassOf<AActor>());
 	int32 CoffeeOverlapActorsLen = CoffeeOverlapActors.Num();
-	if (CoffeeOverlapActorsLen >= 2)
+	if ((CoffeeOverlapActorsLen >= 2) && (CoffeeEnd == 0))
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Search Player : %s"), *CoffeeOverlapActors[CoffeeOverlapActorsLen-1]->GetClass()->GetName());
 		if (CoffeeOverlapActors[CoffeeOverlapActorsLen - 1]->GetClass()->GetName() == "MainCharacter")
 		{
+			CoffeeEnd += 1;
 			UE_LOG(LogTemp, Warning, TEXT("Player Notify"));
 			CoffeeEndEffect->Activate(true);
 			CoffeeTrigger->SetHiddenInGame(true, true);

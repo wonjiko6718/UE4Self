@@ -82,6 +82,10 @@ void EmptyLinkFunctionForGeneratedCodeCollectCoffee() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CoffeeEnd_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_CoffeeEnd;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CoffeeEndEffect_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CoffeeEndEffect;
@@ -111,6 +115,13 @@ void EmptyLinkFunctionForGeneratedCodeCollectCoffee() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACollectCoffee_Statics::NewProp_CoffeeEnd_MetaData[] = {
+		{ "Category", "CollectCoffee" },
+		{ "ModuleRelativePath", "CollectCoffee.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ACollectCoffee_Statics::NewProp_CoffeeEnd = { "CoffeeEnd", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACollectCoffee, CoffeeEnd), METADATA_PARAMS(Z_Construct_UClass_ACollectCoffee_Statics::NewProp_CoffeeEnd_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACollectCoffee_Statics::NewProp_CoffeeEnd_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACollectCoffee_Statics::NewProp_CoffeeEndEffect_MetaData[] = {
 		{ "Category", "CollectCoffee" },
 		{ "EditInline", "true" },
@@ -135,6 +146,7 @@ void EmptyLinkFunctionForGeneratedCodeCollectCoffee() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACollectCoffee_Statics::NewProp_CoffeeBody = { "CoffeeBody", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACollectCoffee, CoffeeBody), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACollectCoffee_Statics::NewProp_CoffeeBody_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACollectCoffee_Statics::NewProp_CoffeeBody_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACollectCoffee_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollectCoffee_Statics::NewProp_CoffeeEnd,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollectCoffee_Statics::NewProp_CoffeeEndEffect,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollectCoffee_Statics::NewProp_CoffeeTrigger,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollectCoffee_Statics::NewProp_CoffeeBody,
@@ -166,7 +178,7 @@ void EmptyLinkFunctionForGeneratedCodeCollectCoffee() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACollectCoffee, 3788729918);
+	IMPLEMENT_CLASS(ACollectCoffee, 1315429606);
 	template<> UE4SELF_API UClass* StaticClass<ACollectCoffee>()
 	{
 		return ACollectCoffee::StaticClass();
