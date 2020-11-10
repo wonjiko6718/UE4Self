@@ -2,6 +2,7 @@
 
 
 #include "CollectCoffee.h"
+#include "MainCharacter.h"
 
 // Sets default values
 ACollectCoffee::ACollectCoffee()
