@@ -30,6 +30,8 @@ public:
 		USpringArmComponent* SpringArm;
 	UPROPERTY(VisibleAnywhere)
 		UCameraComponent* Camera;
+	UPROPERTY(VisibleAnywhere)
+		int32 PlayerSpeed;
 
 private:
 	void UpDown(float NewAxisValue);

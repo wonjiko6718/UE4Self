@@ -70,6 +70,11 @@ void ACollectCoffee::CoffeeExecute()
 			CoffeeTrigger->SetHiddenInGame(true, true);
 			CoffeeBody->SetSimulatePhysics(false);
 			CoffeeBody->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+			AMainCharacter* SlctPlayer = Cast<AMainCharacter>(CoffeeOverlapActors[CoffeeOverlapActorsLen - 1]);
+
+			SlctPlayer->PlayerSpeed += 1;
+			UE_LOG(LogTemp, Warning, TEXT("%d"),SlctPlayer->PlayerSpeed);
 			CoffeeEndEffect->OnSystemFinished.AddDynamic(this, &ACollectCoffee::OnEffectFinished);
 		}
 	}
