@@ -25,13 +25,16 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	void PlayerUpSpeed();
 
 	UPROPERTY(VisibleAnywhere)
 		USpringArmComponent* SpringArm;
 	UPROPERTY(VisibleAnywhere)
 		UCameraComponent* Camera;
 	UPROPERTY(VisibleAnywhere)
-		int32 PlayerSpeed;
+		int32 PlayerCollectNum;
+	UPROPERTY(VisibleAnywhere)
+		float PlayerSpeed;
 
 private:
 	void UpDown(float NewAxisValue);

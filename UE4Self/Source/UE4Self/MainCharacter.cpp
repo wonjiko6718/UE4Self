@@ -11,7 +11,9 @@ AMainCharacter::AMainCharacter()
 	
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SPRINGARM"));
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("CAMERA"));
-	PlayerSpeed = 1;
+
+	PlayerCollectNum = 0;
+	PlayerSpeed = 1.0f;
 
 	SpringArm->SetupAttachment(GetCapsuleComponent());
 	Camera->SetupAttachment(SpringArm);
@@ -60,8 +62,6 @@ void AMainCharacter::BeginPlay()
 void AMainCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	UE_LOG(LogTemp, Warning, TEXT("%d"),PlayerSpeed);
-
 }
 
 // Called to bind functionality to input
@@ -77,7 +77,7 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 }
 void AMainCharacter::UpDown(float NewAxisValue)
 {
-	AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::X),NewAxisValue);
+	AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::X),NewAxisValue*PlayerSpeed);
 	//GetActorForwardVector(), NewAxisValue
 }
 void AMainCharacter::LeftRight(float NewAxisValue)
@@ -91,4 +91,10 @@ void AMainCharacter::LookUp(float NewAxisValue)
 void AMainCharacter::Turn(float NewAxisValue)
 {
 	AddControllerYawInput(NewAxisValue);
+}
+void AMainCharacter::PlayerUpSpeed()
+{
+	PlayerSpeed += 1.0f;
+	UE_LOG(LogTemp, Warning, TEXT("PlayerSpeed: %d"),PlayerSpeed);
+	UE_LOG(LogTemp, Warning, TEXT("PlayerCollectCoffee Character Num: %d"), PlayerCollectNum);
 }

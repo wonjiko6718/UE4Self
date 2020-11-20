@@ -73,8 +73,10 @@ void ACollectCoffee::CoffeeExecute()
 
 			AMainCharacter* SlctPlayer = Cast<AMainCharacter>(CoffeeOverlapActors[CoffeeOverlapActorsLen - 1]);
 
-			SlctPlayer->PlayerSpeed += 1;
-			UE_LOG(LogTemp, Warning, TEXT("%d"),SlctPlayer->PlayerSpeed);
+			SlctPlayer->PlayerCollectNum += 1;
+			SlctPlayer->PlayerUpSpeed();
+
+			UE_LOG(LogTemp, Warning, TEXT("Player CollectCoffee Num : %d"),SlctPlayer->PlayerCollectNum);
 			CoffeeEndEffect->OnSystemFinished.AddDynamic(this, &ACollectCoffee::OnEffectFinished);
 		}
 	}
