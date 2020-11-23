@@ -62,7 +62,7 @@ void ACollectCoffee::CoffeeExecute()
 	if ((CoffeeOverlapActorsLen >= 2) && (CoffeeEnd == 0))
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Search Player : %s"), *CoffeeOverlapActors[CoffeeOverlapActorsLen-1]->GetClass()->GetName());
-		if (CoffeeOverlapActors[CoffeeOverlapActorsLen - 1]->GetClass()->GetName() == "MainCharacter")
+		if (CoffeeOverlapActors[CoffeeOverlapActorsLen - 1]->IsA<AMainCharacter>())
 		{
 			CoffeeEnd += 1;
 			UE_LOG(LogTemp, Warning, TEXT("Player Notify"));

@@ -62,6 +62,13 @@ void AMainCharacter::BeginPlay()
 void AMainCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	if (PlayerSpeed >= 500.0f)
+	{
+		PlayerSpeed -= 10.0f;
+		GetCharacterMovement()->MaxWalkSpeed = PlayerSpeed;
+	}
+	
+	
 }
 
 // Called to bind functionality to input
@@ -77,7 +84,7 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 }
 void AMainCharacter::UpDown(float NewAxisValue)
 {
-	AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::X),NewAxisValue*PlayerSpeed);
+	AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::X),NewAxisValue * PlayerSpeed);
 	//GetActorForwardVector(), NewAxisValue
 }
 void AMainCharacter::LeftRight(float NewAxisValue)
@@ -94,7 +101,9 @@ void AMainCharacter::Turn(float NewAxisValue)
 }
 void AMainCharacter::PlayerUpSpeed()
 {
-	PlayerSpeed += 1.0f;
-	UE_LOG(LogTemp, Warning, TEXT("PlayerSpeed: %d"),PlayerSpeed);
+	PlayerSpeed += 1000.0f;
+	GetCharacterMovement()->MaxWalkSpeed = PlayerSpeed;
+	UE_LOG(LogTemp, Warning, TEXT("PlayerSpeed: %f"),GetCharacterMovement()->MaxWalkSpeed);
+	UE_LOG(LogTemp, Warning, TEXT("PlayerSpeed: %f"),PlayerSpeed);
 	UE_LOG(LogTemp, Warning, TEXT("PlayerCollectCoffee Character Num: %d"), PlayerCollectNum);
 }
