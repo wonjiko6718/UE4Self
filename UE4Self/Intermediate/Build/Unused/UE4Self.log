@@ -2,9 +2,14 @@
   Creating makefile for UE4SelfEditor (ini files are newer than makefile)
   Parsing headers for UE4SelfEditor
     Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\UE4Self.uproject" "C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4SelfEditor\Development\UE4SelfEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for UE4SelfEditor in 5.7328238 seconds
+  Reflection code generated for UE4SelfEditor in 6.6054268 seconds
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 1 action with 12 processes...
-    [1/1] UE4SelfEditor.target
-  Total time in Parallel executor: 0.16 seconds
-  Total execution time: 7.49 seconds
+  Building 4 actions with 12 processes...
+    [1/4] MainCharacter.cpp
+    [2/4] UE4Editor-UE4Self-0183.lib
+       C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0183.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0183.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [3/4] UE4Editor-UE4Self-0183.dll
+       C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0183.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Intermediate\Build\Win64\UE4Editor\Development\UE4Self\UE4Editor-UE4Self-0183.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [4/4] UE4SelfEditor.target
+  Total time in Parallel executor: 3.83 seconds
+  Total execution time: 12.38 seconds

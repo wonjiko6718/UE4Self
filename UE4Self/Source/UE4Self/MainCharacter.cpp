@@ -62,7 +62,7 @@ void AMainCharacter::BeginPlay()
 void AMainCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if (PlayerSpeed >= 500.0f)
+	if (PlayerSpeed >= 680.0f)
 	{
 		PlayerSpeed -= 10.0f;
 		GetCharacterMovement()->MaxWalkSpeed = PlayerSpeed;
@@ -89,7 +89,7 @@ void AMainCharacter::UpDown(float NewAxisValue)
 }
 void AMainCharacter::LeftRight(float NewAxisValue)
 {
-	AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::Y), NewAxisValue);
+	AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::Y), NewAxisValue * PlayerSpeed);
 }
 void AMainCharacter::LookUp(float NewAxisValue)
 {
