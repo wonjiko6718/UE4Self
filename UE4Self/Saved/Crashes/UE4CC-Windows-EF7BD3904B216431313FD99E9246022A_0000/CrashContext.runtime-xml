@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>ACDD84D34403DA8049C662B98B252CF9</ExecutionGuid>
+		<CrashGUID>UE4CC-Windows-EF7BD3904B216431313FD99E9246022A_0000</CrashGUID>
+		<ProcessId>13896</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<GameName>UE4-UE4Self</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<Symbols>**UE4*Release-4.22-CL-7053642-Win64-Development</Symbols>
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.22.3-7053642+++UE4+Release-4.22</EngineVersion>
+		<CommandLine>C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\UE4Self.uproject</CommandLine>
+		<LanguageLCID>1042</LanguageLCID>
+		<AppDefaultLocale>ko-KR</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.22-CL-7053642</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>wonji</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.22/</RootDir>
+		<MachineId>F12EF1BB4E594F414E84F2897A34C226</MachineId>
+		<LoginId>f12ef1bb4e594f414e84f2897a34c226</LoginId>
+		<EpicAccountId>3f48d6b6f70f467b93bb318a4d8594ab</EpicAccountId>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack />
+		<PCallStack>UE4Editor-CoreUObject 0x00000000355e0000 + 3f4d98 UE4Editor-CoreUObject 0x00000000355e0000 + 3399fc UE4Editor-CoreUObject 0x00000000355e0000 + 3382dc UE4Editor-CoreUObject 0x00000000355e0000 + 33a4ef UE4Editor-CoreUObject 0x00000000355e0000 + 316058 UE4Editor-CoreUObject 0x00000000355e0000 + 273c18 UE4Editor-UE4Self-0183 0x00000000f18b0000 + 9936 UE4Editor-CoreUObject 0x00000000355e0000 + 10610f UE4Editor-CoreUObject 0x00000000355e0000 + 341056 UE4Editor-CoreUObject 0x00000000355e0000 + 32edef UE4Editor-CoreUObject 0x00000000355e0000 + 10a727 UE4Editor-Core 0x0000000032be0000 + f4a2b UE4Editor-Core 0x0000000032be0000 + 2c5cb5 UE4Editor-Projects 0x0000000082690000 + 18d67 UE4Editor-Projects 0x0000000082690000 + 18ff7 UE4Editor 0x0000000090c60000 + 17eb1 UE4Editor 0x0000000090c60000 + 1d671 UE4Editor 0x0000000090c60000 + 15377 UE4Editor 0x0000000090c60000 + 155ca UE4Editor 0x0000000090c60000 + 2316c UE4Editor 0x0000000090c60000 + 25b8e KERNEL32 0x000000009d4b0000 + 17034 ntdll 0x000000009e590000 + 4d0d1</PCallStack>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<ErrorMessage>Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 2184] Class which was marked abstract was trying to be loaded. It will be nulled out on save. MOVEMENT PawnMovementComponent Stack: 0x00007ffd359d4d98 UE4Editor-CoreUObject.dll!DispatchCheckVerify&lt;bool,&lt;lambda_66917936361af7021c9de027589ae75a&gt; &gt;() [d:\build\++ue4\sync\engine\source\runtime\core\public\misc\assertionmacros.h:161] 0x00007ffd359199fc UE4Editor-CoreUObject.dll!StaticAllocateObjectErrorTests() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:2184] 0x00007ffd359182dc UE4Editor-CoreUObject.dll!StaticAllocateObject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:2252] 0x00007ffd3591a4ef UE4Editor-CoreUObject.dll!StaticConstructObject_Internal() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:3080] 0x00007ffd358f6058 UE4Editor-CoreUObject.dll!FObjectInitializer::CreateDefaultSubobject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:3678] 0x00007ffd35853c18 UE4Editor-CoreUObject.dll!UObject::CreateDefaultSubobject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\obj.cpp:107] 0x00007ffcf18b9936 UE4Editor-UE4Self-0183.dll!APawn_Main::APawn_Main() [C:\Users\wonji\Desktop\UnrealProjects\UE4Self\UE4Self\Source\UE4Self\Pawn_Main.cpp:14] 0x00007ffd356e610f UE4Editor-CoreUObject.dll!UClass::CreateDefaultObject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:3076] 0x00007ffd35921056 UE4Editor-CoreUObject.dll!UObjectLoadAllCompiledInDefaultProperties() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:793] 0x00007ffd3590edef UE4Editor-CoreUObject.dll!ProcessNewlyLoadedUObjects() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:869] 0x00007ffd356ea727 UE4Editor-CoreUObject.dll!TBaseStaticDelegateInstance&lt;void __cdecl(void)&gt;::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:813] 0x00007ffd32cd4a2b UE4Editor-Core.dll!TBaseMulticastDelegate&lt;void&gt;::Broadcast() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:977] 0x00007ffd32ea5cb5 UE4Editor-Core.dll!FModuleManager::LoadModuleWithFailureReason() [d:\build\++ue4\sync\engine\source\runtime\core\private\modules\modulemanager.cpp:530] 0x00007ffd826a8d67 UE4Editor-Projects.dll!FModuleDescriptor::LoadModulesForPhase() [d:\build\++ue4\sync\engine\source\runtime\projects\private\moduledescriptor.cpp:596] 0x00007ffd826a8ff7 UE4Editor-Projects.dll!FProjectManager::LoadModulesForProject() [d:\build\++ue4\sync\engine\source\runtime\projects\private\projectmanager.cpp:63] 0x00007ff690c77eb1 UE4Editor.exe!FEngineLoop::LoadStartupModules() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3135] 0x00007ff690c7d671 UE4Editor.exe!FEngineLoop::PreInit() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2536] 0x00007ff690c75377 UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:129] 0x00007ff690c755ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145] 0x00007ff690c8316c UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:275] 0x00007ff690c85b8e UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\3\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288] 0x00007ffd9d4c7034 KERNEL32.DLL!UnknownFunction [] 0x00007ffd9e5dd0d1 ntdll.dll!UnknownFunction []</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) UHD Graphics 630</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (Release 2004)</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<GameStateName />
+		<MemoryStats.TotalPhysical>17073135616</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>7111380992</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140730468126720</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1513992192</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1514635264</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>1558544384</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1559101440</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>637434727042000000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10 (Release 2004)  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+	<EngineData>
+		<RHI.RHIName>D3D11</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 2080 with Max-Q Design</RHI.AdapterName>
+		<RHI.UserDriverVersion>460.79</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>27.21.14.6079</RHI.InternalDriverVersion>
+		<RHI.DriverDate>12-3-2020</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+	</EngineData>
+</FGenericCrashContext>
