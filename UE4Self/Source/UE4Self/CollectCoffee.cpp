@@ -45,6 +45,7 @@ ACollectCoffee::ACollectCoffee()
 // Called when the game starts or when spawned
 void ACollectCoffee::BeginPlay()
 {
+	UE_LOG(LogTemp, Warning, TEXT("Compiler Changed"));
 	Super::BeginPlay();
 	
 }

@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "UE4Self (Debug)",
+			"request": "launch",
+			"preLaunchTask": "UE4Self Win64 Debug Build",
+			"program": "C:\\Users\\wonji\\Desktop\\UnrealProjects\\UE4Self\\UE4Self\\Binaries\\Win64\\UE4Self-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4Self (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "UE4Self Win64 DebugGame Build",
+			"program": "C:\\Users\\wonji\\Desktop\\UnrealProjects\\UE4Self\\UE4Self\\Binaries\\Win64\\UE4Self-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4Self (Development)",
+			"request": "launch",
+			"preLaunchTask": "UE4Self Win64 Development Build",
+			"program": "C:\\Users\\wonji\\Desktop\\UnrealProjects\\UE4Self\\UE4Self\\Binaries\\Win64\\UE4Self.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4Self (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "UE4Self Win64 Shipping Build",
+			"program": "C:\\Users\\wonji\\Desktop\\UnrealProjects\\UE4Self\\UE4Self\\Binaries\\Win64\\UE4Self-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4Self (Test)",
+			"request": "launch",
+			"preLaunchTask": "UE4Self Win64 Test Build",
+			"program": "C:\\Users\\wonji\\Desktop\\UnrealProjects\\UE4Self\\UE4Self\\Binaries\\Win64\\UE4Self-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4SelfEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "UE4SelfEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\wonji\\Desktop\\UnrealProjects\\UE4Self\\UE4Self\\UE4Self.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4SelfEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "UE4SelfEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\wonji\\Desktop\\UnrealProjects\\UE4Self\\UE4Self\\UE4Self.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4SelfEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "UE4SelfEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\wonji\\Desktop\\UnrealProjects\\UE4Self\\UE4Self\\UE4Self.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Users\\wonji\\Desktop\\UnrealProjects\\UE4Self\\UE4Self\\UE4Self.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+		}
+	]
+}

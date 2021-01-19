@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/.vs": true,
+		"C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/.vscode": true,
+		"C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Content": true,
+		"C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Intermediate": true,
+		"C:/Users/wonji/Desktop/UnrealProjects/UE4Self/UE4Self/Saved": true
+	}
+}
