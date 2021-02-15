@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+#include "Blueprint/UserWidget.h"
 #include "UE4SelfGameMode.generated.h"
 
 UCLASS(minimalapi)
@@ -13,6 +14,15 @@ class AUE4SelfGameMode : public AGameModeBase
 
 public:
 	AUE4SelfGameMode();
+	UFUNCTION(BlueprintCallable, Category = "UMG Game")
+		void ChangeMenuWidget(TSubclassOf<UUserWidget> NewWidgetClass);
+protected:
+	virtual void BeginPlay() override;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "UMG Game")
+		TSubclassOf<UUserWidget> StartingWidgetClass;
+	UPROPERTY()
+		UUserWidget* CurrentWidget;	
 };
 
 
