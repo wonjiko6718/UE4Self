@@ -8,36 +8,13 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UUserWidget;
 #ifdef UE4SELF_UE4SelfGameMode_generated_h
 #error "UE4SelfGameMode.generated.h already included, missing '#pragma once' in UE4SelfGameMode.h"
 #endif
 #define UE4SELF_UE4SelfGameMode_generated_h
 
-#define UE4Self_Source_UE4Self_UE4SelfGameMode_h_13_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execChangeMenuWidget) \
-	{ \
-		P_GET_OBJECT(UClass,Z_Param_NewWidgetClass); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ChangeMenuWidget(Z_Param_NewWidgetClass); \
-		P_NATIVE_END; \
-	}
-
-
-#define UE4Self_Source_UE4Self_UE4SelfGameMode_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execChangeMenuWidget) \
-	{ \
-		P_GET_OBJECT(UClass,Z_Param_NewWidgetClass); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ChangeMenuWidget(Z_Param_NewWidgetClass); \
-		P_NATIVE_END; \
-	}
-
-
+#define UE4Self_Source_UE4Self_UE4SelfGameMode_h_13_RPC_WRAPPERS
+#define UE4Self_Source_UE4Self_UE4SelfGameMode_h_13_RPC_WRAPPERS_NO_PURE_DECLS
 #define UE4Self_Source_UE4Self_UE4SelfGameMode_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAUE4SelfGameMode(); \
@@ -81,7 +58,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUE4SelfGameMode); \
 
 
 #define UE4Self_Source_UE4Self_UE4SelfGameMode_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__StartingWidgetClass() { return STRUCT_OFFSET(AUE4SelfGameMode, StartingWidgetClass); } \
+	FORCEINLINE static uint32 __PPO__HudWidgetClass() { return STRUCT_OFFSET(AUE4SelfGameMode, HudWidgetClass); } \
 	FORCEINLINE static uint32 __PPO__CurrentWidget() { return STRUCT_OFFSET(AUE4SelfGameMode, CurrentWidget); }
 
 

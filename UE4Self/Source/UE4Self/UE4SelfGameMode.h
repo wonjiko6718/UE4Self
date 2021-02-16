@@ -11,18 +11,17 @@ UCLASS(minimalapi)
 class AUE4SelfGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
-
 public:
 	AUE4SelfGameMode();
-	UFUNCTION(BlueprintCallable, Category = "UMG Game")
-		void ChangeMenuWidget(TSubclassOf<UUserWidget> NewWidgetClass);
+	virtual void Tick(float DeltaTime) override;
 protected:
 	virtual void BeginPlay() override;
-	
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "UMG Game")
-		TSubclassOf<UUserWidget> StartingWidgetClass;
+	// Widget class to use for our HUD screen
 	UPROPERTY()
-		UUserWidget* CurrentWidget;	
+		TSubclassOf<class UUserWidget> HudWidgetClass;
+	// The instance of the HUD
+	UPROPERTY()
+		class UUserWidget* CurrentWidget;
 };
 
 

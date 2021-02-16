@@ -17,50 +17,11 @@ void EmptyLinkFunctionForGeneratedCodeUE4SelfGameMode() {}
 	UE4SELF_API UClass* Z_Construct_UClass_AUE4SelfGameMode();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_UE4Self();
-	UE4SELF_API UFunction* Z_Construct_UFunction_AUE4SelfGameMode_ChangeMenuWidget();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 // End Cross Module References
 	void AUE4SelfGameMode::StaticRegisterNativesAUE4SelfGameMode()
 	{
-		UClass* Class = AUE4SelfGameMode::StaticClass();
-		static const FNameNativePtrPair Funcs[] = {
-			{ "ChangeMenuWidget", &AUE4SelfGameMode::execChangeMenuWidget },
-		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_AUE4SelfGameMode_ChangeMenuWidget_Statics
-	{
-		struct UE4SelfGameMode_eventChangeMenuWidget_Parms
-		{
-			TSubclassOf<UUserWidget>  NewWidgetClass;
-		};
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_NewWidgetClass;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_AUE4SelfGameMode_ChangeMenuWidget_Statics::NewProp_NewWidgetClass = { "NewWidgetClass", nullptr, (EPropertyFlags)0x0014000000000080, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UE4SelfGameMode_eventChangeMenuWidget_Parms, NewWidgetClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AUE4SelfGameMode_ChangeMenuWidget_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AUE4SelfGameMode_ChangeMenuWidget_Statics::NewProp_NewWidgetClass,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AUE4SelfGameMode_ChangeMenuWidget_Statics::Function_MetaDataParams[] = {
-		{ "Category", "UMG Game" },
-		{ "ModuleRelativePath", "UE4SelfGameMode.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AUE4SelfGameMode_ChangeMenuWidget_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AUE4SelfGameMode, nullptr, "ChangeMenuWidget", sizeof(UE4SelfGameMode_eventChangeMenuWidget_Parms), Z_Construct_UFunction_AUE4SelfGameMode_ChangeMenuWidget_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AUE4SelfGameMode_ChangeMenuWidget_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AUE4SelfGameMode_ChangeMenuWidget_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AUE4SelfGameMode_ChangeMenuWidget_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AUE4SelfGameMode_ChangeMenuWidget()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AUE4SelfGameMode_ChangeMenuWidget_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AUE4SelfGameMode_NoRegister()
 	{
@@ -69,7 +30,6 @@ void EmptyLinkFunctionForGeneratedCodeUE4SelfGameMode() {}
 	struct Z_Construct_UClass_AUE4SelfGameMode_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
-		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -78,9 +38,9 @@ void EmptyLinkFunctionForGeneratedCodeUE4SelfGameMode() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentWidget;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StartingWidgetClass_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HudWidgetClass_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_StartingWidgetClass;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_HudWidgetClass;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -88,9 +48,6 @@ void EmptyLinkFunctionForGeneratedCodeUE4SelfGameMode() {}
 	UObject* (*const Z_Construct_UClass_AUE4SelfGameMode_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AGameModeBase,
 		(UObject* (*)())Z_Construct_UPackage__Script_UE4Self,
-	};
-	const FClassFunctionLinkInfo Z_Construct_UClass_AUE4SelfGameMode_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AUE4SelfGameMode_ChangeMenuWidget, "ChangeMenuWidget" }, // 1453590810
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUE4SelfGameMode_Statics::Class_MetaDataParams[] = {
@@ -104,19 +61,20 @@ void EmptyLinkFunctionForGeneratedCodeUE4SelfGameMode() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_CurrentWidget_MetaData[] = {
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "UE4SelfGameMode.h" },
+		{ "ToolTip", "The instance of the HUD" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_CurrentWidget = { "CurrentWidget", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUE4SelfGameMode, CurrentWidget), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_CurrentWidget_MetaData, ARRAY_COUNT(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_CurrentWidget_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_StartingWidgetClass_MetaData[] = {
-		{ "Category", "UMG Game" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HudWidgetClass_MetaData[] = {
 		{ "ModuleRelativePath", "UE4SelfGameMode.h" },
+		{ "ToolTip", "Widget class to use for our HUD screen" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_StartingWidgetClass = { "StartingWidgetClass", nullptr, (EPropertyFlags)0x0024080000000015, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUE4SelfGameMode, StartingWidgetClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_StartingWidgetClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_StartingWidgetClass_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HudWidgetClass = { "HudWidgetClass", nullptr, (EPropertyFlags)0x0024080000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUE4SelfGameMode, HudWidgetClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HudWidgetClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HudWidgetClass_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AUE4SelfGameMode_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_CurrentWidget,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_StartingWidgetClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HudWidgetClass,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AUE4SelfGameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AUE4SelfGameMode>::IsAbstract,
@@ -126,11 +84,11 @@ void EmptyLinkFunctionForGeneratedCodeUE4SelfGameMode() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		FuncInfo,
+		nullptr,
 		Z_Construct_UClass_AUE4SelfGameMode_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
+		0,
 		ARRAY_COUNT(Z_Construct_UClass_AUE4SelfGameMode_Statics::PropPointers),
 		0,
 		0x008802A8u,
@@ -145,7 +103,7 @@ void EmptyLinkFunctionForGeneratedCodeUE4SelfGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUE4SelfGameMode, 1954223792);
+	IMPLEMENT_CLASS(AUE4SelfGameMode, 2379505036);
 	template<> UE4SELF_API UClass* StaticClass<AUE4SelfGameMode>()
 	{
 		return AUE4SelfGameMode::StaticClass();
