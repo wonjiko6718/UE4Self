@@ -77,7 +77,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		{ "ModuleRelativePath", "MainCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_PlayerCollectNum = { "PlayerCollectNum", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, PlayerCollectNum), METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_PlayerCollectNum_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_PlayerCollectNum_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_PlayerCollectNum = { "PlayerCollectNum", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, PlayerCollectNum), METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_PlayerCollectNum_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_PlayerCollectNum_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_Camera_MetaData[] = {
 		{ "Category", "MainCharacter" },
@@ -127,7 +127,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainCharacter, 2250102554);
+	IMPLEMENT_CLASS(AMainCharacter, 255425148);
 	template<> UE4SELF_API UClass* StaticClass<AMainCharacter>()
 	{
 		return AMainCharacter::StaticClass();

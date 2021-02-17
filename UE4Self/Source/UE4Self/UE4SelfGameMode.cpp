@@ -9,6 +9,7 @@ AUE4SelfGameMode::AUE4SelfGameMode()
 {
 	// set default pawn class to our Blueprinted character
 	DefaultPawnClass = AMainCharacter::StaticClass();
+	HUDCatchPlayerCollectNum = 0;
 }
 void AUE4SelfGameMode::BeginPlay()
 {
@@ -24,5 +25,6 @@ void AUE4SelfGameMode::BeginPlay()
 }
 void AUE4SelfGameMode::Tick(float DeltaTime)
 {
-
+	AMainCharacter* HUDCatchPlayer = Cast<AMainCharacter>(DefaultPawnClass);
+	HUDCatchPlayerCollectNum = HUDCatchPlayer->PlayerCollectNum;
 }

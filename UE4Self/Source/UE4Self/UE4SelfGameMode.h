@@ -14,13 +14,16 @@ class AUE4SelfGameMode : public AGameModeBase
 public:
 	AUE4SelfGameMode();
 	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY()
+		int32 HUDCatchPlayerCollectNum;
 protected:
 	virtual void BeginPlay() override;
 	// Widget class to use for our HUD screen
-	UPROPERTY()
+	UPROPERTY(EditAnywhere)
 		TSubclassOf<class UUserWidget> HudWidgetClass;
 	// The instance of the HUD
-	UPROPERTY()
+	UPROPERTY(EditAnywhere)
 		class UUserWidget* CurrentWidget;
 };
 

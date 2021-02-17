@@ -31,7 +31,7 @@ public:
 		USpringArmComponent* SpringArm;
 	UPROPERTY(VisibleAnywhere)
 		UCameraComponent* Camera;
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
 		int32 PlayerCollectNum;
 	UPROPERTY(VisibleAnywhere)
 		float PlayerSpeed;

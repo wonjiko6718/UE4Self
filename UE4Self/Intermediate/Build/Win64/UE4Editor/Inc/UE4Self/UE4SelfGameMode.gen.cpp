@@ -41,6 +41,10 @@ void EmptyLinkFunctionForGeneratedCodeUE4SelfGameMode() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HudWidgetClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_HudWidgetClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HUDCatchPlayerCollectNum_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_HUDCatchPlayerCollectNum;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -59,22 +63,31 @@ void EmptyLinkFunctionForGeneratedCodeUE4SelfGameMode() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_CurrentWidget_MetaData[] = {
+		{ "Category", "UE4SelfGameMode" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "UE4SelfGameMode.h" },
 		{ "ToolTip", "The instance of the HUD" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_CurrentWidget = { "CurrentWidget", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUE4SelfGameMode, CurrentWidget), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_CurrentWidget_MetaData, ARRAY_COUNT(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_CurrentWidget_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_CurrentWidget = { "CurrentWidget", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUE4SelfGameMode, CurrentWidget), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_CurrentWidget_MetaData, ARRAY_COUNT(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_CurrentWidget_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HudWidgetClass_MetaData[] = {
+		{ "Category", "UE4SelfGameMode" },
 		{ "ModuleRelativePath", "UE4SelfGameMode.h" },
 		{ "ToolTip", "Widget class to use for our HUD screen" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HudWidgetClass = { "HudWidgetClass", nullptr, (EPropertyFlags)0x0024080000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUE4SelfGameMode, HudWidgetClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HudWidgetClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HudWidgetClass_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HudWidgetClass = { "HudWidgetClass", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUE4SelfGameMode, HudWidgetClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HudWidgetClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HudWidgetClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HUDCatchPlayerCollectNum_MetaData[] = {
+		{ "ModuleRelativePath", "UE4SelfGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HUDCatchPlayerCollectNum = { "HUDCatchPlayerCollectNum", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUE4SelfGameMode, HUDCatchPlayerCollectNum), METADATA_PARAMS(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HUDCatchPlayerCollectNum_MetaData, ARRAY_COUNT(Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HUDCatchPlayerCollectNum_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AUE4SelfGameMode_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_CurrentWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HudWidgetClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUE4SelfGameMode_Statics::NewProp_HUDCatchPlayerCollectNum,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AUE4SelfGameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AUE4SelfGameMode>::IsAbstract,
@@ -103,7 +116,7 @@ void EmptyLinkFunctionForGeneratedCodeUE4SelfGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUE4SelfGameMode, 2379505036);
+	IMPLEMENT_CLASS(AUE4SelfGameMode, 415168401);
 	template<> UE4SELF_API UClass* StaticClass<AUE4SelfGameMode>()
 	{
 		return AUE4SelfGameMode::StaticClass();
